@@ -1,0 +1,124 @@
+2.0
+ELIZA is an example of an early NLP processing system that recognizes patterns and matches them with appropriate responses. Many chatbots, including ELIZA, use this technique of recognizing patterns and its essence lies on the concept of regular expressions. Regular expressions are strings that we define since we might want to extract these strings from a text. We might also want to standardize the text, which is called text normalization. Some examples of this are separating the words with tokens, figuring out which words share the same root, or splitting sentences from a text. We also determine how similar words are between each other with an algorithm called edit distance.
+
+2.1.1
+A simple type of regular expressions is a sequence of characters, and regular expressions are not equal if they don’t share the same case, i.e., upper or lower case. Square braces ([ ]) define a disjunction of characters when we are matching them to the regular expressions. Dash (-) is used when we know the range of the characters to match. Caret (^) is used when you don’t want to use a certain character. The symbol should go at the beginning of the square brackets ([ ]) in order to negate the pattern. Question mark (?) lets us match the word if it has the character before the question mark (?) or if it doesn’t have it. Kleene star (*) lets us match the word if it has zero or more occurrences of the character before it or a regular expression before it. Kleene (+) lets us match the character with one or more occurrences of the character or regular expression before the Kleene (+). Period (.) is a wildcard expression that lets us match with any single character, except for a carriage return. Anchors such as ($), (^), (b), (B) hold regular expressions to certain locations of the string.
+
+2.1.2
+Pipe (|) means “or”. Parentheses (( )) mean “and”. There is a precedence hierarchy to determine which operator has higher precedence than another. The order from highest precedence to lowest precedence is: parenthesis, counters, sequences and anchors, disjunction. When regular expressions are not matched, we match them with the largest string they can.
+
+2.1.3
+There are two types of errors. One is called false positives and the other one is called false negatives. False positive is when we incorrectly match strings. False negative is when we incorrectly miss strings. Less false positives errors mean more precision. Less false negatives errors means more recall.
+
+2.1.4
+You can specify the number of an instance in a pattern like this: (/{4}/). It means there are four instances of the previous character or expression. You can also specify ranges like (/{n,m}/) or (/{n,}/). You can refer to special characters with a backslash (\), for example: (\*), (\.), (\?), (
+), (	).
+
+2.1.6
+Substitution means replacing one string characterized with a regular expression with another string. Capture group means using parentheses to store a pattern in memory which is in a numbered register.
+
+2.1.7
+Lookahead assertions use non-capture groups’ syntax and return true if pattern occurs, otherwise it’s zero-width.
+
+2.2
+Corpus is a collection of text or speech that a computer can read. We sometimes treat punctuation, fillers, and disfluencies as words. A lemma is a set of lexical forms that share the steam, major part-of-speech, and word sense.
+
+2.3
+NLP algorithms should be tested with many languages, not just one. Additionally, people use multiple languages in a single communicative act, this phenomenon being called code switching. The ideal way of creating a corpus creator is to build a datasheet. This helps understand the context under which the text was created. A datasheet specifies the following properties: motivation, situation, language variety, speaker demographics, collection process, annotation process, and distribution.
+
+2.4.1
+Normalizing a text means: tokenizing words, normalizing word formats, and segmenting sentences. The steps followed in the example provided are: separate the text into one word per line, sort them, convert them all to lowercase, and sort again to find the frequent words. The results show that function words are the most frequent words. Some examples of function words include: articles, pronouns, and prepositions.
+
+2.4.2
+Tokenization is the task of segmenting running text into words. We will keep punctuation and numbers in our tokenizations. Also, it will be used to expand clitic contractions that are marked by apostrophes. Tokenization is tied up with named entity recognition. A common tokenization standard is called Penn Treebank tokenization standard. It separates out clitics, keeps hyphenated words and separates punctuation. Tokenization is a task that can differ between languages. It can be segmented into characters or into words.
+
+2.4.3
+Subwords are sets of tokens that include tokens smaller than words. Most tokenizations have two parts: a token learner and a token segmenter. The three most used algorithms are: byte-pair encoding (BPE), unigram language modeling, and WordPiece.
+
+2.4.4
+Word normalization is standardizing the format of words and tokens. Case folding is another kind of normalization. An example of case folding is mapping everything to lowercase. Lemmatization determines if two words share the same root and it is done by doing morphological parsing.
+
+2.4.5
+Sentence segmentation is an important step in text processing. Its clues include periods, question marks, and exclamation points. Some challenges in sentence segmentation is knowing whether a period is a full-stop or it’s the end of an abbreviation.
+
+2.5.0
+Minimum edit distance can help to quantify the similarity between strings. It returns the minimum number of editing operations needed to transform one string into another.
+
+2.5.1
+Dynamic programming is a method to solve problems that combines solutions to sub-problems. Examples of dynamic programming include the Viterbi algorithm and the CKY algorithm. An application of the minimum edit distance algorithm is  finding potential spelling errors. The minimum edit distance algorithm first initializes a matrix of size n+1, m+1 where n is the length of the source and m is the length of the target. Then, there is the recurrence relation where costs of insertion and deletion are calculated and lastly there is the termination of the algorithm. Viterbi’s algorithm is a probabilistic extension of the minimum edit distance algorithm.
+
+3.0
+Predicting upcoming words is essential for speech recognition, spelling or grammar correction, machine translation, and augmentative and alternative communication technologies. Language models or LMs are models that assign probabilities to sequences of words.
+
+3.1
+N-gram is a model that estimates the probability of the last word given the previous words. You can estimate the probability with a large corpus, such as the web, but even this is not as effective because of the constant change in languages. The chain rule of probability shows the link between computing the joint probability of a sequence and computing the conditional probability of a word given previous words. The bigram model approximates this probability by using only the conditional of the previous words. This can be generalized to the n-gram model which looks at n-1 words into the past. A Markov assumption is the assumption that the probability of a word depends only on the previous word.  To estimate probabilities we use the maximum likelihood estimation or MLE. We get counts from a corpus and we normalize the counts so that they lie between 0 and 1.  We estimate the n-gram probability by dividing the observed frequency of a particular sequence by the observed frequency of a prefix. This is called relative frequency.  We usually convert them into logarithmic space.
+
+3.2.0
+We use extrinsic evaluation to evaluate the performance of a language model is to embed it in an application and measure how much the application improves. However this is very expensive. So, we use intrinsic evaluation, which ensures the quality of a model independent of any application. We divide the data in a training set, test set, held out set. Whichever model assigns a higher probability to the test set is the better model. Training on the test set is problematic because it introduces a bias in the probabilities and causes inaccuracies in perplexity.
+
+3.2.1
+Perplexity on a test set is the inverse probability of the test set, and it is normalized by the number of words. Minimizing perplexity is equal to maximizing the test set probability according to the language model.
+
+3.3.0
+N-grams are dependent on the training corpus. Which implies that the probabilities often encode specific facts about a given training corpus, and n-grams do a better and better job of modeling the training corpus as we increase the value of N. To build a better model we need to match genres and dialects in the training corpus.
+
+3.3.1
+We call the words that are not known in our dictionary as unknown words, and the way to deal with them is to treat the problem as a closed dictionary problem by adding the unknown words to the dictionary.
+
+3.4.0
+Not assigning zero to the probability of an unseen word in the test set is called smoothing or discounting. There are different ways to do smoothing: Laplace, add-k smoothing, stupid backoff, Kneser-Ney smoothing.
+
+3.4.1
+Laplace smoothing is an algorithm that adds one to all the bigram counts before normalizing them into probabilities.
+
+3.4.2
+Add-k smoothing is to move a bit less of the probability mass from the seen to the unseen events. We add a fractional count k.
+
+3.4.3
+In backoff, we use the trigram if the  evidence is sufficient, otherwise we use the bigram and if not we use the unigram. In interpolation, we always mix the probability estimates from all the n-gram estimators, weighing and combining the trigram, bigram, and unigram counts.
+
+3.5
+Kneser-Ney discounting augments absolute discounting with a more sophisticated way to handle the lower-order unigram distribution. It uses a fixed discount d, modified Kneser-Ney uses three different discounts for n-grams with counts of 1,2,3, or more.
+
+3.6
+Efficient language model toolkits use sorted arrays to combine probabilities and backoffs in a single value, and use merge sorts to build the probability tables in a minimal number of passes through a large corpus.
+
+3.7
+We use entropy to measure information. Entropy rate is the entropy of a sequence divided by the number of words. We use cross entropy when the actual probability distribution that generated some data is unknown.
+
+4.0
+Text categorization is  the task of assigning a label to a text. Sentiment analysis is the positive or negative experience that the writer expresses towards an object, which is relevant in politics. Spam detection is another example of this. In supervised machine learning the goal of the algorithm is to learn how to mpa from a new observation to a correct output.
+
+4.1
+The Bayesian classifier makes a simplifying assumption of how features interact. We present the text as a bag of words. We calculate the most probable class given some document by choosing the class which has the highest product of the prior probability of the class and the likelihood of the document. It also follows the naive Bayes assumption, i.e., conditional independence assumption that the probabilities are independent. They are called linear classifiers.
+
+4.2
+We consider the maximum likelihood estimate by using the frequencies in the data. Laplace smoothing is used to avoid zeros. The solution for unknown words is to ignore them and remove them from the document and not include their probability. Also, some systems decide to ignore a class of very frequent words, stop words, such as the and a.
+
+4.4
+It often improves performance if we clip the word counts in each document at 1, and this variant is called binary multinomial naive Bayes or binary NB. Negation can modify a negative word and produce a positive review. We can derive the sentiment from sentiment lexicons, lists of words that are pre annotated with a positive or negative sentiment, such as the General Inquirer, LIWC, the opinion lexicon of Hu and Liu and the MPQA Subjectivity Lexicon.
+
+4.5
+In tasks such as spam detection, Bayes doesn’t require that the classifier uses all the words in the training data as a feature. Language iD systems are trained on multilingual texts such as Wikipedia.
+
+4.6
+A naive Bayes model can be viewed as a set of class-specific unigram language models, in which the model for each class instantiates a unigram language model.
+
+4.7.0
+Gold labels mean a human defined those labels. For evaluation we use a confusion matrix that helps visualize how an algorithm performs with respect to the human gold labels. Instead of measuring accuracy, we measure precision, which are true positives divided by true positives plus false positives, i.e., the percentage of items that a system detected. Recall measures the percentage of items actually present in the input that were correctly identified by the system, i.e., true positives divided by true positives plus false negatives.
+
+4.7.1
+The naive Bayes algorithm is a multi-class classification algorithm. In macroaveraging, we compute the performance of each class and average over classes. In microaveraging we collect the decisions for all classes into a single confusion matrix, and then calculate the precision.
+
+4.8
+With k fold cross validation, you can randomly select a training set and a test set division of our data, train the classifier, and then compute the error rate on the test set. And we repeat the process k times.
+
+4.9.0
+The effect size represents if a model is better than another model. There are two common non-parametric tests used in NLP: approximate randomization, and the bootstrap test.
+
+4.9.1
+The bootstrap test can be applied to any metric, such as F1 or BLEU. Bootstrap refers to repeatedly drawing large numbers of smaller samples with replacement.
+
+4.10
+Representational harms are caused by systems that demeans a social group. There are tasks that include toxicity detection such as hate speech, abuse, harassment, or other kinds of toxic language.
+

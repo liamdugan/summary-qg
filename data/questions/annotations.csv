@@ -1,0 +1,1501 @@
+Author,Section,Question,Answer,Category,A1,A2,A3
+Automatic Summary,2.0,What do modern conversational agents rely on?,more sophisticated understanding of the user's intent,Acceptable,Y,N,N
+Human Summary,2.0,What does edit distance evaluate?,degree of resemblance between two strings,Acceptable,Y,Y,Y
+Automatic Summary,2.0,What is an example of a hashtag?,#nlproc,Acceptable,N,N,N
+Human Summary,2.0,What is the most important tool for text pattern characterization?,Regular expressions,Acceptable,Y,Y,Y
+Automatic Summary,2.0,What language doesn't have spaces between words?,Japanese,Acceptable,Y,Y,Y
+Original Text,2.0,What is an algorithm with applications throughout language processing?,Edit distance,Acceptable,Y,N,N
+Human Summary,2.0,What is the process of finding root words of inflected words?,Lemmatization,Acceptable,Y,Y,Y
+Automatic Summary,2.1.0,What types of regular expressions do regular expressions come in?,variants,Acceptable,Y,N,N
+Automatic Summary,2.1.0,What is an algebraic notation for characterizing a set of strings?,regular expression,Acceptable,Y,Y,Y
+Original Text,2.1.1,What can be used to specify what a single character cannot be?,square braces,Acceptable,Y,N,N
+Human Summary,2.1.1,What is an algebraic notation for characterizing a set of strings that is useful for searching for a pattern or through a corpus?,The regular expression,Acceptable,Y,Y,Y
+Human Summary,2.1.1,What specifies a disjunction of characters that can be matched in a position in a longer regular expression?,Square braces,Acceptable,Y,Y,Y
+Original Text,2.1.1,What will /a*/ match?,match a or aaaaa,Acceptable,Y,Y,Y
+Human Summary,2.1.1,What does the (?) mean?,the preceding character or nothing,Acceptable,Y,N,N
+Automatic Summary,2.1.1,"How many ways to specify ""at least one"" of some character?",two,Acceptable,N,N,N
+Original Text,2.1.1,What is the first symbol after the open square brace?,a,Acceptable,N,N,N
+Original Text,2.1.1,What specifies a disjunction of characters to match?,The string of characters inside the braces,Acceptable,Y,N,Y
+Original Text,2.1.1,What is it like to have to write the regular expression for digits twice?,annoying,Acceptable,Y,N,N
+Original Text,2.1.1,What does the pattern /[2-5]/ specify?,"any one of the characters 2, 3, 4, or 5",Acceptable,Y,Y,Y
+Human Summary,2.1.1,What is a simple type of regular expressions?,a sequence of characters,Acceptable,Y,Y,N
+Original Text,2.1.1,What do square brackets not allow us to say?,s or nothing,Acceptable,N,N,N
+Original Text,2.1.1,What is an integer?,a string of digits,Acceptable,N,N,N
+Automatic Summary,2.1.1,"What means ""any string of zero or more as""?",/a*/,Acceptable,N,Y,Y
+Original Text,2.1.1,What is the regular expression used to specify this?,/aardvark,Acceptable,N,N,N
+Original Text,2.1.1,What can be used to solve this problem?,square braces,Acceptable,N,N,N
+Original Text,2.1.1,What does the caret stand for if it occurs anywhere else?,a caret,Acceptable,Y,N,N
+Human Summary,2.1.2,"What does (( )) mean ""and""?",Parentheses,Acceptable,N,N,N
+Original Text,2.1.2,What operator applies by default only to a single character?,Kleene*,Acceptable,Y,N,Y
+Automatic Summary,2.1.2,When do we need to use the disjunction operator?,in the midst of a larger sequence,Acceptable,Y,Y,Y
+Original Text,2.1.2,What is another way to enforce non-greedy matching?,qualifier,Acceptable,Y,Y,Y
+Human Summary,2.1.2,Non-greedy matching can be enforced by what?,question mark qualifier,Acceptable,Y,Y,Y
+Automatic Summary,2.1.2,What is the operator *??,Kleene star,Acceptable,N,Y,Y
+Original Text,2.1.2,What can be ambiguous in another way?,Patterns,Acceptable,N,N,N
+Human Summary,2.1.2,"When regular expressions are not matched, we match them with what?",largest string they can,Acceptable,Y,Y,N
+Original Text,2.1.2,What would we want to search for in a text about pets?,string cat or the string dog,Acceptable,N,N,N
+Original Text,2.1.2,What takes precedence over the disjunction operator?,sequences like guppy,Acceptable,Y,N,N
+Automatic Summary,2.1.2,What is another name for the disjunction operator?,pipe symbol,Acceptable,Y,Y,Y
+Human Summary,2.1.3,Less false negatives errors mean more what?,recall,Acceptable,Y,Y,Y
+Automatic Summary,2.1.3,What is an example of an incorrect pattern?,/the/,Acceptable,Y,N,Y
+Automatic Summary,2.1.3,What is the pattern that will miss the word when it begins a sentence?,/[tT]he/,Acceptable,Y,N,N
+Human Summary,2.1.3,What increases precision and recall?,Reducing error,Acceptable,N,N,N
+Automatic Summary,2.1.4,Where can a range of numbers be specified by enclosing them?,curly brackets,Acceptable,N,N,N
+Original Text,2.1.4,Special characters are referred to by special notation based on what?,backslash,Acceptable,Y,N,Y
+Human Summary,2.1.4,What can you specify?,the number of an instance in a pattern,Acceptable,N,N,N
+Human Summary,2.1.4,What can you specify?,the number of an instance in a pattern,Acceptable,N,N,N
+Automatic Summary,2.1.5,What is a simple regular expression for a dollar sign followed by a string of digits?,/$[0-9+/,Acceptable,Y,N,Y
+Original Text,2.1.5,What do we need to allow for optional fractions?,disk space,Acceptable,Y,N,N
+Original Text,2.1.5,What do we want to help a user buy a computer on the Web?,build an application,Acceptable,N,N,N
+Original Text,2.1.5,What will we add after the decimal point and two digits?,a decimal point and two digits,Acceptable,N,N,N
+Automatic Summary,2.1.5,What does this pattern only allow?,$199.99,Acceptable,N,N,N
+Automatic Summary,2.1.5,What do we need to allow for?,optional fractions,Acceptable,N,N,N
+Human Summary,2.1.6,When does the command(? :) indicate a non-capturing group?,after an opening parenthesis,Acceptable,Y,N,Y
+Original Text,2.1.6,What can the parenthesis and number operators specify?,a certain string or expression must occur twice in the text,Acceptable,Y,N,N
+Original Text,2.1.6,Creating patterns is the topic of what exercise?,Exercise 2.3,Acceptable,N,N,N
+Human Summary,2.1.6,Capture group means using what to store a pattern in memory?,parentheses,Acceptable,Y,Y,N
+Automatic Summary,2.1.6,What does the next set of substitutions do in the input?,matches and replaces other patterns,Acceptable,N,N,N
+Human Summary,2.1.7,What is used to rule out special cases while parsing complex pattern?,Negative lookahead,Acceptable,Y,Y,N
+Original Text,2.1.7,"What do we use when we want to match, at the beginning of a line, any single word that doesn't start with ""Volcano",negative lookahead,Acceptable,N,N,Y
+Automatic Summary,2.1.7,"The operator (?= pattern) is true if pattern occurs, but is zero-width, i.e. what doesn't advance",match pointer,Acceptable,N,N,N
+Automatic Summary,2.1.7,What is commonly used when we are parsing complex patterns but want to rule out a special case?,Negative lookahead,Acceptable,Y,Y,Y
+Automatic Summary,2.2,What is a million-word collection of samples from 500 written English texts from different genres called?,The Brown corpus,Acceptable,Y,Y,Y
+Original Text,2.2,What is the relationship between the number of types |V | and number of tokens N called?,Herdan's Law,Acceptable,Y,Y,Y
+Original Text,2.2,What word has the same lemma cat but are different wordforms?,cats,Acceptable,N,N,N
+Human Summary,2.2,What are utterances?,spoken sentences,Acceptable,Y,Y,Y
+Human Summary,2.2,"What is a set of lexical forms that share the steam, major part-of-speech, and word sense?",A lemma,Acceptable,Y,Y,Y
+Original Text,2.2,What is the main part of an utterance?,business data processing,Acceptable,Y,N,N
+Original Text,2.2,What do we sometimes keep around?,disfluencies,Acceptable,N,Y,N
+Original Text,2.2,What corpus of American English telephone conversations between strangers was collected in the early 1990s?,Switchboard,Acceptable,Y,Y,N
+Human Summary,2.2,How can we differentiate the number of words?,by counting tokens or types,Acceptable,Y,Y,Y
+Automatic Summary,2.2,What are words like uh and um called fillers?,filled pauses,Acceptable,Y,N,N
+Human Summary,2.2,What is the rough upper limit for the number of possible lemmas?,Dictionary entries or boldface forms,Acceptable,Y,Y,N
+Original Text,2.3,How does a corpus of texts from different historical periods change?,Language changes over time,Acceptable,Y,N,N
+Original Text,2.3,What do most languages have?,multiple varieties,Acceptable,N,N,N
+Original Text,2.3,What language was the corpus in?,What language,Acceptable,N,N,N
+Human Summary,2.3,What specifies properties of a dataset used in the development of computational models?,data statement,Acceptable,Y,Y,N
+Original Text,2.3,When are NLP algorithms most useful?,when they apply across many languages,Acceptable,N,Y,N
+Human Summary,2.3,What are some variations in languages?,"dialect, code switching, genre",Acceptable,Y,Y,Y
+Original Text,2.3,What is the context of a corpus?,When and in what situation was the text written/spoken,Acceptable,Y,Y,Y
+Automatic Summary,2.3,"When developing computational models for language processing from a corpus, it's important to consider what?","who produced the language, in what context, for what purpose",Acceptable,Y,Y,Y
+Automatic Summary,2.3,How does a corpus of texts from different historical periods change?,Language changes over time,Acceptable,Y,Y,N
+Automatic Summary,2.4.0,"Before almost any natural language processing of a text, the text has to be what?",normalized,Acceptable,Y,Y,Y
+Automatic Summary,2.4.0,What is the term for segmenting words?,Tokenizing,Acceptable,Y,Y,Y
+Automatic Summary,2.4.0,How do we go through each of these tasks?,walk through,Acceptable,N,N,N
+Automatic Summary,2.4.1,What are the most frequent words in Shakespeare?,"articles, pronouns, prepositions",Acceptable,Y,Y,N
+Human Summary,2.4.1,"Unix can collapse, sort, and build statistics for the words in a corpus using commands such as what?",tr,Acceptable,Y,Y,Y
+Human Summary,2.4.1,What are the minimal tasks applied as part of any normalization process?,"Tokenizing words, normalizing word formats, and segmenting sentences",Acceptable,Y,Y,Y
+Human Summary,2.4.1,What command in Unix changes particular characters in the input?,The tr command,Acceptable,Y,Y,Y
+Automatic Summary,2.4.1,What can Unix tools be useful for?,building quick word count statistics,Acceptable,Y,Y,N
+Human Summary,2.4.1,What are some examples of function words?,"articles, pronouns, and prepositions",Acceptable,Y,Y,Y
+Human Summary,2.4.1,What are the most frequent words?,function words,Acceptable,Y,Y,N
+Human Summary,2.4.2,What must we account for according to where and how they are used?,punctuation and special characters,Acceptable,N,N,N
+Automatic Summary,2.4.2,How many characters long are words on average?,2.4,Acceptable,Y,Y,Y
+Human Summary,2.4.2,"What is the identification of names, dates, organizations, etc?",Named entity recognition,Acceptable,Y,Y,Y
+Human Summary,2.4.2,What do algorithms have to deal with?,ambiguities,Acceptable,Y,N,N
+Original Text,2.4.2,What is a unit of meaning called?,a morpheme,Acceptable,Y,N,Y
+Human Summary,2.4.2,What language requires word segmentation?,Japanese,Acceptable,Y,N,N
+Automatic Summary,2.4.2,What NLP algorithms require algorithms for word segmentation?,Japanese and Thai,Acceptable,N,N,N
+Human Summary,2.4.2,What language has no spaces?,Chinese,Acceptable,Y,N,Y
+Original Text,2.4.2,How are neural sequence models trained?,supervised machine learning,Acceptable,Y,Y,Y
+Original Text,2.4.2,What are characters called in Chinese?,hanzi,Acceptable,Y,N,Y
+Automatic Summary,2.4.3,What runs on the test data the merges we have learned from the training data?,The token parser,Acceptable,Y,Y,Y
+Human Summary,2.4.3,Tokenizers often do what in order to solve the unknown word problem?,induce subwords,Acceptable,Y,Y,Y
+Human Summary,2.4.3,What implements both byte-pair encoding and unigram language modeling?,a SentencePiece library,Acceptable,N,Y,Y
+Original Text,2.4.3,What is one of the three algorithms used by the token learner?,byte-pair encoding,Acceptable,N,N,Y
+Automatic Summary,2.4.3,What is another name for a corpus that NLP algorithms learn from?,training corpus,Acceptable,Y,Y,N
+Original Text,2.4.3,What is the smallest meaning-bearing unit of a language?,morpheme,Acceptable,Y,Y,Y
+Human Summary,2.4.3,What library implements byte-pair encoding and unigram language modeling?,The SentencePiece library,Acceptable,Y,Y,Y
+Human Summary,2.4.3,What induces a set of tokens from raw data?,token learner,Acceptable,Y,Y,Y
+Original Text,2.4.3,Why does the token parser run on the test data?,the frequencies in the test data don't play a role,Acceptable,N,N,Y
+Human Summary,2.4.3,What are most tokenization schemes made out of?,token learner and a token segmenter,Acceptable,Y,Y,Y
+Human Summary,2.4.4,What is standardizing the format of words and tokens?,Word normalization,Acceptable,Y,Y,Y
+Automatic Summary,2.4.4,What is generally not done for sentiment analysis analysis and machine translation?,case folding,Acceptable,Y,Y,N
+Original Text,2.4.4,What are two types of normalization that we might want to see information from documents whether they mention the US or the USA?,information retrieval or information extraction,Acceptable,Y,N,N
+Original Text,2.4.4,"What is the central morpheme of the word, supplying the main meaning, and affixes?",stems,Acceptable,N,N,Y
+Human Summary,2.4.4,What determines if two words share the same root?,Lemmatization,Acceptable,Y,Y,Y
+Human Summary,2.4.4,What are the two broad classes of morphemes?,"stems, and affixes",Acceptable,Y,Y,Y
+Original Text,2.4.5,What character is ambiguous between a sentence boundary marker and a marker of abbreviations like Mr. or Inc?,period character,Acceptable,Y,Y,Y
+Automatic Summary,2.4.5,What is one of the most useful cues for segmenting a text into sentences?,punctuation,Acceptable,Y,Y,Y
+Automatic Summary,2.4.5,What is another important step in text processing?,Sentence segmentation,Acceptable,Y,Y,N
+Human Summary,2.4.5,What are some clues in sentence segmentation?,"periods, question marks, and exclamation points",Acceptable,Y,Y,Y
+Automatic Summary,2.5.0,What represents an operation list for converting the top string into the bottom string?,a series of symbols,Acceptable,Y,N,N
+Original Text,2.5.0,What is a similar word to a graffe?,graffe,Acceptable,N,N,N
+Human Summary,2.5.0,What is the task of deciding whether two strings refer to the same entity?,Coreference,Acceptable,Y,Y,Y
+Original Text,2.5.0,How many words do the two strings differ by?,one,Acceptable,N,N,N
+Automatic Summary,2.5.0,What is the minimum edit distance?,minimum number of editing operations needed to transform one string into another,Acceptable,Y,Y,Y
+Original Text,2.5.0,What gives us a way to quantify both of these intuitions about string similarity?,Edit distance,Acceptable,Y,N,N
+Original Text,2.5.0,What did Levenshtein propose in his metric that each insertion or deletion has a cost of 1 and what else?,substitutions are not allowed,Acceptable,Y,N,N
+Automatic Summary,2.5.0,What is the most important visualization for string distances?,an alignment between the two strings,Acceptable,Y,N,N
+Human Summary,2.5.0,What is the minimum number of editing operations required to make two strings equal?,Minimum edit distance,Acceptable,Y,Y,Y
+Human Summary,2.5.0,What can help to quantify the similarity between strings?,Minimum edit distance,Acceptable,Y,Y,Y
+Original Text,2.5.1,What is the minimum edit distance?,2.8,Acceptable,N,N,N
+Automatic Summary,2.5.1,What is useful throughout speech and language processing?,Aligning two strings,Acceptable,Y,N,N
+Automatic Summary,2.5.1,When was dynamic programming first introduced?,1957,Acceptable,N,N,N
+Automatic Summary,2.5.1,What plays a role in machine translation?,Alignment,Acceptable,Y,N,N
+Original Text,2.5.1,Where is the minimum edit distance algorithm summarized?,Fig. 2.17,Acceptable,N,N,N
+Original Text,2.5.1,Where are the backpointers from a cell shown in Fig. 2.19?,2.19,Acceptable,N,N,N
+Automatic Summary,2.5.1,What is the name for a class of algorithms that apply a table-driven method to solve problems by combining solutions to sub-problems?,Dynamic programming,Acceptable,Y,Y,Y
+Original Text,2.5.1,Where are the backpointers from a cell shown?,Fig. 2.19,Acceptable,N,N,N
+Original Text,2.5.1,What is the name for a class of algorithms that apply a table-driven method to solve problems by combining solutions to sub-problems?,dynamic programming,Acceptable,Y,Y,N
+Original Text,2.5.1,What is the edit distance between X 1..i and Y 1..j?,"D|i, j",Acceptable,N,N,N
+Human Summary,2.5.1,Who named the minimum edit distance algorithm?,Wagner and Fischer,Acceptable,N,Y,N
+Automatic Summary,3.0,"What writing tools need to find and correct errors in writing like ""Their are two midterms""?",spelling correction or grammatical error correction,Acceptable,Y,Y,N
+Human Summary,3.0,What can refer to both a sequence of n words and the predictive model that assigns it a probability?,n-gram,Acceptable,Y,Y,Y
+Human Summary,3.0,"What is essential for speech recognition, spelling or grammar correction, machine translation, and augmentative communication technologies?",Predicting upcoming words,Acceptable,Y,Y,N
+Original Text,3.0,"What are essential in any task in which we have to identify words in noisy, ambiguous input?",Probabilities,Acceptable,Y,N,Y
+Original Text,3.1,What are the MLE estimates for the parameters of an n-gram model?,0 and 1,Acceptable,Y,N,Y
+Original Text,3.1,What isn't big enough to give us good estimates in most cases?,web,Acceptable,N,N,N
+Automatic Summary,3.1,How does Eq.11 estimate the n-gram probability?,by dividing the observed frequency of a particular sequence by the frequency of a prefix,Acceptable,N,N,N
+Automatic Summary,3.1,What are the majority of the bigram counts from a piece of a bigram grammar from the Berkeley Restaurant Project?,zero,Acceptable,N,Y,N
+Original Text,3.1,What equation estimates the n-gram probability by dividing the observed frequency of a particular sequence by the observed frequency of a prefix?,Equation 3.12,Acceptable,N,N,N
+Automatic Summary,3.1,What shows the bigram counts from a piece of a bigram grammar from the Berkeley Restaurant Project?,Figure 3.1,Acceptable,N,N,Y
+Human Summary,3.1,How are bigram probabilities normalized?,by dividing each cell by the set of unigram probabilities,Acceptable,Y,Y,Y
+Original Text,3.1,What is the first step in estimating the probability of a word given a history h?,formalizing of notation,Acceptable,Y,Y,Y
+Original Text,3.1,What is usually a noun or an adjective?,eat,Acceptable,N,N,N
+Automatic Summary,3.1,What is the class of probabilistic models that assume we can predict the probability of some future unit without looking too far into the past?,Markov models,Acceptable,Y,Y,Y
+Original Text,3.1,What should you do to estimate the probability of a word w given some history h?,compute this estimate for yourself,Acceptable,Y,N,N
+Automatic Summary,3.1,How many words would be more sparse than a random set of?,seven,Acceptable,N,N,N
+Automatic Summary,3.1,What encode some facts that we think of as strictly syntactic in nature?,Bigram probabilities,Acceptable,Y,N,N
+Human Summary,3.1,All language model probabilities are represented in log format as what?,log probabilities,Acceptable,Y,Y,Y
+Original Text,3.1,"For larger n-grams, we'll need to assume what to the left and right of the sentence end?",extra contexts,Acceptable,Y,N,Y
+Human Summary,3.1,Why are joint probabilities difficult to calculate?,too many possible sentences of a certain length,Acceptable,Y,Y,Y
+Human Summary,3.1,What is another name for the maximum likelihood estimation?,MLE,Acceptable,Y,Y,N
+Human Summary,3.1,The n-gram model looks at how many words into the past?,n-1,Acceptable,Y,Y,Y
+Original Text,3.1,What is the probability of a complete word sequence by substituting Eq. 3.7 into Eq. 3.4?,3.9,Acceptable,N,N,N
+Original Text,3.1,How many words were selected from a random set?,seven,Acceptable,N,N,N
+Human Summary,3.2.0,What would happen if we accidentally trained the model on the test set?,bias,Acceptable,Y,Y,N
+Original Text,3.2.0,What can be taken from some continuous sequence of text inside the corpus?,test data,Acceptable,Y,N,N
+Human Summary,3.2.0,What is a test set that has been used so often that we need a fresher test set?,A development set,Acceptable,Y,Y,Y
+Human Summary,3.2.0,What embeds a model in an application and measures how much the application improves in an end to end evaluation?,Extrinsic evaluation,Acceptable,Y,Y,Y
+Human Summary,3.2.0,What is the downside of extrinsic evaluation?,very expensive,Acceptable,Y,Y,Y
+Human Summary,3.2.0,Which n-gram model assigns a higher probability to the test set?,the one that better fits the test set,Acceptable,Y,N,N
+Human Summary,3.2.0,What ensures the quality of a model independent of any application?,intrinsic evaluation,Acceptable,Y,Y,Y
+Automatic Summary,3.2.0,Why do we want our test set to be as large as possible?,small test set may be accidentally unrepresentative,Acceptable,Y,Y,Y
+Human Summary,3.2.0,What are the three types of data that we divide the data in?,"training set, test set, held out set",Acceptable,Y,Y,N
+Original Text,3.2.1,Perplexity is related inversely to what?,likelihood of the test sequence according to the model,Acceptable,Y,Y,Y
+Original Text,3.2.1,How is the perplexity of two language models comparable?,if they use identical vocabularies,Acceptable,Y,N,N
+Automatic Summary,3.2.1,What can we use to expand the probability of W?,the chain rule,Acceptable,Y,N,Y
+Human Summary,3.3.0,What can we use to build an n-gram to answer and predict sentences that make sense in context?,training corpus of a similar genre,Acceptable,Y,Y,Y
+Automatic Summary,3.3.0,Our models may still be subject to the problem of what?,sparsity,Acceptable,Y,N,N
+Automatic Summary,3.3.0,The n-gram model is dependent on what?,training corpus,Acceptable,Y,Y,Y
+Automatic Summary,3.3.0,What is still not sufficient?,Matching genres and dialects,Acceptable,N,N,N
+Automatic Summary,3.3.0,What sentences have no coherent relation between words or any sentence-final punctuation?,unigram sentences,Acceptable,Y,Y,Y
+Automatic Summary,3.3.0,What sentences have some local word-to-word coherence?,bigram sentences,Acceptable,Y,Y,Y
+Original Text,3.3.0,What is the P(offer|denied the)?,0,Acceptable,N,N,N
+Automatic Summary,3.3.0,"The longer the context on which we train the model, the more coherent what?",sentences,Acceptable,Y,N,N
+Automatic Summary,3.3.0,"For any n-gram that occurred a sufficient number of times, we might have what?",a good estimate of its probability,Acceptable,Y,Y,Y
+Original Text,3.3.0,"What shows the sentences generated by unigram, bigram, and trigram grammars trained on 40 million words from WSJ?",Fig. 3.4,Acceptable,N,N,N
+Human Summary,3.3.0,N-grams are dependent on what?,training corpus,Acceptable,Y,Y,Y
+Original Text,3.3.0,What do the 4-gram sentences look a little too much like?,Shakespeare,Acceptable,N,N,N
+Original Text,3.3.1,What is the problem of words whose probability is zero?,bigram probability,Acceptable,Y,N,Y
+Human Summary,3.3.1,What is a closed vocabulary system?,the test set doesn't contain any words outside of the given lexicon,Acceptable,Y,Y,Y
+Automatic Summary,3.3.1,What are OOV words?,out of vocabulary,Acceptable,Y,Y,Y
+Automatic Summary,3.3.1,The exact choice of UNK> model does have an effect on metrics like what?,perplexity,Acceptable,Y,Y,Y
+Human Summary,3.3.1,The closed vocabulary system is often used in speech recognition or what?,machine translation,Acceptable,Y,N,Y
+Human Summary,3.3.1,What is the term for unknown words?,out of vocabulary,Acceptable,Y,Y,Y
+Human Summary,3.3.1,How many ways are there to train probabilities of UNK>?,two,Acceptable,N,Y,Y
+Automatic Summary,3.3.1,What is zero for words that we haven't seen before?,bigram probability,Acceptable,N,Y,N
+Automatic Summary,3.4.0,What is a modification called to keep a language model from assigning zero probability to unseen events?,smoothing or discounting,Acceptable,Y,N,Y
+Original Text,3.4.0,What type of smoothing is introduced?,Kneser-Ney,Acceptable,N,N,Y
+Automatic Summary,3.4.0,What do we do to keep a language model from assigning zero probability to unseen events?,shave off a bit of probability mass,Acceptable,Y,N,N
+Automatic Summary,3.4.0,What context do words that are in our vocabulary appear in a test set in?,unseen,Acceptable,N,N,N
+Original Text,3.4.1,What does Laplace smoothing apply to?,unigram probabilities,Acceptable,Y,N,Y
+Original Text,3.4.1,What do we smooth now that we have the intuition for the unigram case?,Berkeley Restaurant Project bigrams,Acceptable,N,N,N
+Human Summary,3.4.1,What is the unigram probability of word w_i?,c_i,Acceptable,N,N,Y
+Human Summary,3.4.1,What is the adjusted count c* easier to compare with?,MLE counts,Acceptable,N,N,Y
+Original Text,3.4.1,What shows the add-one smoothed counts for the bigrams in Fig. 3.1?,Figure 3.5,Acceptable,N,N,N
+Original Text,3.4.1,What shows the add-one smoothed counts for the bigrams in Fig. 3.1?,Figure 3.5,Acceptable,N,N,N
+Original Text,3.4.2,What is a fractional count k called?,add-k smoothing,Acceptable,Y,N,Y
+Automatic Summary,3.4.2,What is the algorithm that adds fractional count k called?,add-k smoothing,Acceptable,Y,Y,N
+Automatic Summary,3.4.2,"Instead of adding I to each count, we add what?",fractional count k,Acceptable,N,N,N
+Human Summary,3.4.2,What is the algorithm that adds a fractional count k to each count called?,add-k smoothing,Acceptable,Y,Y,Y
+Automatic Summary,3.4.3,What shows the equation for interpolation with context-conditioned weights?,Equation 3.28,Acceptable,N,N,N
+Automatic Summary,3.4.3,What can help solve the problem of zero frequency n-grams?,Discounting,Acceptable,Y,Y,Y
+Human Summary,3.4.3,What are the higher-order n-grams discounted by a function alpha to save some probability mass for?,lower-order n-grams,Acceptable,Y,N,N
+Automatic Summary,3.4.3,How is each weight computed in a slightly more sophisticated version of linear interpolation?,by conditioning on the context,Acceptable,Y,Y,Y
+Human Summary,3.5,What is Kneser-Ney based on?,absolute discounting,Acceptable,Y,Y,Y
+Automatic Summary,3.5,Who used a clever idea to see how to save some probability mass for the smoothing algorithm to distribute to unseen n-grams?,Church and Gale,Acceptable,N,Y,Y
+Automatic Summary,3.5,Kneser-Ney discounting augments absolute discounting with a more sophisticated way to handle what?,lower-order unigram distribution,Acceptable,Y,Y,Y
+Automatic Summary,3.5,What formalizes this intuition by subtracting a fixed (absolute) discount d from each count?,Absolute discounting,Acceptable,Y,N,N
+Automatic Summary,3.5,What will not affect the very high counts?,a small discount d,Acceptable,Y,N,N
+Original Text,3.5,What phrase is Kong mainly frequent in?,Hong Kong,Acceptable,N,N,N
+Original Text,3.5,What word is included as a regular vocabulary entry with count zero?,UNK>,Acceptable,Y,N,N
+Automatic Summary,3.6,What corpora includes n-rams drawn from their book collections?,Google Books Ngrams,Acceptable,Y,Y,Y
+Automatic Summary,3.6,What do language model toolkits use to combine probabilities and backoffs in a single value?,sorted arrays,Acceptable,Y,Y,Y
+Original Text,3.6,How are probabilities quantized?,4-8 bits,Acceptable,Y,N,N
+Human Summary,3.6,How can n-grams be shrunk?,pruning,Acceptable,Y,Y,Y
+Human Summary,3.6,What type of hash numbers are stored in memory?,64-bit,Acceptable,Y,N,Y
+Automatic Summary,3.6,What does stupid backoff not produce?,probability distribution,Acceptable,Y,Y,N
+Automatic Summary,3.7,When is the cross-entropy useful?,when we don't know the actual probability distribution,Acceptable,Y,Y,Y
+Human Summary,3.7,"What theorem states that if the language is regular, the entropy of the given language would be the entropy of",Shannon-McMillan-Breiman theorem,Acceptable,Y,N,Y
+Automatic Summary,3.7,"What theorem states that if the language is regular in certain ways (to be exact, if it is both stationary and ergo",Shannon-McMillan-Breiman theorem,Acceptable,N,N,N
+Original Text,3.7,"To measure the true entropy of a language, we need to consider sequences of what length?",infinite length,Acceptable,Y,Y,Y
+Human Summary,3.7,What would give a lower cross-entropy?,The more accurate model,Acceptable,Y,Y,N
+Original Text,3.7,What does the spread represent?,the prior probability of each horse,Acceptable,Y,N,N
+Original Text,4.0,What is the extraction of positive or negative orientation that a writer expresses toward some object?,sentiment analysis,Acceptable,Y,Y,Y
+Human Summary,4.0,Most classifications in language processing are done through what?,supervised machine learning,Acceptable,Y,Y,Y
+Automatic Summary,4.0,What is the extraction of sentiment?,sentiment analysis,Acceptable,Y,Y,N
+Human Summary,4.0,What is the task of assigning a label or category to an entire text or document?,Text categorization,Acceptable,Y,Y,Y
+Automatic Summary,4.0,What is the output variable for lassification?,c,Acceptable,N,N,N
+Automatic Summary,4.0,What is another important commercial application?,Spam detection,Acceptable,N,N,N
+Original Text,4.0,Classification is essential for what?,tasks below the level of the document,Acceptable,Y,N,N
+Human Summary,4.0,What is a core part of sentient intelligence?,Classification,Acceptable,Y,N,N
+Automatic Summary,4.0,"Related text classification tasks like what are relevant to the digital humanities, social sciences, and forensic linguistics?",authorship attribution,Acceptable,Y,N,N
+Human Summary,4.0,What does a probabilistic classifier output?,probability of an object belonging to a certain class,Acceptable,Y,Y,Y
+Human Summary,4.0,What type of classifier builds a model of how a class could generate input?,Generative classifiers,Acceptable,Y,Y,Y
+Original Text,4.0,Even language modeling can be viewed as what?,classification,Acceptable,Y,Y,N
+Automatic Summary,4.1,Where is the intuition of the naive Bayes classifier shown?,Fig. 4.1,Acceptable,N,N,N
+Original Text,4.1,How can we simplify Eq. 4.3?,dropping the denominator,Acceptable,N,N,N
+Automatic Summary,4.1,Why are naive Bayes calculations done in log space?,increase speed,Acceptable,Y,N,Y
+Human Summary,4.1,Naive Bayes generates words by sampling from what?,conditional probability,Acceptable,Y,Y,Y
+Original Text,4.1,How can we simplify Eq. 4.3 by dropping the denominator P(d)?,computing Eq. 4.3,Acceptable,N,N,Y
+Automatic Summary,4.1,What is the multinomial naive Bayes classifier?,a Bayesian classifier,Acceptable,Y,N,N
+Automatic Summary,4.1,What could we imagine by following this process?,generating artificial documents,Acceptable,N,N,N
+Automatic Summary,4.1,What does the naive Bayes classifier state about how a document is generated?,implicit assumption,Acceptable,Y,N,N
+Human Summary,4.1,What are the Bayesian classifiers called?,linear classifiers,Acceptable,Y,Y,Y
+Human Summary,4.10,What can cause a variety of harms?,classifiers,Acceptable,Y,N,N
+Human Summary,4.10,What type of harms are caused by a system that demeans a social group?,Representational,Acceptable,Y,Y,N
+Automatic Summary,4.10,What is one class of harms caused by a system that perpetuates negative stereotypes about a social group?,demeans,Acceptable,Y,N,N
+Human Summary,4.10,What is another class of harms that may exist in toxicity detection?,Censorship,Acceptable,Y,Y,N
+Original Text,4.10,What classifiers can cause harms?,toxicity classifiers,Acceptable,Y,Y,Y
+Automatic Summary,4.10,What do some widely used toxicity classifiers incorrectly flag as being?,toxic sentences,Acceptable,Y,N,N
+Original Text,4.10,Who published a study in which toxicity classifiers incorrectly flag sentences that are non-toxic but simply mention minority identities?,Davidson et al.,Acceptable,N,Y,Y
+Human Summary,4.2,How do some systems ignore stop words?,by sorting the vocabulary,Acceptable,Y,Y,N
+Human Summary,4.2,What is calculated as the fraction of times a word appears among all words in all documents of a class?,The maximum likelihood estimate of the conditional probability,Acceptable,Y,N,Y
+Original Text,4.2,Why are words not in our vocabulary at all?,they did not occur in any training document in any class,Acceptable,Y,N,Y
+Human Summary,4.2,What is the simplest solution to avoid a zero overall probability?,add-one (Laplace) smoothing,Acceptable,Y,Y,Y
+Human Summary,4.2,What is the simplest solution for preventing zero probability classes?,Laplace smoothing,Acceptable,Y,Y,Y
+Original Text,4.2,What naively multiplies all the feature likelihoods together?,naive Bayes,Acceptable,Y,Y,Y
+Human Summary,4.2,What is used to avoid zeros?,Laplace smoothing,Acceptable,Y,Y,Y
+Original Text,4.4,What seems to matter more than its frequency?,whether a word occurs or not,Acceptable,Y,N,N
+Automatic Summary,4.4,What can modify a negative word to produce a positive review?,negation,Acceptable,Y,Y,Y
+Automatic Summary,4.4,What can we derive from sentiment lexicons?,positive and negative word features,Acceptable,Y,Y,N
+Human Summary,4.4,What is another name for binary multinomial naive Bayes?,binary NB,Acceptable,Y,Y,N
+Human Summary,4.5,What type of texts are Language ID systems trained on?,multilingual,Acceptable,Y,N,N
+Original Text,4.5,What is the task of deciding if a particular piece of email is an example of spam?,spam detection,Acceptable,Y,Y,Y
+Human Summary,4.5,What are features in naive Bayes for spam detection?,a set of likely words or phrases,Acceptable,Y,N,Y
+Human Summary,4.6,What is the probability of a sentence being positive?,the total product of the individual probabilities that each word in the sentence is positive,Acceptable,Y,Y,N
+Human Summary,4.6,What are similar to language modeling in that they can be viewed as a set of class-specific unigram language models?,Naive Bayes models,Acceptable,Y,Y,Y
+Automatic Summary,4.6,What do likelihood features assign to each word P(word|c)?,probability,Acceptable,Y,N,N
+Automatic Summary,4.7.0,What is the goal of accuracy?,to discover something that is rare,Acceptable,Y,N,N
+Original Text,4.7.0,How many false negatives would a classifier have?,"999,900",Acceptable,N,N,N
+Original Text,4.7.0,What do we need in order to know how well our spam detector is doing?,metric,Acceptable,Y,Y,N
+Automatic Summary,4.7.0,What is the goal of spam detection?,"to label every text as being in the spam category (""positive"") or not in the spam category (""negative"")",Acceptable,Y,Y,N
+Original Text,4.7.0,"What is the accuracy of the ""nothing is pie"" classifier?",99.99%,Acceptable,N,N,N
+Original Text,4.7.1,How can we derive a single metric that tells us how well the system is doing?,combine these values in two ways,Acceptable,N,Y,N
+Human Summary,4.8,What allows all data to be used for both training and testing?,Cross-validation,Acceptable,Y,Y,Y
+Human Summary,4.9.0,What is the null hypothesis that supposes that delta is negative or zero?,Hypothesis H_0,Acceptable,N,Y,Y
+Human Summary,4.9.0,What random variable is created over all test sets to find if we can rule out H_0?,X,Acceptable,N,N,N
+Automatic Summary,4.9.0,What does the hypothesis H0 suppose?,d(x) is actually negative or zero,Acceptable,N,N,Y
+Human Summary,4.9.0,What attempts to rule out the null hypothesis?,statistical significance testing,Acceptable,Y,Y,Y
+Automatic Summary,4.9.0,What type of tests do we artificially create many versions of the experimental setup?,non-parametric tests based on sampling,Acceptable,Y,N,N
+Original Text,4.9.0,What are non-parametric tests based on?,sampling,Acceptable,Y,Y,Y
+Original Text,4.9.0,What is the probability that we would see if the null hypothesis is true?,d(x),Acceptable,N,N,Y
+Automatic Summary,4.9.0,Where can we know if the new system we just built is better than the old one?,the literature,Acceptable,N,N,N
+Human Summary,4.9.0,The null hypothesis assumes that the effective size is what?,negative or zero,Acceptable,Y,N,Y
+Automatic Summary,4.9.0,How do we test statistical significance for NLP classifiers?,by formalizing two hypotheses,Acceptable,Y,N,N
+Original Text,4.9.1,The first row of Fig. 1 shows the results of two classifiers (A and B) on a test set x of 10 documents,4.8,Acceptable,N,N,N
+Automatic Summary,4.9.1,What is the test set for a tiny text classification example?,x of 10 documents,Acceptable,N,N,N
+Automatic Summary,4.9.1,What can we do statistics on now that we have the b test sets?,how often A has an accidental advantage,Acceptable,N,N,N
+Original Text,4.9.1,What is the num of samples b?,b,Acceptable,N,N,N
+Automatic Summary,2.0,What do modern conversational agents rely on?,more sophisticated understanding of the user's intent,Grammatical,Y,Y,Y
+Human Summary,2.0,What does edit distance evaluate?,degree of resemblance between two strings,Grammatical,Y,Y,Y
+Automatic Summary,2.0,What is an example of a hashtag?,#nlproc,Grammatical,Y,Y,Y
+Human Summary,2.0,What is the most important tool for text pattern characterization?,Regular expressions,Grammatical,Y,Y,Y
+Automatic Summary,2.0,What language doesn't have spaces between words?,Japanese,Grammatical,Y,Y,Y
+Original Text,2.0,What is an algorithm with applications throughout language processing?,Edit distance,Grammatical,Y,Y,Y
+Human Summary,2.0,What is the process of finding root words of inflected words?,Lemmatization,Grammatical,Y,Y,Y
+Automatic Summary,2.1.0,What types of regular expressions do regular expressions come in?,variants,Grammatical,Y,N,N
+Automatic Summary,2.1.0,What is an algebraic notation for characterizing a set of strings?,regular expression,Grammatical,Y,Y,Y
+Original Text,2.1.1,What can be used to specify what a single character cannot be?,square braces,Grammatical,Y,Y,Y
+Human Summary,2.1.1,What is an algebraic notation for characterizing a set of strings that is useful for searching for a pattern or through a corpus?,The regular expression,Grammatical,Y,Y,Y
+Human Summary,2.1.1,What specifies a disjunction of characters that can be matched in a position in a longer regular expression?,Square braces,Grammatical,Y,Y,Y
+Original Text,2.1.1,What will /a*/ match?,match a or aaaaa,Grammatical,Y,Y,Y
+Human Summary,2.1.1,What does the (?) mean?,the preceding character or nothing,Grammatical,Y,N,Y
+Automatic Summary,2.1.1,"How many ways to specify ""at least one"" of some character?",two,Grammatical,Y,Y,N
+Original Text,2.1.1,What is the first symbol after the open square brace?,a,Grammatical,Y,Y,N
+Original Text,2.1.1,What specifies a disjunction of characters to match?,The string of characters inside the braces,Grammatical,Y,Y,Y
+Original Text,2.1.1,What is it like to have to write the regular expression for digits twice?,annoying,Grammatical,Y,Y,N
+Original Text,2.1.1,What does the pattern /[2-5]/ specify?,"any one of the characters 2, 3, 4, or 5",Grammatical,Y,Y,Y
+Human Summary,2.1.1,What is a simple type of regular expressions?,a sequence of characters,Grammatical,Y,Y,Y
+Original Text,2.1.1,What do square brackets not allow us to say?,s or nothing,Grammatical,Y,Y,Y
+Original Text,2.1.1,What is an integer?,a string of digits,Grammatical,Y,Y,Y
+Automatic Summary,2.1.1,"What means ""any string of zero or more as""?",/a*/,Grammatical,Y,Y,Y
+Original Text,2.1.1,What is the regular expression used to specify this?,/aardvark,Grammatical,Y,Y,Y
+Original Text,2.1.1,What can be used to solve this problem?,square braces,Grammatical,Y,Y,Y
+Original Text,2.1.1,What does the caret stand for if it occurs anywhere else?,a caret,Grammatical,Y,Y,Y
+Human Summary,2.1.2,"What does (( )) mean ""and""?",Parentheses,Grammatical,Y,N,N
+Original Text,2.1.2,What operator applies by default only to a single character?,Kleene*,Grammatical,Y,Y,Y
+Automatic Summary,2.1.2,When do we need to use the disjunction operator?,in the midst of a larger sequence,Grammatical,Y,Y,Y
+Original Text,2.1.2,What is another way to enforce non-greedy matching?,qualifier,Grammatical,Y,Y,Y
+Human Summary,2.1.2,Non-greedy matching can be enforced by what?,question mark qualifier,Grammatical,Y,Y,Y
+Automatic Summary,2.1.2,What is the operator *??,Kleene star,Grammatical,N,Y,Y
+Original Text,2.1.2,What can be ambiguous in another way?,Patterns,Grammatical,Y,Y,Y
+Human Summary,2.1.2,"When regular expressions are not matched, we match them with what?",largest string they can,Grammatical,Y,Y,Y
+Original Text,2.1.2,What would we want to search for in a text about pets?,string cat or the string dog,Grammatical,Y,Y,N
+Original Text,2.1.2,What takes precedence over the disjunction operator?,sequences like guppy,Grammatical,Y,Y,Y
+Automatic Summary,2.1.2,What is another name for the disjunction operator?,pipe symbol,Grammatical,Y,Y,Y
+Human Summary,2.1.3,Less false negatives errors mean more what?,recall,Grammatical,Y,Y,Y
+Automatic Summary,2.1.3,What is an example of an incorrect pattern?,/the/,Grammatical,Y,Y,Y
+Automatic Summary,2.1.3,What is the pattern that will miss the word when it begins a sentence?,/[tT]he/,Grammatical,Y,Y,N
+Human Summary,2.1.3,What increases precision and recall?,Reducing error,Grammatical,Y,Y,Y
+Automatic Summary,2.1.4,Where can a range of numbers be specified by enclosing them?,curly brackets,Grammatical,Y,Y,Y
+Original Text,2.1.4,Special characters are referred to by special notation based on what?,backslash,Grammatical,Y,Y,Y
+Human Summary,2.1.4,What can you specify?,the number of an instance in a pattern,Grammatical,Y,Y,N
+Human Summary,2.1.4,What can you specify?,the number of an instance in a pattern,Grammatical,Y,Y,N
+Automatic Summary,2.1.5,What is a simple regular expression for a dollar sign followed by a string of digits?,/$[0-9+/,Grammatical,Y,Y,Y
+Original Text,2.1.5,What do we need to allow for optional fractions?,disk space,Grammatical,Y,Y,Y
+Original Text,2.1.5,What do we want to help a user buy a computer on the Web?,build an application,Grammatical,Y,N,N
+Original Text,2.1.5,What will we add after the decimal point and two digits?,a decimal point and two digits,Grammatical,Y,Y,N
+Automatic Summary,2.1.5,What does this pattern only allow?,$199.99,Grammatical,Y,Y,N
+Automatic Summary,2.1.5,What do we need to allow for?,optional fractions,Grammatical,Y,Y,Y
+Human Summary,2.1.6,When does the command(? :) indicate a non-capturing group?,after an opening parenthesis,Grammatical,Y,Y,Y
+Original Text,2.1.6,What can the parenthesis and number operators specify?,a certain string or expression must occur twice in the text,Grammatical,Y,Y,Y
+Original Text,2.1.6,Creating patterns is the topic of what exercise?,Exercise 2.3,Grammatical,Y,Y,Y
+Human Summary,2.1.6,Capture group means using what to store a pattern in memory?,parentheses,Grammatical,Y,Y,Y
+Automatic Summary,2.1.6,What does the next set of substitutions do in the input?,matches and replaces other patterns,Grammatical,Y,Y,N
+Human Summary,2.1.7,What is used to rule out special cases while parsing complex pattern?,Negative lookahead,Grammatical,Y,Y,N
+Original Text,2.1.7,"What do we use when we want to match, at the beginning of a line, any single word that doesn't start with ""Volcano",negative lookahead,Grammatical,N,N,N
+Automatic Summary,2.1.7,"The operator (?= pattern) is true if pattern occurs, but is zero-width, i.e. what doesn't advance",match pointer,Grammatical,N,N,N
+Automatic Summary,2.1.7,What is commonly used when we are parsing complex patterns but want to rule out a special case?,Negative lookahead,Grammatical,Y,Y,Y
+Automatic Summary,2.2,What is a million-word collection of samples from 500 written English texts from different genres called?,The Brown corpus,Grammatical,Y,Y,Y
+Original Text,2.2,What is the relationship between the number of types |V | and number of tokens N called?,Herdan's Law,Grammatical,Y,Y,Y
+Original Text,2.2,What word has the same lemma cat but are different wordforms?,cats,Grammatical,Y,N,N
+Human Summary,2.2,What are utterances?,spoken sentences,Grammatical,Y,Y,Y
+Human Summary,2.2,"What is a set of lexical forms that share the steam, major part-of-speech, and word sense?",A lemma,Grammatical,Y,Y,Y
+Original Text,2.2,What is the main part of an utterance?,business data processing,Grammatical,Y,Y,Y
+Original Text,2.2,What do we sometimes keep around?,disfluencies,Grammatical,Y,Y,Y
+Original Text,2.2,What corpus of American English telephone conversations between strangers was collected in the early 1990s?,Switchboard,Grammatical,Y,Y,Y
+Human Summary,2.2,How can we differentiate the number of words?,by counting tokens or types,Grammatical,Y,Y,Y
+Automatic Summary,2.2,What are words like uh and um called fillers?,filled pauses,Grammatical,Y,N,N
+Human Summary,2.2,What is the rough upper limit for the number of possible lemmas?,Dictionary entries or boldface forms,Grammatical,Y,Y,Y
+Original Text,2.3,How does a corpus of texts from different historical periods change?,Language changes over time,Grammatical,Y,N,Y
+Original Text,2.3,What do most languages have?,multiple varieties,Grammatical,Y,Y,Y
+Original Text,2.3,What language was the corpus in?,What language,Grammatical,Y,Y,Y
+Human Summary,2.3,What specifies properties of a dataset used in the development of computational models?,data statement,Grammatical,Y,Y,N
+Original Text,2.3,When are NLP algorithms most useful?,when they apply across many languages,Grammatical,Y,Y,Y
+Human Summary,2.3,What are some variations in languages?,"dialect, code switching, genre",Grammatical,Y,Y,Y
+Original Text,2.3,What is the context of a corpus?,When and in what situation was the text written/spoken,Grammatical,Y,Y,Y
+Automatic Summary,2.3,"When developing computational models for language processing from a corpus, it's important to consider what?","who produced the language, in what context, for what purpose",Grammatical,Y,Y,Y
+Automatic Summary,2.3,How does a corpus of texts from different historical periods change?,Language changes over time,Grammatical,Y,Y,Y
+Automatic Summary,2.4.0,"Before almost any natural language processing of a text, the text has to be what?",normalized,Grammatical,Y,Y,Y
+Automatic Summary,2.4.0,What is the term for segmenting words?,Tokenizing,Grammatical,Y,Y,Y
+Automatic Summary,2.4.0,How do we go through each of these tasks?,walk through,Grammatical,Y,Y,Y
+Automatic Summary,2.4.1,What are the most frequent words in Shakespeare?,"articles, pronouns, prepositions",Grammatical,Y,Y,Y
+Human Summary,2.4.1,"Unix can collapse, sort, and build statistics for the words in a corpus using commands such as what?",tr,Grammatical,Y,Y,Y
+Human Summary,2.4.1,What are the minimal tasks applied as part of any normalization process?,"Tokenizing words, normalizing word formats, and segmenting sentences",Grammatical,Y,Y,Y
+Human Summary,2.4.1,What command in Unix changes particular characters in the input?,The tr command,Grammatical,Y,Y,Y
+Automatic Summary,2.4.1,What can Unix tools be useful for?,building quick word count statistics,Grammatical,Y,Y,Y
+Human Summary,2.4.1,What are some examples of function words?,"articles, pronouns, and prepositions",Grammatical,Y,Y,Y
+Human Summary,2.4.1,What are the most frequent words?,function words,Grammatical,Y,Y,Y
+Human Summary,2.4.2,What must we account for according to where and how they are used?,punctuation and special characters,Grammatical,Y,Y,Y
+Automatic Summary,2.4.2,How many characters long are words on average?,2.4,Grammatical,Y,Y,Y
+Human Summary,2.4.2,"What is the identification of names, dates, organizations, etc?",Named entity recognition,Grammatical,Y,Y,Y
+Human Summary,2.4.2,What do algorithms have to deal with?,ambiguities,Grammatical,Y,Y,Y
+Original Text,2.4.2,What is a unit of meaning called?,a morpheme,Grammatical,Y,Y,Y
+Human Summary,2.4.2,What language requires word segmentation?,Japanese,Grammatical,Y,Y,N
+Automatic Summary,2.4.2,What NLP algorithms require algorithms for word segmentation?,Japanese and Thai,Grammatical,Y,N,Y
+Human Summary,2.4.2,What language has no spaces?,Chinese,Grammatical,Y,Y,Y
+Original Text,2.4.2,How are neural sequence models trained?,supervised machine learning,Grammatical,Y,Y,Y
+Original Text,2.4.2,What are characters called in Chinese?,hanzi,Grammatical,Y,Y,Y
+Automatic Summary,2.4.3,What runs on the test data the merges we have learned from the training data?,The token parser,Grammatical,Y,Y,Y
+Human Summary,2.4.3,Tokenizers often do what in order to solve the unknown word problem?,induce subwords,Grammatical,Y,Y,Y
+Human Summary,2.4.3,What implements both byte-pair encoding and unigram language modeling?,a SentencePiece library,Grammatical,Y,Y,Y
+Original Text,2.4.3,What is one of the three algorithms used by the token learner?,byte-pair encoding,Grammatical,Y,Y,Y
+Automatic Summary,2.4.3,What is another name for a corpus that NLP algorithms learn from?,training corpus,Grammatical,Y,Y,Y
+Original Text,2.4.3,What is the smallest meaning-bearing unit of a language?,morpheme,Grammatical,Y,Y,Y
+Human Summary,2.4.3,What library implements byte-pair encoding and unigram language modeling?,The SentencePiece library,Grammatical,Y,Y,Y
+Human Summary,2.4.3,What induces a set of tokens from raw data?,token learner,Grammatical,Y,Y,Y
+Original Text,2.4.3,Why does the token parser run on the test data?,the frequencies in the test data don't play a role,Grammatical,Y,Y,Y
+Human Summary,2.4.3,What are most tokenization schemes made out of?,token learner and a token segmenter,Grammatical,Y,Y,Y
+Human Summary,2.4.4,What is standardizing the format of words and tokens?,Word normalization,Grammatical,Y,Y,Y
+Automatic Summary,2.4.4,What is generally not done for sentiment analysis analysis and machine translation?,case folding,Grammatical,Y,Y,Y
+Original Text,2.4.4,What are two types of normalization that we might want to see information from documents whether they mention the US or the USA?,information retrieval or information extraction,Grammatical,Y,N,N
+Original Text,2.4.4,"What is the central morpheme of the word, supplying the main meaning, and affixes?",stems,Grammatical,Y,Y,Y
+Human Summary,2.4.4,What determines if two words share the same root?,Lemmatization,Grammatical,Y,Y,Y
+Human Summary,2.4.4,What are the two broad classes of morphemes?,"stems, and affixes",Grammatical,Y,Y,Y
+Original Text,2.4.5,What character is ambiguous between a sentence boundary marker and a marker of abbreviations like Mr. or Inc?,period character,Grammatical,Y,Y,Y
+Automatic Summary,2.4.5,What is one of the most useful cues for segmenting a text into sentences?,punctuation,Grammatical,Y,Y,Y
+Automatic Summary,2.4.5,What is another important step in text processing?,Sentence segmentation,Grammatical,Y,Y,Y
+Human Summary,2.4.5,What are some clues in sentence segmentation?,"periods, question marks, and exclamation points",Grammatical,Y,Y,Y
+Automatic Summary,2.5.0,What represents an operation list for converting the top string into the bottom string?,a series of symbols,Grammatical,Y,Y,Y
+Original Text,2.5.0,What is a similar word to a graffe?,graffe,Grammatical,Y,Y,Y
+Human Summary,2.5.0,What is the task of deciding whether two strings refer to the same entity?,Coreference,Grammatical,Y,Y,Y
+Original Text,2.5.0,How many words do the two strings differ by?,one,Grammatical,Y,Y,Y
+Automatic Summary,2.5.0,What is the minimum edit distance?,minimum number of editing operations needed to transform one string into another,Grammatical,Y,Y,Y
+Original Text,2.5.0,What gives us a way to quantify both of these intuitions about string similarity?,Edit distance,Grammatical,Y,Y,Y
+Original Text,2.5.0,What did Levenshtein propose in his metric that each insertion or deletion has a cost of 1 and what else?,substitutions are not allowed,Grammatical,Y,N,N
+Automatic Summary,2.5.0,What is the most important visualization for string distances?,an alignment between the two strings,Grammatical,Y,Y,Y
+Human Summary,2.5.0,What is the minimum number of editing operations required to make two strings equal?,Minimum edit distance,Grammatical,Y,Y,Y
+Human Summary,2.5.0,What can help to quantify the similarity between strings?,Minimum edit distance,Grammatical,Y,Y,Y
+Original Text,2.5.1,What is the minimum edit distance?,2.8,Grammatical,Y,Y,Y
+Automatic Summary,2.5.1,What is useful throughout speech and language processing?,Aligning two strings,Grammatical,Y,Y,Y
+Automatic Summary,2.5.1,When was dynamic programming first introduced?,1957,Grammatical,Y,Y,Y
+Automatic Summary,2.5.1,What plays a role in machine translation?,Alignment,Grammatical,Y,Y,Y
+Original Text,2.5.1,Where is the minimum edit distance algorithm summarized?,Fig. 2.17,Grammatical,Y,Y,Y
+Original Text,2.5.1,Where are the backpointers from a cell shown in Fig. 2.19?,2.19,Grammatical,Y,Y,N
+Automatic Summary,2.5.1,What is the name for a class of algorithms that apply a table-driven method to solve problems by combining solutions to sub-problems?,Dynamic programming,Grammatical,Y,Y,Y
+Original Text,2.5.1,Where are the backpointers from a cell shown?,Fig. 2.19,Grammatical,Y,Y,Y
+Original Text,2.5.1,What is the name for a class of algorithms that apply a table-driven method to solve problems by combining solutions to sub-problems?,dynamic programming,Grammatical,Y,Y,Y
+Original Text,2.5.1,What is the edit distance between X 1..i and Y 1..j?,"D|i, j",Grammatical,Y,Y,Y
+Human Summary,2.5.1,Who named the minimum edit distance algorithm?,Wagner and Fischer,Grammatical,Y,Y,Y
+Automatic Summary,3.0,"What writing tools need to find and correct errors in writing like ""Their are two midterms""?",spelling correction or grammatical error correction,Grammatical,Y,Y,Y
+Human Summary,3.0,What can refer to both a sequence of n words and the predictive model that assigns it a probability?,n-gram,Grammatical,Y,Y,Y
+Human Summary,3.0,"What is essential for speech recognition, spelling or grammar correction, machine translation, and augmentative communication technologies?",Predicting upcoming words,Grammatical,Y,Y,Y
+Original Text,3.0,"What are essential in any task in which we have to identify words in noisy, ambiguous input?",Probabilities,Grammatical,Y,Y,Y
+Original Text,3.1,What are the MLE estimates for the parameters of an n-gram model?,0 and 1,Grammatical,Y,Y,Y
+Original Text,3.1,What isn't big enough to give us good estimates in most cases?,web,Grammatical,Y,Y,Y
+Automatic Summary,3.1,How does Eq.11 estimate the n-gram probability?,by dividing the observed frequency of a particular sequence by the frequency of a prefix,Grammatical,Y,Y,Y
+Automatic Summary,3.1,What are the majority of the bigram counts from a piece of a bigram grammar from the Berkeley Restaurant Project?,zero,Grammatical,Y,Y,N
+Original Text,3.1,What equation estimates the n-gram probability by dividing the observed frequency of a particular sequence by the observed frequency of a prefix?,Equation 3.12,Grammatical,Y,Y,Y
+Automatic Summary,3.1,What shows the bigram counts from a piece of a bigram grammar from the Berkeley Restaurant Project?,Figure 3.1,Grammatical,Y,Y,Y
+Human Summary,3.1,How are bigram probabilities normalized?,by dividing each cell by the set of unigram probabilities,Grammatical,Y,Y,Y
+Original Text,3.1,What is the first step in estimating the probability of a word given a history h?,formalizing of notation,Grammatical,Y,Y,Y
+Original Text,3.1,What is usually a noun or an adjective?,eat,Grammatical,Y,Y,N
+Automatic Summary,3.1,What is the class of probabilistic models that assume we can predict the probability of some future unit without looking too far into the past?,Markov models,Grammatical,Y,Y,Y
+Original Text,3.1,What should you do to estimate the probability of a word w given some history h?,compute this estimate for yourself,Grammatical,Y,Y,Y
+Automatic Summary,3.1,How many words would be more sparse than a random set of?,seven,Grammatical,Y,N,N
+Automatic Summary,3.1,What encode some facts that we think of as strictly syntactic in nature?,Bigram probabilities,Grammatical,Y,N,N
+Human Summary,3.1,All language model probabilities are represented in log format as what?,log probabilities,Grammatical,Y,Y,Y
+Original Text,3.1,"For larger n-grams, we'll need to assume what to the left and right of the sentence end?",extra contexts,Grammatical,Y,N,Y
+Human Summary,3.1,Why are joint probabilities difficult to calculate?,too many possible sentences of a certain length,Grammatical,Y,Y,Y
+Human Summary,3.1,What is another name for the maximum likelihood estimation?,MLE,Grammatical,Y,Y,Y
+Human Summary,3.1,The n-gram model looks at how many words into the past?,n-1,Grammatical,Y,Y,Y
+Original Text,3.1,What is the probability of a complete word sequence by substituting Eq. 3.7 into Eq. 3.4?,3.9,Grammatical,Y,Y,Y
+Original Text,3.1,How many words were selected from a random set?,seven,Grammatical,Y,Y,Y
+Human Summary,3.2.0,What would happen if we accidentally trained the model on the test set?,bias,Grammatical,Y,Y,Y
+Original Text,3.2.0,What can be taken from some continuous sequence of text inside the corpus?,test data,Grammatical,Y,Y,Y
+Human Summary,3.2.0,What is a test set that has been used so often that we need a fresher test set?,A development set,Grammatical,Y,Y,Y
+Human Summary,3.2.0,What embeds a model in an application and measures how much the application improves in an end to end evaluation?,Extrinsic evaluation,Grammatical,Y,Y,Y
+Human Summary,3.2.0,What is the downside of extrinsic evaluation?,very expensive,Grammatical,Y,Y,Y
+Human Summary,3.2.0,Which n-gram model assigns a higher probability to the test set?,the one that better fits the test set,Grammatical,Y,Y,Y
+Human Summary,3.2.0,What ensures the quality of a model independent of any application?,intrinsic evaluation,Grammatical,Y,Y,Y
+Automatic Summary,3.2.0,Why do we want our test set to be as large as possible?,small test set may be accidentally unrepresentative,Grammatical,Y,Y,Y
+Human Summary,3.2.0,What are the three types of data that we divide the data in?,"training set, test set, held out set",Grammatical,Y,Y,N
+Original Text,3.2.1,Perplexity is related inversely to what?,likelihood of the test sequence according to the model,Grammatical,Y,Y,Y
+Original Text,3.2.1,How is the perplexity of two language models comparable?,if they use identical vocabularies,Grammatical,Y,Y,N
+Automatic Summary,3.2.1,What can we use to expand the probability of W?,the chain rule,Grammatical,Y,Y,Y
+Human Summary,3.3.0,What can we use to build an n-gram to answer and predict sentences that make sense in context?,training corpus of a similar genre,Grammatical,Y,Y,Y
+Automatic Summary,3.3.0,Our models may still be subject to the problem of what?,sparsity,Grammatical,Y,Y,Y
+Automatic Summary,3.3.0,The n-gram model is dependent on what?,training corpus,Grammatical,Y,Y,Y
+Automatic Summary,3.3.0,What is still not sufficient?,Matching genres and dialects,Grammatical,Y,Y,N
+Automatic Summary,3.3.0,What sentences have no coherent relation between words or any sentence-final punctuation?,unigram sentences,Grammatical,Y,Y,Y
+Automatic Summary,3.3.0,What sentences have some local word-to-word coherence?,bigram sentences,Grammatical,Y,Y,Y
+Original Text,3.3.0,What is the P(offer|denied the)?,0,Grammatical,Y,N,N
+Automatic Summary,3.3.0,"The longer the context on which we train the model, the more coherent what?",sentences,Grammatical,Y,N,N
+Automatic Summary,3.3.0,"For any n-gram that occurred a sufficient number of times, we might have what?",a good estimate of its probability,Grammatical,Y,Y,Y
+Original Text,3.3.0,"What shows the sentences generated by unigram, bigram, and trigram grammars trained on 40 million words from WSJ?",Fig. 3.4,Grammatical,Y,Y,Y
+Human Summary,3.3.0,N-grams are dependent on what?,training corpus,Grammatical,Y,Y,Y
+Original Text,3.3.0,What do the 4-gram sentences look a little too much like?,Shakespeare,Grammatical,Y,Y,Y
+Original Text,3.3.1,What is the problem of words whose probability is zero?,bigram probability,Grammatical,Y,Y,Y
+Human Summary,3.3.1,What is a closed vocabulary system?,the test set doesn't contain any words outside of the given lexicon,Grammatical,Y,Y,Y
+Automatic Summary,3.3.1,What are OOV words?,out of vocabulary,Grammatical,Y,Y,Y
+Automatic Summary,3.3.1,The exact choice of UNK> model does have an effect on metrics like what?,perplexity,Grammatical,Y,Y,Y
+Human Summary,3.3.1,The closed vocabulary system is often used in speech recognition or what?,machine translation,Grammatical,Y,Y,Y
+Human Summary,3.3.1,What is the term for unknown words?,out of vocabulary,Grammatical,Y,Y,Y
+Human Summary,3.3.1,How many ways are there to train probabilities of UNK>?,two,Grammatical,Y,Y,Y
+Automatic Summary,3.3.1,What is zero for words that we haven't seen before?,bigram probability,Grammatical,Y,Y,Y
+Automatic Summary,3.4.0,What is a modification called to keep a language model from assigning zero probability to unseen events?,smoothing or discounting,Grammatical,Y,N,Y
+Original Text,3.4.0,What type of smoothing is introduced?,Kneser-Ney,Grammatical,Y,Y,Y
+Automatic Summary,3.4.0,What do we do to keep a language model from assigning zero probability to unseen events?,shave off a bit of probability mass,Grammatical,Y,Y,Y
+Automatic Summary,3.4.0,What context do words that are in our vocabulary appear in a test set in?,unseen,Grammatical,Y,N,N
+Original Text,3.4.1,What does Laplace smoothing apply to?,unigram probabilities,Grammatical,Y,Y,Y
+Original Text,3.4.1,What do we smooth now that we have the intuition for the unigram case?,Berkeley Restaurant Project bigrams,Grammatical,Y,Y,N
+Human Summary,3.4.1,What is the unigram probability of word w_i?,c_i,Grammatical,Y,Y,Y
+Human Summary,3.4.1,What is the adjusted count c* easier to compare with?,MLE counts,Grammatical,Y,Y,Y
+Original Text,3.4.1,What shows the add-one smoothed counts for the bigrams in Fig. 3.1?,Figure 3.5,Grammatical,Y,Y,Y
+Original Text,3.4.1,What shows the add-one smoothed counts for the bigrams in Fig. 3.1?,Figure 3.5,Grammatical,Y,Y,Y
+Original Text,3.4.2,What is a fractional count k called?,add-k smoothing,Grammatical,Y,Y,Y
+Automatic Summary,3.4.2,What is the algorithm that adds fractional count k called?,add-k smoothing,Grammatical,Y,Y,Y
+Automatic Summary,3.4.2,"Instead of adding I to each count, we add what?",fractional count k,Grammatical,Y,Y,Y
+Human Summary,3.4.2,What is the algorithm that adds a fractional count k to each count called?,add-k smoothing,Grammatical,Y,Y,Y
+Automatic Summary,3.4.3,What shows the equation for interpolation with context-conditioned weights?,Equation 3.28,Grammatical,Y,Y,Y
+Automatic Summary,3.4.3,What can help solve the problem of zero frequency n-grams?,Discounting,Grammatical,Y,Y,Y
+Human Summary,3.4.3,What are the higher-order n-grams discounted by a function alpha to save some probability mass for?,lower-order n-grams,Grammatical,Y,N,Y
+Automatic Summary,3.4.3,How is each weight computed in a slightly more sophisticated version of linear interpolation?,by conditioning on the context,Grammatical,Y,Y,Y
+Human Summary,3.5,What is Kneser-Ney based on?,absolute discounting,Grammatical,Y,Y,Y
+Automatic Summary,3.5,Who used a clever idea to see how to save some probability mass for the smoothing algorithm to distribute to unseen n-grams?,Church and Gale,Grammatical,Y,Y,Y
+Automatic Summary,3.5,Kneser-Ney discounting augments absolute discounting with a more sophisticated way to handle what?,lower-order unigram distribution,Grammatical,Y,Y,Y
+Automatic Summary,3.5,What formalizes this intuition by subtracting a fixed (absolute) discount d from each count?,Absolute discounting,Grammatical,Y,Y,N
+Automatic Summary,3.5,What will not affect the very high counts?,a small discount d,Grammatical,Y,Y,Y
+Original Text,3.5,What phrase is Kong mainly frequent in?,Hong Kong,Grammatical,Y,Y,Y
+Original Text,3.5,What word is included as a regular vocabulary entry with count zero?,UNK>,Grammatical,Y,Y,Y
+Automatic Summary,3.6,What corpora includes n-rams drawn from their book collections?,Google Books Ngrams,Grammatical,Y,Y,Y
+Automatic Summary,3.6,What do language model toolkits use to combine probabilities and backoffs in a single value?,sorted arrays,Grammatical,Y,Y,Y
+Original Text,3.6,How are probabilities quantized?,4-8 bits,Grammatical,Y,Y,Y
+Human Summary,3.6,How can n-grams be shrunk?,pruning,Grammatical,Y,Y,Y
+Human Summary,3.6,What type of hash numbers are stored in memory?,64-bit,Grammatical,Y,Y,Y
+Automatic Summary,3.6,What does stupid backoff not produce?,probability distribution,Grammatical,Y,Y,Y
+Automatic Summary,3.7,When is the cross-entropy useful?,when we don't know the actual probability distribution,Grammatical,Y,Y,Y
+Human Summary,3.7,"What theorem states that if the language is regular, the entropy of the given language would be the entropy of",Shannon-McMillan-Breiman theorem,Grammatical,Y,N,Y
+Automatic Summary,3.7,"What theorem states that if the language is regular in certain ways (to be exact, if it is both stationary and ergo",Shannon-McMillan-Breiman theorem,Grammatical,N,N,N
+Original Text,3.7,"To measure the true entropy of a language, we need to consider sequences of what length?",infinite length,Grammatical,Y,Y,Y
+Human Summary,3.7,What would give a lower cross-entropy?,The more accurate model,Grammatical,Y,Y,Y
+Original Text,3.7,What does the spread represent?,the prior probability of each horse,Grammatical,Y,Y,Y
+Original Text,4.0,What is the extraction of positive or negative orientation that a writer expresses toward some object?,sentiment analysis,Grammatical,Y,Y,Y
+Human Summary,4.0,Most classifications in language processing are done through what?,supervised machine learning,Grammatical,Y,Y,Y
+Automatic Summary,4.0,What is the extraction of sentiment?,sentiment analysis,Grammatical,Y,Y,Y
+Human Summary,4.0,What is the task of assigning a label or category to an entire text or document?,Text categorization,Grammatical,Y,Y,Y
+Automatic Summary,4.0,What is the output variable for lassification?,c,Grammatical,Y,N,Y
+Automatic Summary,4.0,What is another important commercial application?,Spam detection,Grammatical,Y,Y,Y
+Original Text,4.0,Classification is essential for what?,tasks below the level of the document,Grammatical,Y,Y,Y
+Human Summary,4.0,What is a core part of sentient intelligence?,Classification,Grammatical,Y,Y,Y
+Automatic Summary,4.0,"Related text classification tasks like what are relevant to the digital humanities, social sciences, and forensic linguistics?",authorship attribution,Grammatical,Y,Y,Y
+Human Summary,4.0,What does a probabilistic classifier output?,probability of an object belonging to a certain class,Grammatical,Y,Y,Y
+Human Summary,4.0,What type of classifier builds a model of how a class could generate input?,Generative classifiers,Grammatical,Y,Y,Y
+Original Text,4.0,Even language modeling can be viewed as what?,classification,Grammatical,Y,Y,Y
+Automatic Summary,4.1,Where is the intuition of the naive Bayes classifier shown?,Fig. 4.1,Grammatical,Y,Y,Y
+Original Text,4.1,How can we simplify Eq. 4.3?,dropping the denominator,Grammatical,Y,Y,Y
+Automatic Summary,4.1,Why are naive Bayes calculations done in log space?,increase speed,Grammatical,Y,Y,Y
+Human Summary,4.1,Naive Bayes generates words by sampling from what?,conditional probability,Grammatical,Y,Y,Y
+Original Text,4.1,How can we simplify Eq. 4.3 by dropping the denominator P(d)?,computing Eq. 4.3,Grammatical,Y,Y,Y
+Automatic Summary,4.1,What is the multinomial naive Bayes classifier?,a Bayesian classifier,Grammatical,Y,Y,Y
+Automatic Summary,4.1,What could we imagine by following this process?,generating artificial documents,Grammatical,Y,Y,Y
+Automatic Summary,4.1,What does the naive Bayes classifier state about how a document is generated?,implicit assumption,Grammatical,Y,Y,Y
+Human Summary,4.1,What are the Bayesian classifiers called?,linear classifiers,Grammatical,Y,Y,Y
+Human Summary,4.10,What can cause a variety of harms?,classifiers,Grammatical,Y,Y,Y
+Human Summary,4.10,What type of harms are caused by a system that demeans a social group?,Representational,Grammatical,Y,Y,Y
+Automatic Summary,4.10,What is one class of harms caused by a system that perpetuates negative stereotypes about a social group?,demeans,Grammatical,Y,Y,N
+Human Summary,4.10,What is another class of harms that may exist in toxicity detection?,Censorship,Grammatical,Y,Y,Y
+Original Text,4.10,What classifiers can cause harms?,toxicity classifiers,Grammatical,Y,Y,Y
+Automatic Summary,4.10,What do some widely used toxicity classifiers incorrectly flag as being?,toxic sentences,Grammatical,Y,N,N
+Original Text,4.10,Who published a study in which toxicity classifiers incorrectly flag sentences that are non-toxic but simply mention minority identities?,Davidson et al.,Grammatical,Y,Y,Y
+Human Summary,4.2,How do some systems ignore stop words?,by sorting the vocabulary,Grammatical,Y,Y,Y
+Human Summary,4.2,What is calculated as the fraction of times a word appears among all words in all documents of a class?,The maximum likelihood estimate of the conditional probability,Grammatical,Y,N,Y
+Original Text,4.2,Why are words not in our vocabulary at all?,they did not occur in any training document in any class,Grammatical,Y,Y,Y
+Human Summary,4.2,What is the simplest solution to avoid a zero overall probability?,add-one (Laplace) smoothing,Grammatical,Y,Y,Y
+Human Summary,4.2,What is the simplest solution for preventing zero probability classes?,Laplace smoothing,Grammatical,Y,Y,Y
+Original Text,4.2,What naively multiplies all the feature likelihoods together?,naive Bayes,Grammatical,Y,Y,Y
+Human Summary,4.2,What is used to avoid zeros?,Laplace smoothing,Grammatical,Y,Y,Y
+Original Text,4.4,What seems to matter more than its frequency?,whether a word occurs or not,Grammatical,Y,Y,Y
+Automatic Summary,4.4,What can modify a negative word to produce a positive review?,negation,Grammatical,Y,Y,Y
+Automatic Summary,4.4,What can we derive from sentiment lexicons?,positive and negative word features,Grammatical,Y,Y,Y
+Human Summary,4.4,What is another name for binary multinomial naive Bayes?,binary NB,Grammatical,Y,Y,Y
+Human Summary,4.5,What type of texts are Language ID systems trained on?,multilingual,Grammatical,Y,Y,Y
+Original Text,4.5,What is the task of deciding if a particular piece of email is an example of spam?,spam detection,Grammatical,Y,Y,Y
+Human Summary,4.5,What are features in naive Bayes for spam detection?,a set of likely words or phrases,Grammatical,Y,Y,Y
+Human Summary,4.6,What is the probability of a sentence being positive?,the total product of the individual probabilities that each word in the sentence is positive,Grammatical,Y,Y,Y
+Human Summary,4.6,What are similar to language modeling in that they can be viewed as a set of class-specific unigram language models?,Naive Bayes models,Grammatical,Y,Y,Y
+Automatic Summary,4.6,What do likelihood features assign to each word P(word|c)?,probability,Grammatical,Y,Y,Y
+Automatic Summary,4.7.0,What is the goal of accuracy?,to discover something that is rare,Grammatical,Y,Y,Y
+Original Text,4.7.0,How many false negatives would a classifier have?,"999,900",Grammatical,Y,Y,Y
+Original Text,4.7.0,What do we need in order to know how well our spam detector is doing?,metric,Grammatical,Y,Y,Y
+Automatic Summary,4.7.0,What is the goal of spam detection?,"to label every text as being in the spam category (""positive"") or not in the spam category (""negative"")",Grammatical,Y,Y,Y
+Original Text,4.7.0,"What is the accuracy of the ""nothing is pie"" classifier?",99.99%,Grammatical,Y,Y,Y
+Original Text,4.7.1,How can we derive a single metric that tells us how well the system is doing?,combine these values in two ways,Grammatical,Y,Y,Y
+Human Summary,4.8,What allows all data to be used for both training and testing?,Cross-validation,Grammatical,Y,Y,Y
+Human Summary,4.9.0,What is the null hypothesis that supposes that delta is negative or zero?,Hypothesis H_0,Grammatical,Y,Y,Y
+Human Summary,4.9.0,What random variable is created over all test sets to find if we can rule out H_0?,X,Grammatical,Y,Y,Y
+Automatic Summary,4.9.0,What does the hypothesis H0 suppose?,d(x) is actually negative or zero,Grammatical,Y,Y,Y
+Human Summary,4.9.0,What attempts to rule out the null hypothesis?,statistical significance testing,Grammatical,Y,Y,Y
+Automatic Summary,4.9.0,What type of tests do we artificially create many versions of the experimental setup?,non-parametric tests based on sampling,Grammatical,Y,N,N
+Original Text,4.9.0,What are non-parametric tests based on?,sampling,Grammatical,Y,Y,Y
+Original Text,4.9.0,What is the probability that we would see if the null hypothesis is true?,d(x),Grammatical,Y,Y,Y
+Automatic Summary,4.9.0,Where can we know if the new system we just built is better than the old one?,the literature,Grammatical,Y,N,N
+Human Summary,4.9.0,The null hypothesis assumes that the effective size is what?,negative or zero,Grammatical,Y,Y,Y
+Automatic Summary,4.9.0,How do we test statistical significance for NLP classifiers?,by formalizing two hypotheses,Grammatical,Y,Y,Y
+Original Text,4.9.1,The first row of Fig. 1 shows the results of two classifiers (A and B) on a test set x of 10 documents,4.8,Grammatical,N,Y,Y
+Automatic Summary,4.9.1,What is the test set for a tiny text classification example?,x of 10 documents,Grammatical,Y,Y,Y
+Automatic Summary,4.9.1,What can we do statistics on now that we have the b test sets?,how often A has an accidental advantage,Grammatical,Y,Y,Y
+Original Text,4.9.1,What is the num of samples b?,b,Grammatical,Y,N,N
+Automatic Summary,2.0,What do modern conversational agents rely on?,more sophisticated understanding of the user's intent,Interpretable,Y,N,Y
+Human Summary,2.0,What does edit distance evaluate?,degree of resemblance between two strings,Interpretable,Y,Y,Y
+Automatic Summary,2.0,What is an example of a hashtag?,#nlproc,Interpretable,Y,N,Y
+Human Summary,2.0,What is the most important tool for text pattern characterization?,Regular expressions,Interpretable,Y,Y,Y
+Automatic Summary,2.0,What language doesn't have spaces between words?,Japanese,Interpretable,Y,Y,Y
+Original Text,2.0,What is an algorithm with applications throughout language processing?,Edit distance,Interpretable,Y,Y,N
+Human Summary,2.0,What is the process of finding root words of inflected words?,Lemmatization,Interpretable,Y,Y,Y
+Automatic Summary,2.1.0,What types of regular expressions do regular expressions come in?,variants,Interpretable,Y,Y,N
+Automatic Summary,2.1.0,What is an algebraic notation for characterizing a set of strings?,regular expression,Interpretable,Y,Y,Y
+Original Text,2.1.1,What can be used to specify what a single character cannot be?,square braces,Interpretable,Y,N,N
+Human Summary,2.1.1,What is an algebraic notation for characterizing a set of strings that is useful for searching for a pattern or through a corpus?,The regular expression,Interpretable,Y,Y,Y
+Human Summary,2.1.1,What specifies a disjunction of characters that can be matched in a position in a longer regular expression?,Square braces,Interpretable,Y,Y,Y
+Original Text,2.1.1,What will /a*/ match?,match a or aaaaa,Interpretable,Y,Y,Y
+Human Summary,2.1.1,What does the (?) mean?,the preceding character or nothing,Interpretable,Y,Y,Y
+Automatic Summary,2.1.1,"How many ways to specify ""at least one"" of some character?",two,Interpretable,N,N,N
+Original Text,2.1.1,What is the first symbol after the open square brace?,a,Interpretable,N,N,N
+Original Text,2.1.1,What specifies a disjunction of characters to match?,The string of characters inside the braces,Interpretable,Y,N,Y
+Original Text,2.1.1,What is it like to have to write the regular expression for digits twice?,annoying,Interpretable,Y,Y,N
+Original Text,2.1.1,What does the pattern /[2-5]/ specify?,"any one of the characters 2, 3, 4, or 5",Interpretable,Y,Y,Y
+Human Summary,2.1.1,What is a simple type of regular expressions?,a sequence of characters,Interpretable,Y,Y,Y
+Original Text,2.1.1,What do square brackets not allow us to say?,s or nothing,Interpretable,N,N,N
+Original Text,2.1.1,What is an integer?,a string of digits,Interpretable,Y,Y,N
+Automatic Summary,2.1.1,"What means ""any string of zero or more as""?",/a*/,Interpretable,N,Y,Y
+Original Text,2.1.1,What is the regular expression used to specify this?,/aardvark,Interpretable,N,N,N
+Original Text,2.1.1,What can be used to solve this problem?,square braces,Interpretable,N,N,N
+Original Text,2.1.1,What does the caret stand for if it occurs anywhere else?,a caret,Interpretable,Y,Y,Y
+Human Summary,2.1.2,"What does (( )) mean ""and""?",Parentheses,Interpretable,Y,N,N
+Original Text,2.1.2,What operator applies by default only to a single character?,Kleene*,Interpretable,Y,Y,Y
+Automatic Summary,2.1.2,When do we need to use the disjunction operator?,in the midst of a larger sequence,Interpretable,Y,Y,Y
+Original Text,2.1.2,What is another way to enforce non-greedy matching?,qualifier,Interpretable,Y,Y,Y
+Human Summary,2.1.2,Non-greedy matching can be enforced by what?,question mark qualifier,Interpretable,Y,Y,Y
+Automatic Summary,2.1.2,What is the operator *??,Kleene star,Interpretable,Y,Y,Y
+Original Text,2.1.2,What can be ambiguous in another way?,Patterns,Interpretable,N,N,N
+Human Summary,2.1.2,"When regular expressions are not matched, we match them with what?",largest string they can,Interpretable,Y,Y,N
+Original Text,2.1.2,What would we want to search for in a text about pets?,string cat or the string dog,Interpretable,Y,N,N
+Original Text,2.1.2,What takes precedence over the disjunction operator?,sequences like guppy,Interpretable,Y,N,N
+Automatic Summary,2.1.2,What is another name for the disjunction operator?,pipe symbol,Interpretable,Y,Y,Y
+Human Summary,2.1.3,Less false negatives errors mean more what?,recall,Interpretable,Y,Y,Y
+Automatic Summary,2.1.3,What is an example of an incorrect pattern?,/the/,Interpretable,Y,Y,Y
+Automatic Summary,2.1.3,What is the pattern that will miss the word when it begins a sentence?,/[tT]he/,Interpretable,N,N,N
+Human Summary,2.1.3,What increases precision and recall?,Reducing error,Interpretable,Y,Y,N
+Automatic Summary,2.1.4,Where can a range of numbers be specified by enclosing them?,curly brackets,Interpretable,Y,N,Y
+Original Text,2.1.4,Special characters are referred to by special notation based on what?,backslash,Interpretable,Y,Y,Y
+Human Summary,2.1.4,What can you specify?,the number of an instance in a pattern,Interpretable,N,N,N
+Human Summary,2.1.4,What can you specify?,the number of an instance in a pattern,Interpretable,N,N,N
+Automatic Summary,2.1.5,What is a simple regular expression for a dollar sign followed by a string of digits?,/$[0-9+/,Interpretable,Y,Y,Y
+Original Text,2.1.5,What do we need to allow for optional fractions?,disk space,Interpretable,Y,N,N
+Original Text,2.1.5,What do we want to help a user buy a computer on the Web?,build an application,Interpretable,Y,N,N
+Original Text,2.1.5,What will we add after the decimal point and two digits?,a decimal point and two digits,Interpretable,Y,N,N
+Automatic Summary,2.1.5,What does this pattern only allow?,$199.99,Interpretable,N,N,N
+Automatic Summary,2.1.5,What do we need to allow for?,optional fractions,Interpretable,N,N,N
+Human Summary,2.1.6,When does the command(? :) indicate a non-capturing group?,after an opening parenthesis,Interpretable,Y,Y,Y
+Original Text,2.1.6,What can the parenthesis and number operators specify?,a certain string or expression must occur twice in the text,Interpretable,Y,N,Y
+Original Text,2.1.6,Creating patterns is the topic of what exercise?,Exercise 2.3,Interpretable,N,N,Y
+Human Summary,2.1.6,Capture group means using what to store a pattern in memory?,parentheses,Interpretable,Y,Y,Y
+Automatic Summary,2.1.6,What does the next set of substitutions do in the input?,matches and replaces other patterns,Interpretable,N,N,N
+Human Summary,2.1.7,What is used to rule out special cases while parsing complex pattern?,Negative lookahead,Interpretable,Y,Y,N
+Original Text,2.1.7,"What do we use when we want to match, at the beginning of a line, any single word that doesn't start with ""Volcano",negative lookahead,Interpretable,N,Y,Y
+Automatic Summary,2.1.7,"The operator (?= pattern) is true if pattern occurs, but is zero-width, i.e. what doesn't advance",match pointer,Interpretable,N,Y,N
+Automatic Summary,2.1.7,What is commonly used when we are parsing complex patterns but want to rule out a special case?,Negative lookahead,Interpretable,Y,Y,Y
+Automatic Summary,2.2,What is a million-word collection of samples from 500 written English texts from different genres called?,The Brown corpus,Interpretable,Y,Y,Y
+Original Text,2.2,What is the relationship between the number of types |V | and number of tokens N called?,Herdan's Law,Interpretable,Y,Y,Y
+Original Text,2.2,What word has the same lemma cat but are different wordforms?,cats,Interpretable,N,Y,N
+Human Summary,2.2,What are utterances?,spoken sentences,Interpretable,Y,Y,Y
+Human Summary,2.2,"What is a set of lexical forms that share the steam, major part-of-speech, and word sense?",A lemma,Interpretable,Y,Y,Y
+Original Text,2.2,What is the main part of an utterance?,business data processing,Interpretable,Y,Y,Y
+Original Text,2.2,What do we sometimes keep around?,disfluencies,Interpretable,N,Y,N
+Original Text,2.2,What corpus of American English telephone conversations between strangers was collected in the early 1990s?,Switchboard,Interpretable,Y,Y,Y
+Human Summary,2.2,How can we differentiate the number of words?,by counting tokens or types,Interpretable,Y,Y,Y
+Automatic Summary,2.2,What are words like uh and um called fillers?,filled pauses,Interpretable,Y,Y,N
+Human Summary,2.2,What is the rough upper limit for the number of possible lemmas?,Dictionary entries or boldface forms,Interpretable,Y,Y,Y
+Original Text,2.3,How does a corpus of texts from different historical periods change?,Language changes over time,Interpretable,Y,Y,Y
+Original Text,2.3,What do most languages have?,multiple varieties,Interpretable,Y,N,N
+Original Text,2.3,What language was the corpus in?,What language,Interpretable,N,N,N
+Human Summary,2.3,What specifies properties of a dataset used in the development of computational models?,data statement,Interpretable,Y,Y,N
+Original Text,2.3,When are NLP algorithms most useful?,when they apply across many languages,Interpretable,Y,Y,Y
+Human Summary,2.3,What are some variations in languages?,"dialect, code switching, genre",Interpretable,Y,Y,Y
+Original Text,2.3,What is the context of a corpus?,When and in what situation was the text written/spoken,Interpretable,Y,Y,Y
+Automatic Summary,2.3,"When developing computational models for language processing from a corpus, it's important to consider what?","who produced the language, in what context, for what purpose",Interpretable,Y,Y,Y
+Automatic Summary,2.3,How does a corpus of texts from different historical periods change?,Language changes over time,Interpretable,Y,Y,N
+Automatic Summary,2.4.0,"Before almost any natural language processing of a text, the text has to be what?",normalized,Interpretable,Y,Y,Y
+Automatic Summary,2.4.0,What is the term for segmenting words?,Tokenizing,Interpretable,Y,Y,Y
+Automatic Summary,2.4.0,How do we go through each of these tasks?,walk through,Interpretable,N,N,N
+Automatic Summary,2.4.1,What are the most frequent words in Shakespeare?,"articles, pronouns, prepositions",Interpretable,Y,Y,N
+Human Summary,2.4.1,"Unix can collapse, sort, and build statistics for the words in a corpus using commands such as what?",tr,Interpretable,Y,Y,Y
+Human Summary,2.4.1,What are the minimal tasks applied as part of any normalization process?,"Tokenizing words, normalizing word formats, and segmenting sentences",Interpretable,Y,Y,Y
+Human Summary,2.4.1,What command in Unix changes particular characters in the input?,The tr command,Interpretable,Y,Y,Y
+Automatic Summary,2.4.1,What can Unix tools be useful for?,building quick word count statistics,Interpretable,Y,Y,N
+Human Summary,2.4.1,What are some examples of function words?,"articles, pronouns, and prepositions",Interpretable,Y,Y,Y
+Human Summary,2.4.1,What are the most frequent words?,function words,Interpretable,Y,Y,N
+Human Summary,2.4.2,What must we account for according to where and how they are used?,punctuation and special characters,Interpretable,Y,N,N
+Automatic Summary,2.4.2,How many characters long are words on average?,2.4,Interpretable,Y,Y,Y
+Human Summary,2.4.2,"What is the identification of names, dates, organizations, etc?",Named entity recognition,Interpretable,Y,Y,Y
+Human Summary,2.4.2,What do algorithms have to deal with?,ambiguities,Interpretable,Y,Y,N
+Original Text,2.4.2,What is a unit of meaning called?,a morpheme,Interpretable,Y,Y,Y
+Human Summary,2.4.2,What language requires word segmentation?,Japanese,Interpretable,Y,N,N
+Automatic Summary,2.4.2,What NLP algorithms require algorithms for word segmentation?,Japanese and Thai,Interpretable,Y,Y,N
+Human Summary,2.4.2,What language has no spaces?,Chinese,Interpretable,Y,Y,Y
+Original Text,2.4.2,How are neural sequence models trained?,supervised machine learning,Interpretable,Y,Y,Y
+Original Text,2.4.2,What are characters called in Chinese?,hanzi,Interpretable,Y,Y,Y
+Automatic Summary,2.4.3,What runs on the test data the merges we have learned from the training data?,The token parser,Interpretable,Y,Y,Y
+Human Summary,2.4.3,Tokenizers often do what in order to solve the unknown word problem?,induce subwords,Interpretable,Y,Y,Y
+Human Summary,2.4.3,What implements both byte-pair encoding and unigram language modeling?,a SentencePiece library,Interpretable,Y,Y,Y
+Original Text,2.4.3,What is one of the three algorithms used by the token learner?,byte-pair encoding,Interpretable,N,Y,Y
+Automatic Summary,2.4.3,What is another name for a corpus that NLP algorithms learn from?,training corpus,Interpretable,Y,Y,Y
+Original Text,2.4.3,What is the smallest meaning-bearing unit of a language?,morpheme,Interpretable,Y,Y,Y
+Human Summary,2.4.3,What library implements byte-pair encoding and unigram language modeling?,The SentencePiece library,Interpretable,Y,Y,Y
+Human Summary,2.4.3,What induces a set of tokens from raw data?,token learner,Interpretable,Y,Y,Y
+Original Text,2.4.3,Why does the token parser run on the test data?,the frequencies in the test data don't play a role,Interpretable,N,Y,Y
+Human Summary,2.4.3,What are most tokenization schemes made out of?,token learner and a token segmenter,Interpretable,Y,Y,Y
+Human Summary,2.4.4,What is standardizing the format of words and tokens?,Word normalization,Interpretable,Y,Y,Y
+Automatic Summary,2.4.4,What is generally not done for sentiment analysis analysis and machine translation?,case folding,Interpretable,Y,Y,N
+Original Text,2.4.4,What are two types of normalization that we might want to see information from documents whether they mention the US or the USA?,information retrieval or information extraction,Interpretable,Y,Y,N
+Original Text,2.4.4,"What is the central morpheme of the word, supplying the main meaning, and affixes?",stems,Interpretable,N,Y,Y
+Human Summary,2.4.4,What determines if two words share the same root?,Lemmatization,Interpretable,Y,Y,Y
+Human Summary,2.4.4,What are the two broad classes of morphemes?,"stems, and affixes",Interpretable,Y,Y,Y
+Original Text,2.4.5,What character is ambiguous between a sentence boundary marker and a marker of abbreviations like Mr. or Inc?,period character,Interpretable,Y,Y,Y
+Automatic Summary,2.4.5,What is one of the most useful cues for segmenting a text into sentences?,punctuation,Interpretable,Y,Y,Y
+Automatic Summary,2.4.5,What is another important step in text processing?,Sentence segmentation,Interpretable,Y,Y,N
+Human Summary,2.4.5,What are some clues in sentence segmentation?,"periods, question marks, and exclamation points",Interpretable,Y,Y,Y
+Automatic Summary,2.5.0,What represents an operation list for converting the top string into the bottom string?,a series of symbols,Interpretable,Y,N,Y
+Original Text,2.5.0,What is a similar word to a graffe?,graffe,Interpretable,Y,N,N
+Human Summary,2.5.0,What is the task of deciding whether two strings refer to the same entity?,Coreference,Interpretable,Y,Y,Y
+Original Text,2.5.0,How many words do the two strings differ by?,one,Interpretable,N,N,N
+Automatic Summary,2.5.0,What is the minimum edit distance?,minimum number of editing operations needed to transform one string into another,Interpretable,Y,Y,Y
+Original Text,2.5.0,What gives us a way to quantify both of these intuitions about string similarity?,Edit distance,Interpretable,Y,N,N
+Original Text,2.5.0,What did Levenshtein propose in his metric that each insertion or deletion has a cost of 1 and what else?,substitutions are not allowed,Interpretable,Y,Y,N
+Automatic Summary,2.5.0,What is the most important visualization for string distances?,an alignment between the two strings,Interpretable,Y,Y,N
+Human Summary,2.5.0,What is the minimum number of editing operations required to make two strings equal?,Minimum edit distance,Interpretable,Y,Y,Y
+Human Summary,2.5.0,What can help to quantify the similarity between strings?,Minimum edit distance,Interpretable,Y,Y,Y
+Original Text,2.5.1,What is the minimum edit distance?,2.8,Interpretable,N,N,Y
+Automatic Summary,2.5.1,What is useful throughout speech and language processing?,Aligning two strings,Interpretable,Y,N,N
+Automatic Summary,2.5.1,When was dynamic programming first introduced?,1957,Interpretable,Y,Y,Y
+Automatic Summary,2.5.1,What plays a role in machine translation?,Alignment,Interpretable,Y,Y,N
+Original Text,2.5.1,Where is the minimum edit distance algorithm summarized?,Fig. 2.17,Interpretable,N,N,N
+Original Text,2.5.1,Where are the backpointers from a cell shown in Fig. 2.19?,2.19,Interpretable,N,N,N
+Automatic Summary,2.5.1,What is the name for a class of algorithms that apply a table-driven method to solve problems by combining solutions to sub-problems?,Dynamic programming,Interpretable,Y,Y,Y
+Original Text,2.5.1,Where are the backpointers from a cell shown?,Fig. 2.19,Interpretable,N,N,N
+Original Text,2.5.1,What is the name for a class of algorithms that apply a table-driven method to solve problems by combining solutions to sub-problems?,dynamic programming,Interpretable,Y,Y,Y
+Original Text,2.5.1,What is the edit distance between X 1..i and Y 1..j?,"D|i, j",Interpretable,N,Y,Y
+Human Summary,2.5.1,Who named the minimum edit distance algorithm?,Wagner and Fischer,Interpretable,Y,Y,Y
+Automatic Summary,3.0,"What writing tools need to find and correct errors in writing like ""Their are two midterms""?",spelling correction or grammatical error correction,Interpretable,Y,Y,Y
+Human Summary,3.0,What can refer to both a sequence of n words and the predictive model that assigns it a probability?,n-gram,Interpretable,Y,Y,Y
+Human Summary,3.0,"What is essential for speech recognition, spelling or grammar correction, machine translation, and augmentative communication technologies?",Predicting upcoming words,Interpretable,Y,Y,N
+Original Text,3.0,"What are essential in any task in which we have to identify words in noisy, ambiguous input?",Probabilities,Interpretable,Y,Y,Y
+Original Text,3.1,What are the MLE estimates for the parameters of an n-gram model?,0 and 1,Interpretable,Y,N,Y
+Original Text,3.1,What isn't big enough to give us good estimates in most cases?,web,Interpretable,Y,N,N
+Automatic Summary,3.1,How does Eq.11 estimate the n-gram probability?,by dividing the observed frequency of a particular sequence by the frequency of a prefix,Interpretable,N,N,N
+Automatic Summary,3.1,What are the majority of the bigram counts from a piece of a bigram grammar from the Berkeley Restaurant Project?,zero,Interpretable,Y,Y,N
+Original Text,3.1,What equation estimates the n-gram probability by dividing the observed frequency of a particular sequence by the observed frequency of a prefix?,Equation 3.12,Interpretable,N,N,N
+Automatic Summary,3.1,What shows the bigram counts from a piece of a bigram grammar from the Berkeley Restaurant Project?,Figure 3.1,Interpretable,N,N,N
+Human Summary,3.1,How are bigram probabilities normalized?,by dividing each cell by the set of unigram probabilities,Interpretable,Y,Y,Y
+Original Text,3.1,What is the first step in estimating the probability of a word given a history h?,formalizing of notation,Interpretable,Y,Y,Y
+Original Text,3.1,What is usually a noun or an adjective?,eat,Interpretable,Y,N,N
+Automatic Summary,3.1,What is the class of probabilistic models that assume we can predict the probability of some future unit without looking too far into the past?,Markov models,Interpretable,Y,Y,Y
+Original Text,3.1,What should you do to estimate the probability of a word w given some history h?,compute this estimate for yourself,Interpretable,Y,Y,N
+Automatic Summary,3.1,How many words would be more sparse than a random set of?,seven,Interpretable,N,N,N
+Automatic Summary,3.1,What encode some facts that we think of as strictly syntactic in nature?,Bigram probabilities,Interpretable,Y,N,N
+Human Summary,3.1,All language model probabilities are represented in log format as what?,log probabilities,Interpretable,Y,Y,Y
+Original Text,3.1,"For larger n-grams, we'll need to assume what to the left and right of the sentence end?",extra contexts,Interpretable,Y,Y,Y
+Human Summary,3.1,Why are joint probabilities difficult to calculate?,too many possible sentences of a certain length,Interpretable,Y,Y,Y
+Human Summary,3.1,What is another name for the maximum likelihood estimation?,MLE,Interpretable,Y,Y,N
+Human Summary,3.1,The n-gram model looks at how many words into the past?,n-1,Interpretable,Y,Y,Y
+Original Text,3.1,What is the probability of a complete word sequence by substituting Eq. 3.7 into Eq. 3.4?,3.9,Interpretable,N,N,N
+Original Text,3.1,How many words were selected from a random set?,seven,Interpretable,N,N,N
+Human Summary,3.2.0,What would happen if we accidentally trained the model on the test set?,bias,Interpretable,Y,Y,Y
+Original Text,3.2.0,What can be taken from some continuous sequence of text inside the corpus?,test data,Interpretable,Y,N,Y
+Human Summary,3.2.0,What is a test set that has been used so often that we need a fresher test set?,A development set,Interpretable,Y,Y,Y
+Human Summary,3.2.0,What embeds a model in an application and measures how much the application improves in an end to end evaluation?,Extrinsic evaluation,Interpretable,Y,Y,Y
+Human Summary,3.2.0,What is the downside of extrinsic evaluation?,very expensive,Interpretable,Y,Y,Y
+Human Summary,3.2.0,Which n-gram model assigns a higher probability to the test set?,the one that better fits the test set,Interpretable,Y,Y,N
+Human Summary,3.2.0,What ensures the quality of a model independent of any application?,intrinsic evaluation,Interpretable,Y,Y,Y
+Automatic Summary,3.2.0,Why do we want our test set to be as large as possible?,small test set may be accidentally unrepresentative,Interpretable,Y,Y,Y
+Human Summary,3.2.0,What are the three types of data that we divide the data in?,"training set, test set, held out set",Interpretable,Y,Y,Y
+Original Text,3.2.1,Perplexity is related inversely to what?,likelihood of the test sequence according to the model,Interpretable,Y,Y,Y
+Original Text,3.2.1,How is the perplexity of two language models comparable?,if they use identical vocabularies,Interpretable,Y,Y,Y
+Automatic Summary,3.2.1,What can we use to expand the probability of W?,the chain rule,Interpretable,Y,N,Y
+Human Summary,3.3.0,What can we use to build an n-gram to answer and predict sentences that make sense in context?,training corpus of a similar genre,Interpretable,Y,Y,Y
+Automatic Summary,3.3.0,Our models may still be subject to the problem of what?,sparsity,Interpretable,Y,N,N
+Automatic Summary,3.3.0,The n-gram model is dependent on what?,training corpus,Interpretable,Y,Y,Y
+Automatic Summary,3.3.0,What is still not sufficient?,Matching genres and dialects,Interpretable,N,N,N
+Automatic Summary,3.3.0,What sentences have no coherent relation between words or any sentence-final punctuation?,unigram sentences,Interpretable,Y,Y,Y
+Automatic Summary,3.3.0,What sentences have some local word-to-word coherence?,bigram sentences,Interpretable,Y,Y,Y
+Original Text,3.3.0,What is the P(offer|denied the)?,0,Interpretable,N,N,N
+Automatic Summary,3.3.0,"The longer the context on which we train the model, the more coherent what?",sentences,Interpretable,Y,Y,N
+Automatic Summary,3.3.0,"For any n-gram that occurred a sufficient number of times, we might have what?",a good estimate of its probability,Interpretable,Y,Y,Y
+Original Text,3.3.0,"What shows the sentences generated by unigram, bigram, and trigram grammars trained on 40 million words from WSJ?",Fig. 3.4,Interpretable,N,N,N
+Human Summary,3.3.0,N-grams are dependent on what?,training corpus,Interpretable,Y,Y,Y
+Original Text,3.3.0,What do the 4-gram sentences look a little too much like?,Shakespeare,Interpretable,Y,Y,N
+Original Text,3.3.1,What is the problem of words whose probability is zero?,bigram probability,Interpretable,Y,N,Y
+Human Summary,3.3.1,What is a closed vocabulary system?,the test set doesn't contain any words outside of the given lexicon,Interpretable,Y,Y,Y
+Automatic Summary,3.3.1,What are OOV words?,out of vocabulary,Interpretable,Y,Y,Y
+Automatic Summary,3.3.1,The exact choice of UNK> model does have an effect on metrics like what?,perplexity,Interpretable,Y,Y,Y
+Human Summary,3.3.1,The closed vocabulary system is often used in speech recognition or what?,machine translation,Interpretable,Y,N,Y
+Human Summary,3.3.1,What is the term for unknown words?,out of vocabulary,Interpretable,Y,Y,Y
+Human Summary,3.3.1,How many ways are there to train probabilities of UNK>?,two,Interpretable,Y,Y,Y
+Automatic Summary,3.3.1,What is zero for words that we haven't seen before?,bigram probability,Interpretable,Y,Y,N
+Automatic Summary,3.4.0,What is a modification called to keep a language model from assigning zero probability to unseen events?,smoothing or discounting,Interpretable,Y,Y,Y
+Original Text,3.4.0,What type of smoothing is introduced?,Kneser-Ney,Interpretable,N,N,Y
+Automatic Summary,3.4.0,What do we do to keep a language model from assigning zero probability to unseen events?,shave off a bit of probability mass,Interpretable,Y,Y,N
+Automatic Summary,3.4.0,What context do words that are in our vocabulary appear in a test set in?,unseen,Interpretable,Y,Y,N
+Original Text,3.4.1,What does Laplace smoothing apply to?,unigram probabilities,Interpretable,Y,Y,Y
+Original Text,3.4.1,What do we smooth now that we have the intuition for the unigram case?,Berkeley Restaurant Project bigrams,Interpretable,Y,N,Y
+Human Summary,3.4.1,What is the unigram probability of word w_i?,c_i,Interpretable,N,Y,Y
+Human Summary,3.4.1,What is the adjusted count c* easier to compare with?,MLE counts,Interpretable,N,N,Y
+Original Text,3.4.1,What shows the add-one smoothed counts for the bigrams in Fig. 3.1?,Figure 3.5,Interpretable,N,N,N
+Original Text,3.4.1,What shows the add-one smoothed counts for the bigrams in Fig. 3.1?,Figure 3.5,Interpretable,N,N,N
+Original Text,3.4.2,What is a fractional count k called?,add-k smoothing,Interpretable,Y,Y,Y
+Automatic Summary,3.4.2,What is the algorithm that adds fractional count k called?,add-k smoothing,Interpretable,Y,Y,Y
+Automatic Summary,3.4.2,"Instead of adding I to each count, we add what?",fractional count k,Interpretable,N,N,N
+Human Summary,3.4.2,What is the algorithm that adds a fractional count k to each count called?,add-k smoothing,Interpretable,Y,Y,Y
+Automatic Summary,3.4.3,What shows the equation for interpolation with context-conditioned weights?,Equation 3.28,Interpretable,N,N,N
+Automatic Summary,3.4.3,What can help solve the problem of zero frequency n-grams?,Discounting,Interpretable,Y,Y,Y
+Human Summary,3.4.3,What are the higher-order n-grams discounted by a function alpha to save some probability mass for?,lower-order n-grams,Interpretable,Y,Y,Y
+Automatic Summary,3.4.3,How is each weight computed in a slightly more sophisticated version of linear interpolation?,by conditioning on the context,Interpretable,Y,Y,Y
+Human Summary,3.5,What is Kneser-Ney based on?,absolute discounting,Interpretable,Y,Y,Y
+Automatic Summary,3.5,Who used a clever idea to see how to save some probability mass for the smoothing algorithm to distribute to unseen n-grams?,Church and Gale,Interpretable,Y,Y,Y
+Automatic Summary,3.5,Kneser-Ney discounting augments absolute discounting with a more sophisticated way to handle what?,lower-order unigram distribution,Interpretable,Y,Y,Y
+Automatic Summary,3.5,What formalizes this intuition by subtracting a fixed (absolute) discount d from each count?,Absolute discounting,Interpretable,Y,N,N
+Automatic Summary,3.5,What will not affect the very high counts?,a small discount d,Interpretable,Y,N,N
+Original Text,3.5,What phrase is Kong mainly frequent in?,Hong Kong,Interpretable,Y,Y,N
+Original Text,3.5,What word is included as a regular vocabulary entry with count zero?,UNK>,Interpretable,Y,Y,N
+Automatic Summary,3.6,What corpora includes n-rams drawn from their book collections?,Google Books Ngrams,Interpretable,Y,Y,Y
+Automatic Summary,3.6,What do language model toolkits use to combine probabilities and backoffs in a single value?,sorted arrays,Interpretable,Y,Y,Y
+Original Text,3.6,How are probabilities quantized?,4-8 bits,Interpretable,Y,N,Y
+Human Summary,3.6,How can n-grams be shrunk?,pruning,Interpretable,Y,Y,Y
+Human Summary,3.6,What type of hash numbers are stored in memory?,64-bit,Interpretable,Y,Y,Y
+Automatic Summary,3.6,What does stupid backoff not produce?,probability distribution,Interpretable,Y,Y,Y
+Automatic Summary,3.7,When is the cross-entropy useful?,when we don't know the actual probability distribution,Interpretable,Y,Y,Y
+Human Summary,3.7,"What theorem states that if the language is regular, the entropy of the given language would be the entropy of",Shannon-McMillan-Breiman theorem,Interpretable,Y,Y,Y
+Automatic Summary,3.7,"What theorem states that if the language is regular in certain ways (to be exact, if it is both stationary and ergo",Shannon-McMillan-Breiman theorem,Interpretable,Y,Y,Y
+Original Text,3.7,"To measure the true entropy of a language, we need to consider sequences of what length?",infinite length,Interpretable,Y,Y,Y
+Human Summary,3.7,What would give a lower cross-entropy?,The more accurate model,Interpretable,Y,Y,N
+Original Text,3.7,What does the spread represent?,the prior probability of each horse,Interpretable,Y,N,N
+Original Text,4.0,What is the extraction of positive or negative orientation that a writer expresses toward some object?,sentiment analysis,Interpretable,Y,Y,Y
+Human Summary,4.0,Most classifications in language processing are done through what?,supervised machine learning,Interpretable,Y,Y,Y
+Automatic Summary,4.0,What is the extraction of sentiment?,sentiment analysis,Interpretable,Y,Y,N
+Human Summary,4.0,What is the task of assigning a label or category to an entire text or document?,Text categorization,Interpretable,Y,Y,Y
+Automatic Summary,4.0,What is the output variable for lassification?,c,Interpretable,N,Y,N
+Automatic Summary,4.0,What is another important commercial application?,Spam detection,Interpretable,N,N,N
+Original Text,4.0,Classification is essential for what?,tasks below the level of the document,Interpretable,Y,N,N
+Human Summary,4.0,What is a core part of sentient intelligence?,Classification,Interpretable,Y,Y,N
+Automatic Summary,4.0,"Related text classification tasks like what are relevant to the digital humanities, social sciences, and forensic linguistics?",authorship attribution,Interpretable,Y,Y,N
+Human Summary,4.0,What does a probabilistic classifier output?,probability of an object belonging to a certain class,Interpretable,Y,Y,Y
+Human Summary,4.0,What type of classifier builds a model of how a class could generate input?,Generative classifiers,Interpretable,Y,Y,Y
+Original Text,4.0,Even language modeling can be viewed as what?,classification,Interpretable,Y,Y,N
+Automatic Summary,4.1,Where is the intuition of the naive Bayes classifier shown?,Fig. 4.1,Interpretable,N,N,N
+Original Text,4.1,How can we simplify Eq. 4.3?,dropping the denominator,Interpretable,N,N,N
+Automatic Summary,4.1,Why are naive Bayes calculations done in log space?,increase speed,Interpretable,Y,Y,Y
+Human Summary,4.1,Naive Bayes generates words by sampling from what?,conditional probability,Interpretable,Y,Y,Y
+Original Text,4.1,How can we simplify Eq. 4.3 by dropping the denominator P(d)?,computing Eq. 4.3,Interpretable,N,N,N
+Automatic Summary,4.1,What is the multinomial naive Bayes classifier?,a Bayesian classifier,Interpretable,Y,Y,N
+Automatic Summary,4.1,What could we imagine by following this process?,generating artificial documents,Interpretable,N,N,N
+Automatic Summary,4.1,What does the naive Bayes classifier state about how a document is generated?,implicit assumption,Interpretable,Y,Y,N
+Human Summary,4.1,What are the Bayesian classifiers called?,linear classifiers,Interpretable,Y,Y,Y
+Human Summary,4.10,What can cause a variety of harms?,classifiers,Interpretable,Y,N,Y
+Human Summary,4.10,What type of harms are caused by a system that demeans a social group?,Representational,Interpretable,Y,Y,N
+Automatic Summary,4.10,What is one class of harms caused by a system that perpetuates negative stereotypes about a social group?,demeans,Interpretable,Y,Y,N
+Human Summary,4.10,What is another class of harms that may exist in toxicity detection?,Censorship,Interpretable,Y,Y,N
+Original Text,4.10,What classifiers can cause harms?,toxicity classifiers,Interpretable,Y,Y,Y
+Automatic Summary,4.10,What do some widely used toxicity classifiers incorrectly flag as being?,toxic sentences,Interpretable,Y,Y,N
+Original Text,4.10,Who published a study in which toxicity classifiers incorrectly flag sentences that are non-toxic but simply mention minority identities?,Davidson et al.,Interpretable,Y,Y,Y
+Human Summary,4.2,How do some systems ignore stop words?,by sorting the vocabulary,Interpretable,Y,Y,Y
+Human Summary,4.2,What is calculated as the fraction of times a word appears among all words in all documents of a class?,The maximum likelihood estimate of the conditional probability,Interpretable,Y,Y,Y
+Original Text,4.2,Why are words not in our vocabulary at all?,they did not occur in any training document in any class,Interpretable,Y,N,Y
+Human Summary,4.2,What is the simplest solution to avoid a zero overall probability?,add-one (Laplace) smoothing,Interpretable,Y,Y,Y
+Human Summary,4.2,What is the simplest solution for preventing zero probability classes?,Laplace smoothing,Interpretable,Y,Y,Y
+Original Text,4.2,What naively multiplies all the feature likelihoods together?,naive Bayes,Interpretable,Y,Y,N
+Human Summary,4.2,What is used to avoid zeros?,Laplace smoothing,Interpretable,Y,Y,Y
+Original Text,4.4,What seems to matter more than its frequency?,whether a word occurs or not,Interpretable,Y,N,N
+Automatic Summary,4.4,What can modify a negative word to produce a positive review?,negation,Interpretable,Y,Y,Y
+Automatic Summary,4.4,What can we derive from sentiment lexicons?,positive and negative word features,Interpretable,Y,Y,N
+Human Summary,4.4,What is another name for binary multinomial naive Bayes?,binary NB,Interpretable,Y,Y,N
+Human Summary,4.5,What type of texts are Language ID systems trained on?,multilingual,Interpretable,Y,N,Y
+Original Text,4.5,What is the task of deciding if a particular piece of email is an example of spam?,spam detection,Interpretable,Y,Y,Y
+Human Summary,4.5,What are features in naive Bayes for spam detection?,a set of likely words or phrases,Interpretable,Y,Y,Y
+Human Summary,4.6,What is the probability of a sentence being positive?,the total product of the individual probabilities that each word in the sentence is positive,Interpretable,Y,Y,Y
+Human Summary,4.6,What are similar to language modeling in that they can be viewed as a set of class-specific unigram language models?,Naive Bayes models,Interpretable,Y,Y,Y
+Automatic Summary,4.6,What do likelihood features assign to each word P(word|c)?,probability,Interpretable,Y,Y,N
+Automatic Summary,4.7.0,What is the goal of accuracy?,to discover something that is rare,Interpretable,Y,Y,N
+Original Text,4.7.0,How many false negatives would a classifier have?,"999,900",Interpretable,N,N,Y
+Original Text,4.7.0,What do we need in order to know how well our spam detector is doing?,metric,Interpretable,Y,Y,N
+Automatic Summary,4.7.0,What is the goal of spam detection?,"to label every text as being in the spam category (""positive"") or not in the spam category (""negative"")",Interpretable,Y,Y,N
+Original Text,4.7.0,"What is the accuracy of the ""nothing is pie"" classifier?",99.99%,Interpretable,N,N,N
+Original Text,4.7.1,How can we derive a single metric that tells us how well the system is doing?,combine these values in two ways,Interpretable,Y,N,N
+Human Summary,4.8,What allows all data to be used for both training and testing?,Cross-validation,Interpretable,Y,Y,Y
+Human Summary,4.9.0,What is the null hypothesis that supposes that delta is negative or zero?,Hypothesis H_0,Interpretable,N,Y,Y
+Human Summary,4.9.0,What random variable is created over all test sets to find if we can rule out H_0?,X,Interpretable,N,Y,Y
+Automatic Summary,4.9.0,What does the hypothesis H0 suppose?,d(x) is actually negative or zero,Interpretable,N,N,Y
+Human Summary,4.9.0,What attempts to rule out the null hypothesis?,statistical significance testing,Interpretable,Y,Y,Y
+Automatic Summary,4.9.0,What type of tests do we artificially create many versions of the experimental setup?,non-parametric tests based on sampling,Interpretable,Y,Y,Y
+Original Text,4.9.0,What are non-parametric tests based on?,sampling,Interpretable,Y,Y,Y
+Original Text,4.9.0,What is the probability that we would see if the null hypothesis is true?,d(x),Interpretable,N,N,N
+Automatic Summary,4.9.0,Where can we know if the new system we just built is better than the old one?,the literature,Interpretable,N,Y,N
+Human Summary,4.9.0,The null hypothesis assumes that the effective size is what?,negative or zero,Interpretable,Y,N,Y
+Automatic Summary,4.9.0,How do we test statistical significance for NLP classifiers?,by formalizing two hypotheses,Interpretable,Y,Y,Y
+Original Text,4.9.1,The first row of Fig. 1 shows the results of two classifiers (A and B) on a test set x of 10 documents,4.8,Interpretable,N,N,N
+Automatic Summary,4.9.1,What is the test set for a tiny text classification example?,x of 10 documents,Interpretable,Y,N,N
+Automatic Summary,4.9.1,What can we do statistics on now that we have the b test sets?,how often A has an accidental advantage,Interpretable,N,N,N
+Original Text,4.9.1,What is the num of samples b?,b,Interpretable,N,N,N
+Automatic Summary,2.0,What do modern conversational agents rely on?,more sophisticated understanding of the user's intent,Relevant,Y,Y,Y
+Human Summary,2.0,What does edit distance evaluate?,degree of resemblance between two strings,Relevant,Y,Y,Y
+Automatic Summary,2.0,What is an example of a hashtag?,#nlproc,Relevant,N,N,N
+Human Summary,2.0,What is the most important tool for text pattern characterization?,Regular expressions,Relevant,Y,Y,Y
+Automatic Summary,2.0,What language doesn't have spaces between words?,Japanese,Relevant,Y,Y,Y
+Original Text,2.0,What is an algorithm with applications throughout language processing?,Edit distance,Relevant,Y,Y,Y
+Human Summary,2.0,What is the process of finding root words of inflected words?,Lemmatization,Relevant,Y,Y,Y
+Automatic Summary,2.1.0,What types of regular expressions do regular expressions come in?,variants,Relevant,Y,Y,N
+Automatic Summary,2.1.0,What is an algebraic notation for characterizing a set of strings?,regular expression,Relevant,Y,Y,Y
+Original Text,2.1.1,What can be used to specify what a single character cannot be?,square braces,Relevant,Y,N,Y
+Human Summary,2.1.1,What is an algebraic notation for characterizing a set of strings that is useful for searching for a pattern or through a corpus?,The regular expression,Relevant,Y,Y,Y
+Human Summary,2.1.1,What specifies a disjunction of characters that can be matched in a position in a longer regular expression?,Square braces,Relevant,Y,Y,Y
+Original Text,2.1.1,What will /a*/ match?,match a or aaaaa,Relevant,Y,Y,Y
+Human Summary,2.1.1,What does the (?) mean?,the preceding character or nothing,Relevant,Y,N,Y
+Automatic Summary,2.1.1,"How many ways to specify ""at least one"" of some character?",two,Relevant,N,N,N
+Original Text,2.1.1,What is the first symbol after the open square brace?,a,Relevant,N,N,N
+Original Text,2.1.1,What specifies a disjunction of characters to match?,The string of characters inside the braces,Relevant,Y,N,Y
+Original Text,2.1.1,What is it like to have to write the regular expression for digits twice?,annoying,Relevant,Y,N,N
+Original Text,2.1.1,What does the pattern /[2-5]/ specify?,"any one of the characters 2, 3, 4, or 5",Relevant,Y,Y,Y
+Human Summary,2.1.1,What is a simple type of regular expressions?,a sequence of characters,Relevant,Y,Y,N
+Original Text,2.1.1,What do square brackets not allow us to say?,s or nothing,Relevant,N,N,N
+Original Text,2.1.1,What is an integer?,a string of digits,Relevant,Y,N,N
+Automatic Summary,2.1.1,"What means ""any string of zero or more as""?",/a*/,Relevant,N,Y,Y
+Original Text,2.1.1,What is the regular expression used to specify this?,/aardvark,Relevant,N,N,N
+Original Text,2.1.1,What can be used to solve this problem?,square braces,Relevant,N,N,N
+Original Text,2.1.1,What does the caret stand for if it occurs anywhere else?,a caret,Relevant,Y,N,Y
+Human Summary,2.1.2,"What does (( )) mean ""and""?",Parentheses,Relevant,N,N,Y
+Original Text,2.1.2,What operator applies by default only to a single character?,Kleene*,Relevant,Y,N,Y
+Automatic Summary,2.1.2,When do we need to use the disjunction operator?,in the midst of a larger sequence,Relevant,Y,Y,Y
+Original Text,2.1.2,What is another way to enforce non-greedy matching?,qualifier,Relevant,Y,Y,Y
+Human Summary,2.1.2,Non-greedy matching can be enforced by what?,question mark qualifier,Relevant,Y,Y,Y
+Automatic Summary,2.1.2,What is the operator *??,Kleene star,Relevant,Y,Y,Y
+Original Text,2.1.2,What can be ambiguous in another way?,Patterns,Relevant,Y,Y,N
+Human Summary,2.1.2,"When regular expressions are not matched, we match them with what?",largest string they can,Relevant,Y,Y,Y
+Original Text,2.1.2,What would we want to search for in a text about pets?,string cat or the string dog,Relevant,N,N,N
+Original Text,2.1.2,What takes precedence over the disjunction operator?,sequences like guppy,Relevant,Y,Y,Y
+Automatic Summary,2.1.2,What is another name for the disjunction operator?,pipe symbol,Relevant,Y,Y,Y
+Human Summary,2.1.3,Less false negatives errors mean more what?,recall,Relevant,Y,Y,Y
+Automatic Summary,2.1.3,What is an example of an incorrect pattern?,/the/,Relevant,Y,N,Y
+Automatic Summary,2.1.3,What is the pattern that will miss the word when it begins a sentence?,/[tT]he/,Relevant,N,N,Y
+Human Summary,2.1.3,What increases precision and recall?,Reducing error,Relevant,Y,Y,N
+Automatic Summary,2.1.4,Where can a range of numbers be specified by enclosing them?,curly brackets,Relevant,Y,N,N
+Original Text,2.1.4,Special characters are referred to by special notation based on what?,backslash,Relevant,Y,N,Y
+Human Summary,2.1.4,What can you specify?,the number of an instance in a pattern,Relevant,N,N,N
+Human Summary,2.1.4,What can you specify?,the number of an instance in a pattern,Relevant,N,N,N
+Automatic Summary,2.1.5,What is a simple regular expression for a dollar sign followed by a string of digits?,/$[0-9+/,Relevant,Y,Y,Y
+Original Text,2.1.5,What do we need to allow for optional fractions?,disk space,Relevant,Y,N,N
+Original Text,2.1.5,What do we want to help a user buy a computer on the Web?,build an application,Relevant,N,N,N
+Original Text,2.1.5,What will we add after the decimal point and two digits?,a decimal point and two digits,Relevant,N,N,N
+Automatic Summary,2.1.5,What does this pattern only allow?,$199.99,Relevant,N,N,N
+Automatic Summary,2.1.5,What do we need to allow for?,optional fractions,Relevant,N,Y,N
+Human Summary,2.1.6,When does the command(? :) indicate a non-capturing group?,after an opening parenthesis,Relevant,Y,N,Y
+Original Text,2.1.6,What can the parenthesis and number operators specify?,a certain string or expression must occur twice in the text,Relevant,Y,N,N
+Original Text,2.1.6,Creating patterns is the topic of what exercise?,Exercise 2.3,Relevant,N,N,N
+Human Summary,2.1.6,Capture group means using what to store a pattern in memory?,parentheses,Relevant,Y,Y,Y
+Automatic Summary,2.1.6,What does the next set of substitutions do in the input?,matches and replaces other patterns,Relevant,Y,Y,N
+Human Summary,2.1.7,What is used to rule out special cases while parsing complex pattern?,Negative lookahead,Relevant,Y,Y,N
+Original Text,2.1.7,"What do we use when we want to match, at the beginning of a line, any single word that doesn't start with ""Volcano",negative lookahead,Relevant,N,Y,Y
+Automatic Summary,2.1.7,"The operator (?= pattern) is true if pattern occurs, but is zero-width, i.e. what doesn't advance",match pointer,Relevant,N,N,N
+Automatic Summary,2.1.7,What is commonly used when we are parsing complex patterns but want to rule out a special case?,Negative lookahead,Relevant,Y,Y,Y
+Automatic Summary,2.2,What is a million-word collection of samples from 500 written English texts from different genres called?,The Brown corpus,Relevant,Y,Y,Y
+Original Text,2.2,What is the relationship between the number of types |V | and number of tokens N called?,Herdan's Law,Relevant,Y,Y,Y
+Original Text,2.2,What word has the same lemma cat but are different wordforms?,cats,Relevant,N,Y,N
+Human Summary,2.2,What are utterances?,spoken sentences,Relevant,Y,Y,Y
+Human Summary,2.2,"What is a set of lexical forms that share the steam, major part-of-speech, and word sense?",A lemma,Relevant,Y,Y,Y
+Original Text,2.2,What is the main part of an utterance?,business data processing,Relevant,Y,N,Y
+Original Text,2.2,What do we sometimes keep around?,disfluencies,Relevant,N,Y,N
+Original Text,2.2,What corpus of American English telephone conversations between strangers was collected in the early 1990s?,Switchboard,Relevant,Y,Y,Y
+Human Summary,2.2,How can we differentiate the number of words?,by counting tokens or types,Relevant,Y,Y,Y
+Automatic Summary,2.2,What are words like uh and um called fillers?,filled pauses,Relevant,Y,Y,Y
+Human Summary,2.2,What is the rough upper limit for the number of possible lemmas?,Dictionary entries or boldface forms,Relevant,Y,Y,Y
+Original Text,2.3,How does a corpus of texts from different historical periods change?,Language changes over time,Relevant,Y,Y,Y
+Original Text,2.3,What do most languages have?,multiple varieties,Relevant,Y,Y,Y
+Original Text,2.3,What language was the corpus in?,What language,Relevant,N,N,N
+Human Summary,2.3,What specifies properties of a dataset used in the development of computational models?,data statement,Relevant,Y,Y,N
+Original Text,2.3,When are NLP algorithms most useful?,when they apply across many languages,Relevant,Y,Y,N
+Human Summary,2.3,What are some variations in languages?,"dialect, code switching, genre",Relevant,Y,Y,Y
+Original Text,2.3,What is the context of a corpus?,When and in what situation was the text written/spoken,Relevant,Y,Y,Y
+Automatic Summary,2.3,"When developing computational models for language processing from a corpus, it's important to consider what?","who produced the language, in what context, for what purpose",Relevant,Y,Y,Y
+Automatic Summary,2.3,How does a corpus of texts from different historical periods change?,Language changes over time,Relevant,Y,Y,N
+Automatic Summary,2.4.0,"Before almost any natural language processing of a text, the text has to be what?",normalized,Relevant,Y,Y,Y
+Automatic Summary,2.4.0,What is the term for segmenting words?,Tokenizing,Relevant,Y,Y,Y
+Automatic Summary,2.4.0,How do we go through each of these tasks?,walk through,Relevant,N,N,N
+Automatic Summary,2.4.1,What are the most frequent words in Shakespeare?,"articles, pronouns, prepositions",Relevant,Y,Y,N
+Human Summary,2.4.1,"Unix can collapse, sort, and build statistics for the words in a corpus using commands such as what?",tr,Relevant,Y,Y,Y
+Human Summary,2.4.1,What are the minimal tasks applied as part of any normalization process?,"Tokenizing words, normalizing word formats, and segmenting sentences",Relevant,Y,Y,Y
+Human Summary,2.4.1,What command in Unix changes particular characters in the input?,The tr command,Relevant,Y,Y,Y
+Automatic Summary,2.4.1,What can Unix tools be useful for?,building quick word count statistics,Relevant,Y,Y,Y
+Human Summary,2.4.1,What are some examples of function words?,"articles, pronouns, and prepositions",Relevant,Y,Y,Y
+Human Summary,2.4.1,What are the most frequent words?,function words,Relevant,Y,Y,N
+Human Summary,2.4.2,What must we account for according to where and how they are used?,punctuation and special characters,Relevant,N,Y,Y
+Automatic Summary,2.4.2,How many characters long are words on average?,2.4,Relevant,Y,Y,Y
+Human Summary,2.4.2,"What is the identification of names, dates, organizations, etc?",Named entity recognition,Relevant,Y,Y,Y
+Human Summary,2.4.2,What do algorithms have to deal with?,ambiguities,Relevant,Y,Y,N
+Original Text,2.4.2,What is a unit of meaning called?,a morpheme,Relevant,Y,Y,Y
+Human Summary,2.4.2,What language requires word segmentation?,Japanese,Relevant,Y,Y,N
+Automatic Summary,2.4.2,What NLP algorithms require algorithms for word segmentation?,Japanese and Thai,Relevant,Y,Y,N
+Human Summary,2.4.2,What language has no spaces?,Chinese,Relevant,Y,Y,Y
+Original Text,2.4.2,How are neural sequence models trained?,supervised machine learning,Relevant,Y,Y,Y
+Original Text,2.4.2,What are characters called in Chinese?,hanzi,Relevant,Y,N,Y
+Automatic Summary,2.4.3,What runs on the test data the merges we have learned from the training data?,The token parser,Relevant,Y,Y,Y
+Human Summary,2.4.3,Tokenizers often do what in order to solve the unknown word problem?,induce subwords,Relevant,Y,Y,Y
+Human Summary,2.4.3,What implements both byte-pair encoding and unigram language modeling?,a SentencePiece library,Relevant,N,Y,Y
+Original Text,2.4.3,What is one of the three algorithms used by the token learner?,byte-pair encoding,Relevant,Y,Y,Y
+Automatic Summary,2.4.3,What is another name for a corpus that NLP algorithms learn from?,training corpus,Relevant,Y,Y,N
+Original Text,2.4.3,What is the smallest meaning-bearing unit of a language?,morpheme,Relevant,Y,Y,Y
+Human Summary,2.4.3,What library implements byte-pair encoding and unigram language modeling?,The SentencePiece library,Relevant,Y,Y,Y
+Human Summary,2.4.3,What induces a set of tokens from raw data?,token learner,Relevant,Y,Y,Y
+Original Text,2.4.3,Why does the token parser run on the test data?,the frequencies in the test data don't play a role,Relevant,Y,N,Y
+Human Summary,2.4.3,What are most tokenization schemes made out of?,token learner and a token segmenter,Relevant,Y,Y,Y
+Human Summary,2.4.4,What is standardizing the format of words and tokens?,Word normalization,Relevant,Y,Y,Y
+Automatic Summary,2.4.4,What is generally not done for sentiment analysis analysis and machine translation?,case folding,Relevant,Y,Y,Y
+Original Text,2.4.4,What are two types of normalization that we might want to see information from documents whether they mention the US or the USA?,information retrieval or information extraction,Relevant,Y,N,N
+Original Text,2.4.4,"What is the central morpheme of the word, supplying the main meaning, and affixes?",stems,Relevant,N,Y,Y
+Human Summary,2.4.4,What determines if two words share the same root?,Lemmatization,Relevant,Y,Y,Y
+Human Summary,2.4.4,What are the two broad classes of morphemes?,"stems, and affixes",Relevant,Y,Y,Y
+Original Text,2.4.5,What character is ambiguous between a sentence boundary marker and a marker of abbreviations like Mr. or Inc?,period character,Relevant,Y,Y,Y
+Automatic Summary,2.4.5,What is one of the most useful cues for segmenting a text into sentences?,punctuation,Relevant,Y,Y,Y
+Automatic Summary,2.4.5,What is another important step in text processing?,Sentence segmentation,Relevant,Y,Y,Y
+Human Summary,2.4.5,What are some clues in sentence segmentation?,"periods, question marks, and exclamation points",Relevant,Y,Y,Y
+Automatic Summary,2.5.0,What represents an operation list for converting the top string into the bottom string?,a series of symbols,Relevant,Y,N,Y
+Original Text,2.5.0,What is a similar word to a graffe?,graffe,Relevant,N,N,N
+Human Summary,2.5.0,What is the task of deciding whether two strings refer to the same entity?,Coreference,Relevant,Y,Y,Y
+Original Text,2.5.0,How many words do the two strings differ by?,one,Relevant,Y,N,Y
+Automatic Summary,2.5.0,What is the minimum edit distance?,minimum number of editing operations needed to transform one string into another,Relevant,Y,Y,Y
+Original Text,2.5.0,What gives us a way to quantify both of these intuitions about string similarity?,Edit distance,Relevant,Y,N,N
+Original Text,2.5.0,What did Levenshtein propose in his metric that each insertion or deletion has a cost of 1 and what else?,substitutions are not allowed,Relevant,Y,N,N
+Automatic Summary,2.5.0,What is the most important visualization for string distances?,an alignment between the two strings,Relevant,Y,N,N
+Human Summary,2.5.0,What is the minimum number of editing operations required to make two strings equal?,Minimum edit distance,Relevant,Y,Y,Y
+Human Summary,2.5.0,What can help to quantify the similarity between strings?,Minimum edit distance,Relevant,Y,Y,Y
+Original Text,2.5.1,What is the minimum edit distance?,2.8,Relevant,Y,N,Y
+Automatic Summary,2.5.1,What is useful throughout speech and language processing?,Aligning two strings,Relevant,Y,N,N
+Automatic Summary,2.5.1,When was dynamic programming first introduced?,1957,Relevant,N,N,N
+Automatic Summary,2.5.1,What plays a role in machine translation?,Alignment,Relevant,Y,N,Y
+Original Text,2.5.1,Where is the minimum edit distance algorithm summarized?,Fig. 2.17,Relevant,N,N,Y
+Original Text,2.5.1,Where are the backpointers from a cell shown in Fig. 2.19?,2.19,Relevant,N,N,N
+Automatic Summary,2.5.1,What is the name for a class of algorithms that apply a table-driven method to solve problems by combining solutions to sub-problems?,Dynamic programming,Relevant,Y,Y,Y
+Original Text,2.5.1,Where are the backpointers from a cell shown?,Fig. 2.19,Relevant,N,N,Y
+Original Text,2.5.1,What is the name for a class of algorithms that apply a table-driven method to solve problems by combining solutions to sub-problems?,dynamic programming,Relevant,Y,Y,Y
+Original Text,2.5.1,What is the edit distance between X 1..i and Y 1..j?,"D|i, j",Relevant,N,N,Y
+Human Summary,2.5.1,Who named the minimum edit distance algorithm?,Wagner and Fischer,Relevant,N,Y,N
+Automatic Summary,3.0,"What writing tools need to find and correct errors in writing like ""Their are two midterms""?",spelling correction or grammatical error correction,Relevant,Y,Y,N
+Human Summary,3.0,What can refer to both a sequence of n words and the predictive model that assigns it a probability?,n-gram,Relevant,Y,Y,Y
+Human Summary,3.0,"What is essential for speech recognition, spelling or grammar correction, machine translation, and augmentative communication technologies?",Predicting upcoming words,Relevant,Y,Y,Y
+Original Text,3.0,"What are essential in any task in which we have to identify words in noisy, ambiguous input?",Probabilities,Relevant,Y,Y,Y
+Original Text,3.1,What are the MLE estimates for the parameters of an n-gram model?,0 and 1,Relevant,Y,Y,Y
+Original Text,3.1,What isn't big enough to give us good estimates in most cases?,web,Relevant,N,N,Y
+Automatic Summary,3.1,How does Eq.11 estimate the n-gram probability?,by dividing the observed frequency of a particular sequence by the frequency of a prefix,Relevant,N,Y,Y
+Automatic Summary,3.1,What are the majority of the bigram counts from a piece of a bigram grammar from the Berkeley Restaurant Project?,zero,Relevant,N,Y,N
+Original Text,3.1,What equation estimates the n-gram probability by dividing the observed frequency of a particular sequence by the observed frequency of a prefix?,Equation 3.12,Relevant,N,Y,Y
+Automatic Summary,3.1,What shows the bigram counts from a piece of a bigram grammar from the Berkeley Restaurant Project?,Figure 3.1,Relevant,N,Y,Y
+Human Summary,3.1,How are bigram probabilities normalized?,by dividing each cell by the set of unigram probabilities,Relevant,Y,Y,Y
+Original Text,3.1,What is the first step in estimating the probability of a word given a history h?,formalizing of notation,Relevant,Y,Y,Y
+Original Text,3.1,What is usually a noun or an adjective?,eat,Relevant,N,N,N
+Automatic Summary,3.1,What is the class of probabilistic models that assume we can predict the probability of some future unit without looking too far into the past?,Markov models,Relevant,Y,Y,Y
+Original Text,3.1,What should you do to estimate the probability of a word w given some history h?,compute this estimate for yourself,Relevant,Y,Y,N
+Automatic Summary,3.1,How many words would be more sparse than a random set of?,seven,Relevant,N,N,N
+Automatic Summary,3.1,What encode some facts that we think of as strictly syntactic in nature?,Bigram probabilities,Relevant,Y,Y,Y
+Human Summary,3.1,All language model probabilities are represented in log format as what?,log probabilities,Relevant,Y,Y,Y
+Original Text,3.1,"For larger n-grams, we'll need to assume what to the left and right of the sentence end?",extra contexts,Relevant,Y,Y,Y
+Human Summary,3.1,Why are joint probabilities difficult to calculate?,too many possible sentences of a certain length,Relevant,Y,Y,Y
+Human Summary,3.1,What is another name for the maximum likelihood estimation?,MLE,Relevant,Y,Y,N
+Human Summary,3.1,The n-gram model looks at how many words into the past?,n-1,Relevant,Y,Y,Y
+Original Text,3.1,What is the probability of a complete word sequence by substituting Eq. 3.7 into Eq. 3.4?,3.9,Relevant,N,N,Y
+Original Text,3.1,How many words were selected from a random set?,seven,Relevant,N,N,N
+Human Summary,3.2.0,What would happen if we accidentally trained the model on the test set?,bias,Relevant,Y,Y,N
+Original Text,3.2.0,What can be taken from some continuous sequence of text inside the corpus?,test data,Relevant,Y,N,N
+Human Summary,3.2.0,What is a test set that has been used so often that we need a fresher test set?,A development set,Relevant,Y,Y,Y
+Human Summary,3.2.0,What embeds a model in an application and measures how much the application improves in an end to end evaluation?,Extrinsic evaluation,Relevant,Y,Y,Y
+Human Summary,3.2.0,What is the downside of extrinsic evaluation?,very expensive,Relevant,Y,Y,Y
+Human Summary,3.2.0,Which n-gram model assigns a higher probability to the test set?,the one that better fits the test set,Relevant,Y,Y,N
+Human Summary,3.2.0,What ensures the quality of a model independent of any application?,intrinsic evaluation,Relevant,Y,Y,Y
+Automatic Summary,3.2.0,Why do we want our test set to be as large as possible?,small test set may be accidentally unrepresentative,Relevant,Y,Y,Y
+Human Summary,3.2.0,What are the three types of data that we divide the data in?,"training set, test set, held out set",Relevant,Y,Y,Y
+Original Text,3.2.1,Perplexity is related inversely to what?,likelihood of the test sequence according to the model,Relevant,Y,Y,Y
+Original Text,3.2.1,How is the perplexity of two language models comparable?,if they use identical vocabularies,Relevant,Y,Y,Y
+Automatic Summary,3.2.1,What can we use to expand the probability of W?,the chain rule,Relevant,Y,Y,Y
+Human Summary,3.3.0,What can we use to build an n-gram to answer and predict sentences that make sense in context?,training corpus of a similar genre,Relevant,Y,Y,Y
+Automatic Summary,3.3.0,Our models may still be subject to the problem of what?,sparsity,Relevant,Y,N,Y
+Automatic Summary,3.3.0,The n-gram model is dependent on what?,training corpus,Relevant,Y,Y,Y
+Automatic Summary,3.3.0,What is still not sufficient?,Matching genres and dialects,Relevant,N,N,N
+Automatic Summary,3.3.0,What sentences have no coherent relation between words or any sentence-final punctuation?,unigram sentences,Relevant,Y,Y,Y
+Automatic Summary,3.3.0,What sentences have some local word-to-word coherence?,bigram sentences,Relevant,Y,Y,Y
+Original Text,3.3.0,What is the P(offer|denied the)?,0,Relevant,Y,Y,N
+Automatic Summary,3.3.0,"The longer the context on which we train the model, the more coherent what?",sentences,Relevant,Y,Y,Y
+Automatic Summary,3.3.0,"For any n-gram that occurred a sufficient number of times, we might have what?",a good estimate of its probability,Relevant,Y,Y,Y
+Original Text,3.3.0,"What shows the sentences generated by unigram, bigram, and trigram grammars trained on 40 million words from WSJ?",Fig. 3.4,Relevant,N,N,Y
+Human Summary,3.3.0,N-grams are dependent on what?,training corpus,Relevant,Y,Y,Y
+Original Text,3.3.0,What do the 4-gram sentences look a little too much like?,Shakespeare,Relevant,Y,N,N
+Original Text,3.3.1,What is the problem of words whose probability is zero?,bigram probability,Relevant,Y,N,Y
+Human Summary,3.3.1,What is a closed vocabulary system?,the test set doesn't contain any words outside of the given lexicon,Relevant,Y,Y,Y
+Automatic Summary,3.3.1,What are OOV words?,out of vocabulary,Relevant,Y,Y,Y
+Automatic Summary,3.3.1,The exact choice of UNK> model does have an effect on metrics like what?,perplexity,Relevant,Y,Y,Y
+Human Summary,3.3.1,The closed vocabulary system is often used in speech recognition or what?,machine translation,Relevant,Y,Y,Y
+Human Summary,3.3.1,What is the term for unknown words?,out of vocabulary,Relevant,Y,Y,Y
+Human Summary,3.3.1,How many ways are there to train probabilities of UNK>?,two,Relevant,Y,Y,Y
+Automatic Summary,3.3.1,What is zero for words that we haven't seen before?,bigram probability,Relevant,Y,Y,N
+Automatic Summary,3.4.0,What is a modification called to keep a language model from assigning zero probability to unseen events?,smoothing or discounting,Relevant,Y,Y,Y
+Original Text,3.4.0,What type of smoothing is introduced?,Kneser-Ney,Relevant,Y,Y,Y
+Automatic Summary,3.4.0,What do we do to keep a language model from assigning zero probability to unseen events?,shave off a bit of probability mass,Relevant,Y,Y,N
+Automatic Summary,3.4.0,What context do words that are in our vocabulary appear in a test set in?,unseen,Relevant,Y,Y,N
+Original Text,3.4.1,What does Laplace smoothing apply to?,unigram probabilities,Relevant,Y,Y,Y
+Original Text,3.4.1,What do we smooth now that we have the intuition for the unigram case?,Berkeley Restaurant Project bigrams,Relevant,N,N,Y
+Human Summary,3.4.1,What is the unigram probability of word w_i?,c_i,Relevant,N,N,Y
+Human Summary,3.4.1,What is the adjusted count c* easier to compare with?,MLE counts,Relevant,N,Y,Y
+Original Text,3.4.1,What shows the add-one smoothed counts for the bigrams in Fig. 3.1?,Figure 3.5,Relevant,N,Y,Y
+Original Text,3.4.1,What shows the add-one smoothed counts for the bigrams in Fig. 3.1?,Figure 3.5,Relevant,N,N,Y
+Original Text,3.4.2,What is a fractional count k called?,add-k smoothing,Relevant,Y,Y,Y
+Automatic Summary,3.4.2,What is the algorithm that adds fractional count k called?,add-k smoothing,Relevant,Y,Y,N
+Automatic Summary,3.4.2,"Instead of adding I to each count, we add what?",fractional count k,Relevant,Y,N,N
+Human Summary,3.4.2,What is the algorithm that adds a fractional count k to each count called?,add-k smoothing,Relevant,Y,Y,Y
+Automatic Summary,3.4.3,What shows the equation for interpolation with context-conditioned weights?,Equation 3.28,Relevant,N,Y,Y
+Automatic Summary,3.4.3,What can help solve the problem of zero frequency n-grams?,Discounting,Relevant,Y,Y,Y
+Human Summary,3.4.3,What are the higher-order n-grams discounted by a function alpha to save some probability mass for?,lower-order n-grams,Relevant,Y,Y,Y
+Automatic Summary,3.4.3,How is each weight computed in a slightly more sophisticated version of linear interpolation?,by conditioning on the context,Relevant,Y,Y,Y
+Human Summary,3.5,What is Kneser-Ney based on?,absolute discounting,Relevant,Y,Y,Y
+Automatic Summary,3.5,Who used a clever idea to see how to save some probability mass for the smoothing algorithm to distribute to unseen n-grams?,Church and Gale,Relevant,N,Y,Y
+Automatic Summary,3.5,Kneser-Ney discounting augments absolute discounting with a more sophisticated way to handle what?,lower-order unigram distribution,Relevant,Y,Y,Y
+Automatic Summary,3.5,What formalizes this intuition by subtracting a fixed (absolute) discount d from each count?,Absolute discounting,Relevant,Y,N,N
+Automatic Summary,3.5,What will not affect the very high counts?,a small discount d,Relevant,Y,Y,Y
+Original Text,3.5,What phrase is Kong mainly frequent in?,Hong Kong,Relevant,N,N,N
+Original Text,3.5,What word is included as a regular vocabulary entry with count zero?,UNK>,Relevant,Y,Y,N
+Automatic Summary,3.6,What corpora includes n-rams drawn from their book collections?,Google Books Ngrams,Relevant,Y,Y,Y
+Automatic Summary,3.6,What do language model toolkits use to combine probabilities and backoffs in a single value?,sorted arrays,Relevant,Y,Y,Y
+Original Text,3.6,How are probabilities quantized?,4-8 bits,Relevant,Y,N,Y
+Human Summary,3.6,How can n-grams be shrunk?,pruning,Relevant,Y,Y,Y
+Human Summary,3.6,What type of hash numbers are stored in memory?,64-bit,Relevant,Y,N,Y
+Automatic Summary,3.6,What does stupid backoff not produce?,probability distribution,Relevant,Y,Y,Y
+Automatic Summary,3.7,When is the cross-entropy useful?,when we don't know the actual probability distribution,Relevant,Y,Y,Y
+Human Summary,3.7,"What theorem states that if the language is regular, the entropy of the given language would be the entropy of",Shannon-McMillan-Breiman theorem,Relevant,Y,Y,Y
+Automatic Summary,3.7,"What theorem states that if the language is regular in certain ways (to be exact, if it is both stationary and ergo",Shannon-McMillan-Breiman theorem,Relevant,Y,Y,Y
+Original Text,3.7,"To measure the true entropy of a language, we need to consider sequences of what length?",infinite length,Relevant,Y,Y,Y
+Human Summary,3.7,What would give a lower cross-entropy?,The more accurate model,Relevant,Y,Y,N
+Original Text,3.7,What does the spread represent?,the prior probability of each horse,Relevant,Y,N,N
+Original Text,4.0,What is the extraction of positive or negative orientation that a writer expresses toward some object?,sentiment analysis,Relevant,Y,Y,Y
+Human Summary,4.0,Most classifications in language processing are done through what?,supervised machine learning,Relevant,Y,Y,Y
+Automatic Summary,4.0,What is the extraction of sentiment?,sentiment analysis,Relevant,Y,Y,N
+Human Summary,4.0,What is the task of assigning a label or category to an entire text or document?,Text categorization,Relevant,Y,Y,Y
+Automatic Summary,4.0,What is the output variable for lassification?,c,Relevant,N,Y,N
+Automatic Summary,4.0,What is another important commercial application?,Spam detection,Relevant,Y,Y,N
+Original Text,4.0,Classification is essential for what?,tasks below the level of the document,Relevant,Y,N,N
+Human Summary,4.0,What is a core part of sentient intelligence?,Classification,Relevant,Y,N,Y
+Automatic Summary,4.0,"Related text classification tasks like what are relevant to the digital humanities, social sciences, and forensic linguistics?",authorship attribution,Relevant,Y,Y,N
+Human Summary,4.0,What does a probabilistic classifier output?,probability of an object belonging to a certain class,Relevant,Y,Y,Y
+Human Summary,4.0,What type of classifier builds a model of how a class could generate input?,Generative classifiers,Relevant,Y,Y,Y
+Original Text,4.0,Even language modeling can be viewed as what?,classification,Relevant,Y,Y,N
+Automatic Summary,4.1,Where is the intuition of the naive Bayes classifier shown?,Fig. 4.1,Relevant,N,N,Y
+Original Text,4.1,How can we simplify Eq. 4.3?,dropping the denominator,Relevant,N,N,Y
+Automatic Summary,4.1,Why are naive Bayes calculations done in log space?,increase speed,Relevant,Y,Y,Y
+Human Summary,4.1,Naive Bayes generates words by sampling from what?,conditional probability,Relevant,Y,Y,Y
+Original Text,4.1,How can we simplify Eq. 4.3 by dropping the denominator P(d)?,computing Eq. 4.3,Relevant,N,N,Y
+Automatic Summary,4.1,What is the multinomial naive Bayes classifier?,a Bayesian classifier,Relevant,Y,N,Y
+Automatic Summary,4.1,What could we imagine by following this process?,generating artificial documents,Relevant,N,N,N
+Automatic Summary,4.1,What does the naive Bayes classifier state about how a document is generated?,implicit assumption,Relevant,Y,Y,Y
+Human Summary,4.1,What are the Bayesian classifiers called?,linear classifiers,Relevant,Y,Y,Y
+Human Summary,4.10,What can cause a variety of harms?,classifiers,Relevant,Y,Y,Y
+Human Summary,4.10,What type of harms are caused by a system that demeans a social group?,Representational,Relevant,Y,Y,N
+Automatic Summary,4.10,What is one class of harms caused by a system that perpetuates negative stereotypes about a social group?,demeans,Relevant,Y,Y,N
+Human Summary,4.10,What is another class of harms that may exist in toxicity detection?,Censorship,Relevant,Y,Y,Y
+Original Text,4.10,What classifiers can cause harms?,toxicity classifiers,Relevant,Y,Y,Y
+Automatic Summary,4.10,What do some widely used toxicity classifiers incorrectly flag as being?,toxic sentences,Relevant,Y,Y,N
+Original Text,4.10,Who published a study in which toxicity classifiers incorrectly flag sentences that are non-toxic but simply mention minority identities?,Davidson et al.,Relevant,N,Y,Y
+Human Summary,4.2,How do some systems ignore stop words?,by sorting the vocabulary,Relevant,Y,Y,Y
+Human Summary,4.2,What is calculated as the fraction of times a word appears among all words in all documents of a class?,The maximum likelihood estimate of the conditional probability,Relevant,Y,N,Y
+Original Text,4.2,Why are words not in our vocabulary at all?,they did not occur in any training document in any class,Relevant,Y,Y,Y
+Human Summary,4.2,What is the simplest solution to avoid a zero overall probability?,add-one (Laplace) smoothing,Relevant,Y,Y,Y
+Human Summary,4.2,What is the simplest solution for preventing zero probability classes?,Laplace smoothing,Relevant,Y,Y,Y
+Original Text,4.2,What naively multiplies all the feature likelihoods together?,naive Bayes,Relevant,Y,Y,N
+Human Summary,4.2,What is used to avoid zeros?,Laplace smoothing,Relevant,Y,Y,Y
+Original Text,4.4,What seems to matter more than its frequency?,whether a word occurs or not,Relevant,Y,Y,N
+Automatic Summary,4.4,What can modify a negative word to produce a positive review?,negation,Relevant,Y,Y,Y
+Automatic Summary,4.4,What can we derive from sentiment lexicons?,positive and negative word features,Relevant,Y,Y,Y
+Human Summary,4.4,What is another name for binary multinomial naive Bayes?,binary NB,Relevant,Y,Y,N
+Human Summary,4.5,What type of texts are Language ID systems trained on?,multilingual,Relevant,Y,Y,Y
+Original Text,4.5,What is the task of deciding if a particular piece of email is an example of spam?,spam detection,Relevant,Y,Y,Y
+Human Summary,4.5,What are features in naive Bayes for spam detection?,a set of likely words or phrases,Relevant,Y,Y,Y
+Human Summary,4.6,What is the probability of a sentence being positive?,the total product of the individual probabilities that each word in the sentence is positive,Relevant,Y,Y,N
+Human Summary,4.6,What are similar to language modeling in that they can be viewed as a set of class-specific unigram language models?,Naive Bayes models,Relevant,Y,Y,Y
+Automatic Summary,4.6,What do likelihood features assign to each word P(word|c)?,probability,Relevant,Y,Y,N
+Automatic Summary,4.7.0,What is the goal of accuracy?,to discover something that is rare,Relevant,Y,N,Y
+Original Text,4.7.0,How many false negatives would a classifier have?,"999,900",Relevant,Y,N,Y
+Original Text,4.7.0,What do we need in order to know how well our spam detector is doing?,metric,Relevant,Y,Y,N
+Automatic Summary,4.7.0,What is the goal of spam detection?,"to label every text as being in the spam category (""positive"") or not in the spam category (""negative"")",Relevant,Y,Y,Y
+Original Text,4.7.0,"What is the accuracy of the ""nothing is pie"" classifier?",99.99%,Relevant,N,N,N
+Original Text,4.7.1,How can we derive a single metric that tells us how well the system is doing?,combine these values in two ways,Relevant,Y,Y,N
+Human Summary,4.8,What allows all data to be used for both training and testing?,Cross-validation,Relevant,Y,Y,Y
+Human Summary,4.9.0,What is the null hypothesis that supposes that delta is negative or zero?,Hypothesis H_0,Relevant,N,Y,Y
+Human Summary,4.9.0,What random variable is created over all test sets to find if we can rule out H_0?,X,Relevant,Y,N,Y
+Automatic Summary,4.9.0,What does the hypothesis H0 suppose?,d(x) is actually negative or zero,Relevant,Y,Y,Y
+Human Summary,4.9.0,What attempts to rule out the null hypothesis?,statistical significance testing,Relevant,Y,Y,Y
+Automatic Summary,4.9.0,What type of tests do we artificially create many versions of the experimental setup?,non-parametric tests based on sampling,Relevant,Y,Y,Y
+Original Text,4.9.0,What are non-parametric tests based on?,sampling,Relevant,Y,Y,Y
+Original Text,4.9.0,What is the probability that we would see if the null hypothesis is true?,d(x),Relevant,N,Y,Y
+Automatic Summary,4.9.0,Where can we know if the new system we just built is better than the old one?,the literature,Relevant,Y,N,N
+Human Summary,4.9.0,The null hypothesis assumes that the effective size is what?,negative or zero,Relevant,Y,N,Y
+Automatic Summary,4.9.0,How do we test statistical significance for NLP classifiers?,by formalizing two hypotheses,Relevant,Y,Y,Y
+Original Text,4.9.1,The first row of Fig. 1 shows the results of two classifiers (A and B) on a test set x of 10 documents,4.8,Relevant,Y,N,Y
+Automatic Summary,4.9.1,What is the test set for a tiny text classification example?,x of 10 documents,Relevant,Y,N,N
+Automatic Summary,4.9.1,What can we do statistics on now that we have the b test sets?,how often A has an accidental advantage,Relevant,N,Y,N
+Original Text,4.9.1,What is the num of samples b?,b,Relevant,N,N,N
+Automatic Summary,2.0,What do modern conversational agents rely on?,more sophisticated understanding of the user's intent,Correct,Y,Y,Y
+Human Summary,2.0,What does edit distance evaluate?,degree of resemblance between two strings,Correct,Y,Y,Y
+Automatic Summary,2.0,What is an example of a hashtag?,#nlproc,Correct,Y,Y,Y
+Human Summary,2.0,What is the most important tool for text pattern characterization?,Regular expressions,Correct,Y,Y,Y
+Automatic Summary,2.0,What language doesn't have spaces between words?,Japanese,Correct,Y,Y,Y
+Original Text,2.0,What is an algorithm with applications throughout language processing?,Edit distance,Correct,Y,N,Y
+Human Summary,2.0,What is the process of finding root words of inflected words?,Lemmatization,Correct,Y,Y,Y
+Automatic Summary,2.1.0,What types of regular expressions do regular expressions come in?,variants,Correct,Y,N,Y
+Automatic Summary,2.1.0,What is an algebraic notation for characterizing a set of strings?,regular expression,Correct,Y,Y,Y
+Original Text,2.1.1,What can be used to specify what a single character cannot be?,square braces,Correct,Y,Y,N
+Human Summary,2.1.1,What is an algebraic notation for characterizing a set of strings that is useful for searching for a pattern or through a corpus?,The regular expression,Correct,Y,Y,Y
+Human Summary,2.1.1,What specifies a disjunction of characters that can be matched in a position in a longer regular expression?,Square braces,Correct,Y,Y,Y
+Original Text,2.1.1,What will /a*/ match?,match a or aaaaa,Correct,Y,Y,N
+Human Summary,2.1.1,What does the (?) mean?,the preceding character or nothing,Correct,Y,N,N
+Automatic Summary,2.1.1,"How many ways to specify ""at least one"" of some character?",two,Correct,Y,Y,Y
+Original Text,2.1.1,What is the first symbol after the open square brace?,a,Correct,Y,Y,Y
+Original Text,2.1.1,What specifies a disjunction of characters to match?,The string of characters inside the braces,Correct,Y,Y,Y
+Original Text,2.1.1,What is it like to have to write the regular expression for digits twice?,annoying,Correct,Y,Y,Y
+Original Text,2.1.1,What does the pattern /[2-5]/ specify?,"any one of the characters 2, 3, 4, or 5",Correct,Y,Y,Y
+Human Summary,2.1.1,What is a simple type of regular expressions?,a sequence of characters,Correct,Y,Y,Y
+Original Text,2.1.1,What do square brackets not allow us to say?,s or nothing,Correct,N,Y,Y
+Original Text,2.1.1,What is an integer?,a string of digits,Correct,Y,Y,Y
+Automatic Summary,2.1.1,"What means ""any string of zero or more as""?",/a*/,Correct,N,Y,Y
+Original Text,2.1.1,What is the regular expression used to specify this?,/aardvark,Correct,N,Y,Y
+Original Text,2.1.1,What can be used to solve this problem?,square braces,Correct,Y,Y,Y
+Original Text,2.1.1,What does the caret stand for if it occurs anywhere else?,a caret,Correct,Y,Y,N
+Human Summary,2.1.2,"What does (( )) mean ""and""?",Parentheses,Correct,Y,Y,N
+Original Text,2.1.2,What operator applies by default only to a single character?,Kleene*,Correct,Y,Y,Y
+Automatic Summary,2.1.2,When do we need to use the disjunction operator?,in the midst of a larger sequence,Correct,Y,Y,Y
+Original Text,2.1.2,What is another way to enforce non-greedy matching?,qualifier,Correct,Y,Y,Y
+Human Summary,2.1.2,Non-greedy matching can be enforced by what?,question mark qualifier,Correct,Y,Y,Y
+Automatic Summary,2.1.2,What is the operator *??,Kleene star,Correct,Y,Y,Y
+Original Text,2.1.2,What can be ambiguous in another way?,Patterns,Correct,Y,Y,Y
+Human Summary,2.1.2,"When regular expressions are not matched, we match them with what?",largest string they can,Correct,Y,Y,N
+Original Text,2.1.2,What would we want to search for in a text about pets?,string cat or the string dog,Correct,Y,Y,Y
+Original Text,2.1.2,What takes precedence over the disjunction operator?,sequences like guppy,Correct,Y,Y,Y
+Automatic Summary,2.1.2,What is another name for the disjunction operator?,pipe symbol,Correct,Y,Y,Y
+Human Summary,2.1.3,Less false negatives errors mean more what?,recall,Correct,Y,Y,Y
+Automatic Summary,2.1.3,What is an example of an incorrect pattern?,/the/,Correct,Y,Y,N
+Automatic Summary,2.1.3,What is the pattern that will miss the word when it begins a sentence?,/[tT]he/,Correct,Y,Y,Y
+Human Summary,2.1.3,What increases precision and recall?,Reducing error,Correct,N,N,N
+Automatic Summary,2.1.4,Where can a range of numbers be specified by enclosing them?,curly brackets,Correct,Y,N,Y
+Original Text,2.1.4,Special characters are referred to by special notation based on what?,backslash,Correct,Y,Y,Y
+Human Summary,2.1.4,What can you specify?,the number of an instance in a pattern,Correct,Y,Y,Y
+Human Summary,2.1.4,What can you specify?,the number of an instance in a pattern,Correct,Y,Y,Y
+Automatic Summary,2.1.5,What is a simple regular expression for a dollar sign followed by a string of digits?,/$[0-9+/,Correct,Y,N,Y
+Original Text,2.1.5,What do we need to allow for optional fractions?,disk space,Correct,Y,Y,Y
+Original Text,2.1.5,What do we want to help a user buy a computer on the Web?,build an application,Correct,Y,Y,Y
+Original Text,2.1.5,What will we add after the decimal point and two digits?,a decimal point and two digits,Correct,Y,Y,Y
+Automatic Summary,2.1.5,What does this pattern only allow?,$199.99,Correct,N,Y,Y
+Automatic Summary,2.1.5,What do we need to allow for?,optional fractions,Correct,N,Y,Y
+Human Summary,2.1.6,When does the command(? :) indicate a non-capturing group?,after an opening parenthesis,Correct,Y,Y,Y
+Original Text,2.1.6,What can the parenthesis and number operators specify?,a certain string or expression must occur twice in the text,Correct,Y,N,Y
+Original Text,2.1.6,Creating patterns is the topic of what exercise?,Exercise 2.3,Correct,Y,Y,N
+Human Summary,2.1.6,Capture group means using what to store a pattern in memory?,parentheses,Correct,Y,Y,N
+Automatic Summary,2.1.6,What does the next set of substitutions do in the input?,matches and replaces other patterns,Correct,Y,Y,Y
+Human Summary,2.1.7,What is used to rule out special cases while parsing complex pattern?,Negative lookahead,Correct,Y,Y,Y
+Original Text,2.1.7,"What do we use when we want to match, at the beginning of a line, any single word that doesn't start with ""Volcano",negative lookahead,Correct,N,Y,Y
+Automatic Summary,2.1.7,"The operator (?= pattern) is true if pattern occurs, but is zero-width, i.e. what doesn't advance",match pointer,Correct,N,Y,Y
+Automatic Summary,2.1.7,What is commonly used when we are parsing complex patterns but want to rule out a special case?,Negative lookahead,Correct,Y,Y,Y
+Automatic Summary,2.2,What is a million-word collection of samples from 500 written English texts from different genres called?,The Brown corpus,Correct,Y,Y,Y
+Original Text,2.2,What is the relationship between the number of types |V | and number of tokens N called?,Herdan's Law,Correct,Y,Y,Y
+Original Text,2.2,What word has the same lemma cat but are different wordforms?,cats,Correct,Y,Y,Y
+Human Summary,2.2,What are utterances?,spoken sentences,Correct,Y,Y,Y
+Human Summary,2.2,"What is a set of lexical forms that share the steam, major part-of-speech, and word sense?",A lemma,Correct,Y,Y,Y
+Original Text,2.2,What is the main part of an utterance?,business data processing,Correct,Y,N,N
+Original Text,2.2,What do we sometimes keep around?,disfluencies,Correct,Y,Y,Y
+Original Text,2.2,What corpus of American English telephone conversations between strangers was collected in the early 1990s?,Switchboard,Correct,Y,Y,N
+Human Summary,2.2,How can we differentiate the number of words?,by counting tokens or types,Correct,Y,Y,Y
+Automatic Summary,2.2,What are words like uh and um called fillers?,filled pauses,Correct,Y,Y,Y
+Human Summary,2.2,What is the rough upper limit for the number of possible lemmas?,Dictionary entries or boldface forms,Correct,Y,Y,N
+Original Text,2.3,How does a corpus of texts from different historical periods change?,Language changes over time,Correct,Y,Y,N
+Original Text,2.3,What do most languages have?,multiple varieties,Correct,Y,Y,Y
+Original Text,2.3,What language was the corpus in?,What language,Correct,N,N,Y
+Human Summary,2.3,What specifies properties of a dataset used in the development of computational models?,data statement,Correct,Y,Y,Y
+Original Text,2.3,When are NLP algorithms most useful?,when they apply across many languages,Correct,Y,Y,Y
+Human Summary,2.3,What are some variations in languages?,"dialect, code switching, genre",Correct,Y,Y,Y
+Original Text,2.3,What is the context of a corpus?,When and in what situation was the text written/spoken,Correct,Y,Y,Y
+Automatic Summary,2.3,"When developing computational models for language processing from a corpus, it's important to consider what?","who produced the language, in what context, for what purpose",Correct,Y,Y,Y
+Automatic Summary,2.3,How does a corpus of texts from different historical periods change?,Language changes over time,Correct,Y,Y,Y
+Automatic Summary,2.4.0,"Before almost any natural language processing of a text, the text has to be what?",normalized,Correct,Y,Y,Y
+Automatic Summary,2.4.0,What is the term for segmenting words?,Tokenizing,Correct,Y,Y,Y
+Automatic Summary,2.4.0,How do we go through each of these tasks?,walk through,Correct,Y,N,Y
+Automatic Summary,2.4.1,What are the most frequent words in Shakespeare?,"articles, pronouns, prepositions",Correct,Y,Y,Y
+Human Summary,2.4.1,"Unix can collapse, sort, and build statistics for the words in a corpus using commands such as what?",tr,Correct,Y,Y,Y
+Human Summary,2.4.1,What are the minimal tasks applied as part of any normalization process?,"Tokenizing words, normalizing word formats, and segmenting sentences",Correct,Y,Y,Y
+Human Summary,2.4.1,What command in Unix changes particular characters in the input?,The tr command,Correct,Y,Y,Y
+Automatic Summary,2.4.1,What can Unix tools be useful for?,building quick word count statistics,Correct,Y,Y,Y
+Human Summary,2.4.1,What are some examples of function words?,"articles, pronouns, and prepositions",Correct,Y,Y,Y
+Human Summary,2.4.1,What are the most frequent words?,function words,Correct,Y,Y,Y
+Human Summary,2.4.2,What must we account for according to where and how they are used?,punctuation and special characters,Correct,Y,Y,Y
+Automatic Summary,2.4.2,How many characters long are words on average?,2.4,Correct,Y,Y,Y
+Human Summary,2.4.2,"What is the identification of names, dates, organizations, etc?",Named entity recognition,Correct,Y,Y,Y
+Human Summary,2.4.2,What do algorithms have to deal with?,ambiguities,Correct,Y,Y,Y
+Original Text,2.4.2,What is a unit of meaning called?,a morpheme,Correct,Y,Y,Y
+Human Summary,2.4.2,What language requires word segmentation?,Japanese,Correct,Y,Y,Y
+Automatic Summary,2.4.2,What NLP algorithms require algorithms for word segmentation?,Japanese and Thai,Correct,N,Y,N
+Human Summary,2.4.2,What language has no spaces?,Chinese,Correct,Y,Y,Y
+Original Text,2.4.2,How are neural sequence models trained?,supervised machine learning,Correct,Y,Y,Y
+Original Text,2.4.2,What are characters called in Chinese?,hanzi,Correct,Y,Y,Y
+Automatic Summary,2.4.3,What runs on the test data the merges we have learned from the training data?,The token parser,Correct,Y,Y,Y
+Human Summary,2.4.3,Tokenizers often do what in order to solve the unknown word problem?,induce subwords,Correct,Y,Y,Y
+Human Summary,2.4.3,What implements both byte-pair encoding and unigram language modeling?,a SentencePiece library,Correct,Y,Y,Y
+Original Text,2.4.3,What is one of the three algorithms used by the token learner?,byte-pair encoding,Correct,Y,Y,Y
+Automatic Summary,2.4.3,What is another name for a corpus that NLP algorithms learn from?,training corpus,Correct,Y,Y,Y
+Original Text,2.4.3,What is the smallest meaning-bearing unit of a language?,morpheme,Correct,Y,Y,Y
+Human Summary,2.4.3,What library implements byte-pair encoding and unigram language modeling?,The SentencePiece library,Correct,Y,Y,Y
+Human Summary,2.4.3,What induces a set of tokens from raw data?,token learner,Correct,Y,Y,Y
+Original Text,2.4.3,Why does the token parser run on the test data?,the frequencies in the test data don't play a role,Correct,Y,N,Y
+Human Summary,2.4.3,What are most tokenization schemes made out of?,token learner and a token segmenter,Correct,Y,Y,Y
+Human Summary,2.4.4,What is standardizing the format of words and tokens?,Word normalization,Correct,Y,Y,Y
+Automatic Summary,2.4.4,What is generally not done for sentiment analysis analysis and machine translation?,case folding,Correct,Y,Y,Y
+Original Text,2.4.4,What are two types of normalization that we might want to see information from documents whether they mention the US or the USA?,information retrieval or information extraction,Correct,Y,Y,Y
+Original Text,2.4.4,"What is the central morpheme of the word, supplying the main meaning, and affixes?",stems,Correct,Y,N,Y
+Human Summary,2.4.4,What determines if two words share the same root?,Lemmatization,Correct,Y,Y,Y
+Human Summary,2.4.4,What are the two broad classes of morphemes?,"stems, and affixes",Correct,Y,Y,Y
+Original Text,2.4.5,What character is ambiguous between a sentence boundary marker and a marker of abbreviations like Mr. or Inc?,period character,Correct,Y,Y,Y
+Automatic Summary,2.4.5,What is one of the most useful cues for segmenting a text into sentences?,punctuation,Correct,Y,Y,Y
+Automatic Summary,2.4.5,What is another important step in text processing?,Sentence segmentation,Correct,Y,Y,Y
+Human Summary,2.4.5,What are some clues in sentence segmentation?,"periods, question marks, and exclamation points",Correct,Y,Y,Y
+Automatic Summary,2.5.0,What represents an operation list for converting the top string into the bottom string?,a series of symbols,Correct,Y,Y,Y
+Original Text,2.5.0,What is a similar word to a graffe?,graffe,Correct,N,N,N
+Human Summary,2.5.0,What is the task of deciding whether two strings refer to the same entity?,Coreference,Correct,Y,Y,Y
+Original Text,2.5.0,How many words do the two strings differ by?,one,Correct,Y,Y,Y
+Automatic Summary,2.5.0,What is the minimum edit distance?,minimum number of editing operations needed to transform one string into another,Correct,Y,Y,Y
+Original Text,2.5.0,What gives us a way to quantify both of these intuitions about string similarity?,Edit distance,Correct,Y,Y,Y
+Original Text,2.5.0,What did Levenshtein propose in his metric that each insertion or deletion has a cost of 1 and what else?,substitutions are not allowed,Correct,Y,Y,Y
+Automatic Summary,2.5.0,What is the most important visualization for string distances?,an alignment between the two strings,Correct,Y,Y,Y
+Human Summary,2.5.0,What is the minimum number of editing operations required to make two strings equal?,Minimum edit distance,Correct,Y,Y,Y
+Human Summary,2.5.0,What can help to quantify the similarity between strings?,Minimum edit distance,Correct,Y,Y,Y
+Original Text,2.5.1,What is the minimum edit distance?,2.8,Correct,Y,N,Y
+Automatic Summary,2.5.1,What is useful throughout speech and language processing?,Aligning two strings,Correct,Y,Y,Y
+Automatic Summary,2.5.1,When was dynamic programming first introduced?,1957,Correct,Y,Y,Y
+Automatic Summary,2.5.1,What plays a role in machine translation?,Alignment,Correct,Y,Y,Y
+Original Text,2.5.1,Where is the minimum edit distance algorithm summarized?,Fig. 2.17,Correct,Y,Y,Y
+Original Text,2.5.1,Where are the backpointers from a cell shown in Fig. 2.19?,2.19,Correct,Y,Y,Y
+Automatic Summary,2.5.1,What is the name for a class of algorithms that apply a table-driven method to solve problems by combining solutions to sub-problems?,Dynamic programming,Correct,Y,Y,Y
+Original Text,2.5.1,Where are the backpointers from a cell shown?,Fig. 2.19,Correct,Y,Y,N
+Original Text,2.5.1,What is the name for a class of algorithms that apply a table-driven method to solve problems by combining solutions to sub-problems?,dynamic programming,Correct,Y,Y,N
+Original Text,2.5.1,What is the edit distance between X 1..i and Y 1..j?,"D|i, j",Correct,N,Y,N
+Human Summary,2.5.1,Who named the minimum edit distance algorithm?,Wagner and Fischer,Correct,Y,Y,Y
+Automatic Summary,3.0,"What writing tools need to find and correct errors in writing like ""Their are two midterms""?",spelling correction or grammatical error correction,Correct,Y,Y,Y
+Human Summary,3.0,What can refer to both a sequence of n words and the predictive model that assigns it a probability?,n-gram,Correct,Y,Y,Y
+Human Summary,3.0,"What is essential for speech recognition, spelling or grammar correction, machine translation, and augmentative communication technologies?",Predicting upcoming words,Correct,Y,Y,Y
+Original Text,3.0,"What are essential in any task in which we have to identify words in noisy, ambiguous input?",Probabilities,Correct,Y,Y,Y
+Original Text,3.1,What are the MLE estimates for the parameters of an n-gram model?,0 and 1,Correct,Y,N,Y
+Original Text,3.1,What isn't big enough to give us good estimates in most cases?,web,Correct,Y,N,Y
+Automatic Summary,3.1,How does Eq.11 estimate the n-gram probability?,by dividing the observed frequency of a particular sequence by the frequency of a prefix,Correct,Y,Y,Y
+Automatic Summary,3.1,What are the majority of the bigram counts from a piece of a bigram grammar from the Berkeley Restaurant Project?,zero,Correct,Y,Y,N
+Original Text,3.1,What equation estimates the n-gram probability by dividing the observed frequency of a particular sequence by the observed frequency of a prefix?,Equation 3.12,Correct,Y,N,Y
+Automatic Summary,3.1,What shows the bigram counts from a piece of a bigram grammar from the Berkeley Restaurant Project?,Figure 3.1,Correct,Y,Y,Y
+Human Summary,3.1,How are bigram probabilities normalized?,by dividing each cell by the set of unigram probabilities,Correct,Y,Y,Y
+Original Text,3.1,What is the first step in estimating the probability of a word given a history h?,formalizing of notation,Correct,Y,Y,Y
+Original Text,3.1,What is usually a noun or an adjective?,eat,Correct,Y,Y,Y
+Automatic Summary,3.1,What is the class of probabilistic models that assume we can predict the probability of some future unit without looking too far into the past?,Markov models,Correct,Y,Y,Y
+Original Text,3.1,What should you do to estimate the probability of a word w given some history h?,compute this estimate for yourself,Correct,Y,N,Y
+Automatic Summary,3.1,How many words would be more sparse than a random set of?,seven,Correct,N,Y,Y
+Automatic Summary,3.1,What encode some facts that we think of as strictly syntactic in nature?,Bigram probabilities,Correct,Y,N,Y
+Human Summary,3.1,All language model probabilities are represented in log format as what?,log probabilities,Correct,Y,Y,Y
+Original Text,3.1,"For larger n-grams, we'll need to assume what to the left and right of the sentence end?",extra contexts,Correct,Y,N,Y
+Human Summary,3.1,Why are joint probabilities difficult to calculate?,too many possible sentences of a certain length,Correct,Y,Y,Y
+Human Summary,3.1,What is another name for the maximum likelihood estimation?,MLE,Correct,Y,Y,Y
+Human Summary,3.1,The n-gram model looks at how many words into the past?,n-1,Correct,Y,Y,Y
+Original Text,3.1,What is the probability of a complete word sequence by substituting Eq. 3.7 into Eq. 3.4?,3.9,Correct,Y,Y,Y
+Original Text,3.1,How many words were selected from a random set?,seven,Correct,Y,Y,Y
+Human Summary,3.2.0,What would happen if we accidentally trained the model on the test set?,bias,Correct,Y,Y,Y
+Original Text,3.2.0,What can be taken from some continuous sequence of text inside the corpus?,test data,Correct,Y,Y,Y
+Human Summary,3.2.0,What is a test set that has been used so often that we need a fresher test set?,A development set,Correct,Y,Y,Y
+Human Summary,3.2.0,What embeds a model in an application and measures how much the application improves in an end to end evaluation?,Extrinsic evaluation,Correct,Y,Y,Y
+Human Summary,3.2.0,What is the downside of extrinsic evaluation?,very expensive,Correct,Y,Y,Y
+Human Summary,3.2.0,Which n-gram model assigns a higher probability to the test set?,the one that better fits the test set,Correct,Y,Y,Y
+Human Summary,3.2.0,What ensures the quality of a model independent of any application?,intrinsic evaluation,Correct,Y,Y,Y
+Automatic Summary,3.2.0,Why do we want our test set to be as large as possible?,small test set may be accidentally unrepresentative,Correct,Y,Y,Y
+Human Summary,3.2.0,What are the three types of data that we divide the data in?,"training set, test set, held out set",Correct,Y,Y,Y
+Original Text,3.2.1,Perplexity is related inversely to what?,likelihood of the test sequence according to the model,Correct,Y,Y,Y
+Original Text,3.2.1,How is the perplexity of two language models comparable?,if they use identical vocabularies,Correct,Y,Y,Y
+Automatic Summary,3.2.1,What can we use to expand the probability of W?,the chain rule,Correct,Y,Y,Y
+Human Summary,3.3.0,What can we use to build an n-gram to answer and predict sentences that make sense in context?,training corpus of a similar genre,Correct,Y,Y,Y
+Automatic Summary,3.3.0,Our models may still be subject to the problem of what?,sparsity,Correct,Y,Y,Y
+Automatic Summary,3.3.0,The n-gram model is dependent on what?,training corpus,Correct,Y,Y,Y
+Automatic Summary,3.3.0,What is still not sufficient?,Matching genres and dialects,Correct,Y,Y,Y
+Automatic Summary,3.3.0,What sentences have no coherent relation between words or any sentence-final punctuation?,unigram sentences,Correct,Y,Y,Y
+Automatic Summary,3.3.0,What sentences have some local word-to-word coherence?,bigram sentences,Correct,Y,Y,Y
+Original Text,3.3.0,What is the P(offer|denied the)?,0,Correct,Y,Y,Y
+Automatic Summary,3.3.0,"The longer the context on which we train the model, the more coherent what?",sentences,Correct,Y,Y,Y
+Automatic Summary,3.3.0,"For any n-gram that occurred a sufficient number of times, we might have what?",a good estimate of its probability,Correct,Y,Y,Y
+Original Text,3.3.0,"What shows the sentences generated by unigram, bigram, and trigram grammars trained on 40 million words from WSJ?",Fig. 3.4,Correct,Y,Y,Y
+Human Summary,3.3.0,N-grams are dependent on what?,training corpus,Correct,Y,Y,Y
+Original Text,3.3.0,What do the 4-gram sentences look a little too much like?,Shakespeare,Correct,N,Y,Y
+Original Text,3.3.1,What is the problem of words whose probability is zero?,bigram probability,Correct,Y,Y,Y
+Human Summary,3.3.1,What is a closed vocabulary system?,the test set doesn't contain any words outside of the given lexicon,Correct,Y,Y,Y
+Automatic Summary,3.3.1,What are OOV words?,out of vocabulary,Correct,Y,Y,Y
+Automatic Summary,3.3.1,The exact choice of UNK> model does have an effect on metrics like what?,perplexity,Correct,Y,Y,Y
+Human Summary,3.3.1,The closed vocabulary system is often used in speech recognition or what?,machine translation,Correct,Y,Y,Y
+Human Summary,3.3.1,What is the term for unknown words?,out of vocabulary,Correct,Y,Y,Y
+Human Summary,3.3.1,How many ways are there to train probabilities of UNK>?,two,Correct,N,Y,Y
+Automatic Summary,3.3.1,What is zero for words that we haven't seen before?,bigram probability,Correct,N,Y,Y
+Automatic Summary,3.4.0,What is a modification called to keep a language model from assigning zero probability to unseen events?,smoothing or discounting,Correct,Y,Y,Y
+Original Text,3.4.0,What type of smoothing is introduced?,Kneser-Ney,Correct,Y,Y,Y
+Automatic Summary,3.4.0,What do we do to keep a language model from assigning zero probability to unseen events?,shave off a bit of probability mass,Correct,Y,N,Y
+Automatic Summary,3.4.0,What context do words that are in our vocabulary appear in a test set in?,unseen,Correct,N,Y,Y
+Original Text,3.4.1,What does Laplace smoothing apply to?,unigram probabilities,Correct,Y,Y,Y
+Original Text,3.4.1,What do we smooth now that we have the intuition for the unigram case?,Berkeley Restaurant Project bigrams,Correct,N,Y,Y
+Human Summary,3.4.1,What is the unigram probability of word w_i?,c_i,Correct,N,Y,Y
+Human Summary,3.4.1,What is the adjusted count c* easier to compare with?,MLE counts,Correct,N,Y,Y
+Original Text,3.4.1,What shows the add-one smoothed counts for the bigrams in Fig. 3.1?,Figure 3.5,Correct,Y,Y,Y
+Original Text,3.4.1,What shows the add-one smoothed counts for the bigrams in Fig. 3.1?,Figure 3.5,Correct,Y,Y,Y
+Original Text,3.4.2,What is a fractional count k called?,add-k smoothing,Correct,Y,Y,Y
+Automatic Summary,3.4.2,What is the algorithm that adds fractional count k called?,add-k smoothing,Correct,Y,Y,Y
+Automatic Summary,3.4.2,"Instead of adding I to each count, we add what?",fractional count k,Correct,Y,Y,Y
+Human Summary,3.4.2,What is the algorithm that adds a fractional count k to each count called?,add-k smoothing,Correct,Y,Y,Y
+Automatic Summary,3.4.3,What shows the equation for interpolation with context-conditioned weights?,Equation 3.28,Correct,Y,Y,Y
+Automatic Summary,3.4.3,What can help solve the problem of zero frequency n-grams?,Discounting,Correct,Y,Y,Y
+Human Summary,3.4.3,What are the higher-order n-grams discounted by a function alpha to save some probability mass for?,lower-order n-grams,Correct,Y,Y,N
+Automatic Summary,3.4.3,How is each weight computed in a slightly more sophisticated version of linear interpolation?,by conditioning on the context,Correct,Y,Y,Y
+Human Summary,3.5,What is Kneser-Ney based on?,absolute discounting,Correct,Y,Y,Y
+Automatic Summary,3.5,Who used a clever idea to see how to save some probability mass for the smoothing algorithm to distribute to unseen n-grams?,Church and Gale,Correct,Y,Y,Y
+Automatic Summary,3.5,Kneser-Ney discounting augments absolute discounting with a more sophisticated way to handle what?,lower-order unigram distribution,Correct,Y,Y,Y
+Automatic Summary,3.5,What formalizes this intuition by subtracting a fixed (absolute) discount d from each count?,Absolute discounting,Correct,Y,Y,Y
+Automatic Summary,3.5,What will not affect the very high counts?,a small discount d,Correct,Y,Y,Y
+Original Text,3.5,What phrase is Kong mainly frequent in?,Hong Kong,Correct,Y,Y,Y
+Original Text,3.5,What word is included as a regular vocabulary entry with count zero?,UNK>,Correct,Y,N,Y
+Automatic Summary,3.6,What corpora includes n-rams drawn from their book collections?,Google Books Ngrams,Correct,Y,Y,Y
+Automatic Summary,3.6,What do language model toolkits use to combine probabilities and backoffs in a single value?,sorted arrays,Correct,Y,Y,Y
+Original Text,3.6,How are probabilities quantized?,4-8 bits,Correct,Y,Y,Y
+Human Summary,3.6,How can n-grams be shrunk?,pruning,Correct,Y,Y,Y
+Human Summary,3.6,What type of hash numbers are stored in memory?,64-bit,Correct,Y,Y,Y
+Automatic Summary,3.6,What does stupid backoff not produce?,probability distribution,Correct,Y,Y,N
+Automatic Summary,3.7,When is the cross-entropy useful?,when we don't know the actual probability distribution,Correct,Y,Y,Y
+Human Summary,3.7,"What theorem states that if the language is regular, the entropy of the given language would be the entropy of",Shannon-McMillan-Breiman theorem,Correct,Y,Y,Y
+Automatic Summary,3.7,"What theorem states that if the language is regular in certain ways (to be exact, if it is both stationary and ergo",Shannon-McMillan-Breiman theorem,Correct,Y,Y,Y
+Original Text,3.7,"To measure the true entropy of a language, we need to consider sequences of what length?",infinite length,Correct,Y,Y,Y
+Human Summary,3.7,What would give a lower cross-entropy?,The more accurate model,Correct,Y,Y,Y
+Original Text,3.7,What does the spread represent?,the prior probability of each horse,Correct,Y,Y,Y
+Original Text,4.0,What is the extraction of positive or negative orientation that a writer expresses toward some object?,sentiment analysis,Correct,Y,Y,Y
+Human Summary,4.0,Most classifications in language processing are done through what?,supervised machine learning,Correct,Y,Y,Y
+Automatic Summary,4.0,What is the extraction of sentiment?,sentiment analysis,Correct,Y,Y,Y
+Human Summary,4.0,What is the task of assigning a label or category to an entire text or document?,Text categorization,Correct,Y,Y,Y
+Automatic Summary,4.0,What is the output variable for lassification?,c,Correct,N,Y,Y
+Automatic Summary,4.0,What is another important commercial application?,Spam detection,Correct,Y,Y,Y
+Original Text,4.0,Classification is essential for what?,tasks below the level of the document,Correct,Y,Y,Y
+Human Summary,4.0,What is a core part of sentient intelligence?,Classification,Correct,Y,Y,Y
+Automatic Summary,4.0,"Related text classification tasks like what are relevant to the digital humanities, social sciences, and forensic linguistics?",authorship attribution,Correct,Y,Y,Y
+Human Summary,4.0,What does a probabilistic classifier output?,probability of an object belonging to a certain class,Correct,Y,Y,Y
+Human Summary,4.0,What type of classifier builds a model of how a class could generate input?,Generative classifiers,Correct,Y,Y,Y
+Original Text,4.0,Even language modeling can be viewed as what?,classification,Correct,Y,Y,Y
+Automatic Summary,4.1,Where is the intuition of the naive Bayes classifier shown?,Fig. 4.1,Correct,Y,Y,Y
+Original Text,4.1,How can we simplify Eq. 4.3?,dropping the denominator,Correct,Y,Y,Y
+Automatic Summary,4.1,Why are naive Bayes calculations done in log space?,increase speed,Correct,Y,N,Y
+Human Summary,4.1,Naive Bayes generates words by sampling from what?,conditional probability,Correct,Y,Y,Y
+Original Text,4.1,How can we simplify Eq. 4.3 by dropping the denominator P(d)?,computing Eq. 4.3,Correct,Y,Y,Y
+Automatic Summary,4.1,What is the multinomial naive Bayes classifier?,a Bayesian classifier,Correct,Y,N,N
+Automatic Summary,4.1,What could we imagine by following this process?,generating artificial documents,Correct,N,Y,Y
+Automatic Summary,4.1,What does the naive Bayes classifier state about how a document is generated?,implicit assumption,Correct,Y,N,Y
+Human Summary,4.1,What are the Bayesian classifiers called?,linear classifiers,Correct,Y,Y,Y
+Human Summary,4.10,What can cause a variety of harms?,classifiers,Correct,Y,Y,Y
+Human Summary,4.10,What type of harms are caused by a system that demeans a social group?,Representational,Correct,Y,Y,Y
+Automatic Summary,4.10,What is one class of harms caused by a system that perpetuates negative stereotypes about a social group?,demeans,Correct,Y,N,Y
+Human Summary,4.10,What is another class of harms that may exist in toxicity detection?,Censorship,Correct,Y,Y,Y
+Original Text,4.10,What classifiers can cause harms?,toxicity classifiers,Correct,Y,Y,Y
+Automatic Summary,4.10,What do some widely used toxicity classifiers incorrectly flag as being?,toxic sentences,Correct,Y,Y,Y
+Original Text,4.10,Who published a study in which toxicity classifiers incorrectly flag sentences that are non-toxic but simply mention minority identities?,Davidson et al.,Correct,Y,Y,Y
+Human Summary,4.2,How do some systems ignore stop words?,by sorting the vocabulary,Correct,Y,Y,N
+Human Summary,4.2,What is calculated as the fraction of times a word appears among all words in all documents of a class?,The maximum likelihood estimate of the conditional probability,Correct,Y,Y,Y
+Original Text,4.2,Why are words not in our vocabulary at all?,they did not occur in any training document in any class,Correct,Y,Y,Y
+Human Summary,4.2,What is the simplest solution to avoid a zero overall probability?,add-one (Laplace) smoothing,Correct,Y,Y,Y
+Human Summary,4.2,What is the simplest solution for preventing zero probability classes?,Laplace smoothing,Correct,Y,Y,Y
+Original Text,4.2,What naively multiplies all the feature likelihoods together?,naive Bayes,Correct,Y,Y,Y
+Human Summary,4.2,What is used to avoid zeros?,Laplace smoothing,Correct,Y,Y,Y
+Original Text,4.4,What seems to matter more than its frequency?,whether a word occurs or not,Correct,Y,Y,Y
+Automatic Summary,4.4,What can modify a negative word to produce a positive review?,negation,Correct,Y,Y,Y
+Automatic Summary,4.4,What can we derive from sentiment lexicons?,positive and negative word features,Correct,Y,Y,Y
+Human Summary,4.4,What is another name for binary multinomial naive Bayes?,binary NB,Correct,Y,Y,Y
+Human Summary,4.5,What type of texts are Language ID systems trained on?,multilingual,Correct,Y,Y,N
+Original Text,4.5,What is the task of deciding if a particular piece of email is an example of spam?,spam detection,Correct,Y,Y,Y
+Human Summary,4.5,What are features in naive Bayes for spam detection?,a set of likely words or phrases,Correct,Y,N,Y
+Human Summary,4.6,What is the probability of a sentence being positive?,the total product of the individual probabilities that each word in the sentence is positive,Correct,Y,Y,N
+Human Summary,4.6,What are similar to language modeling in that they can be viewed as a set of class-specific unigram language models?,Naive Bayes models,Correct,Y,Y,Y
+Automatic Summary,4.6,What do likelihood features assign to each word P(word|c)?,probability,Correct,Y,Y,Y
+Automatic Summary,4.7.0,What is the goal of accuracy?,to discover something that is rare,Correct,Y,Y,Y
+Original Text,4.7.0,How many false negatives would a classifier have?,"999,900",Correct,Y,Y,N
+Original Text,4.7.0,What do we need in order to know how well our spam detector is doing?,metric,Correct,Y,Y,Y
+Automatic Summary,4.7.0,What is the goal of spam detection?,"to label every text as being in the spam category (""positive"") or not in the spam category (""negative"")",Correct,Y,Y,Y
+Original Text,4.7.0,"What is the accuracy of the ""nothing is pie"" classifier?",99.99%,Correct,Y,Y,N
+Original Text,4.7.1,How can we derive a single metric that tells us how well the system is doing?,combine these values in two ways,Correct,N,Y,Y
+Human Summary,4.8,What allows all data to be used for both training and testing?,Cross-validation,Correct,Y,Y,Y
+Human Summary,4.9.0,What is the null hypothesis that supposes that delta is negative or zero?,Hypothesis H_0,Correct,Y,Y,Y
+Human Summary,4.9.0,What random variable is created over all test sets to find if we can rule out H_0?,X,Correct,Y,Y,Y
+Automatic Summary,4.9.0,What does the hypothesis H0 suppose?,d(x) is actually negative or zero,Correct,Y,Y,Y
+Human Summary,4.9.0,What attempts to rule out the null hypothesis?,statistical significance testing,Correct,Y,Y,Y
+Automatic Summary,4.9.0,What type of tests do we artificially create many versions of the experimental setup?,non-parametric tests based on sampling,Correct,Y,Y,Y
+Original Text,4.9.0,What are non-parametric tests based on?,sampling,Correct,Y,Y,Y
+Original Text,4.9.0,What is the probability that we would see if the null hypothesis is true?,d(x),Correct,Y,Y,Y
+Automatic Summary,4.9.0,Where can we know if the new system we just built is better than the old one?,the literature,Correct,Y,N,Y
+Human Summary,4.9.0,The null hypothesis assumes that the effective size is what?,negative or zero,Correct,Y,Y,N
+Automatic Summary,4.9.0,How do we test statistical significance for NLP classifiers?,by formalizing two hypotheses,Correct,Y,Y,N
+Original Text,4.9.1,The first row of Fig. 1 shows the results of two classifiers (A and B) on a test set x of 10 documents,4.8,Correct,Y,Y,Y
+Automatic Summary,4.9.1,What is the test set for a tiny text classification example?,x of 10 documents,Correct,N,Y,Y
+Automatic Summary,4.9.1,What can we do statistics on now that we have the b test sets?,how often A has an accidental advantage,Correct,Y,Y,Y
+Original Text,4.9.1,What is the num of samples b?,b,Correct,N,Y,Y

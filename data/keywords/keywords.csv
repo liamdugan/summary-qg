@@ -1,0 +1,159 @@
+words
+ELIZA
+chatbots
+text normalization
+tokenization
+lemmatization
+stemming
+sentence segmentation
+regular expression
+corpus
+range
+Kleene *
+Kleene +
+anchors
+disjunction
+precedence
+operator precedence
+greedy
+non-greedy
+*?
++?
+false positives
+false negatives
+newline
+substitution
+capture group
+register
+non-capturing group
+lookahead
+zero-width
+corpus
+corpora
+utterance
+disfluency
+fragment
+filled pause
+lemma
+wordform
+word type
+word token
+Herdan's Law
+Heaps' Law
+AAL
+MAE
+code switching
+datasheet
+tokenization
+clitic
+Penn Treebank Tokenization
+hanzi
+word segmentation
+subwords
+BPE
+normalization
+case folding
+morpheme
+stem
+affix
+stemming
+Porter stemmer
+cascade
+sentence segmentation
+minimum edit distance
+alignment
+dynamic programming
+minimum edit distance algorithm
+backtrace
+AAC
+language model
+LM
+n-gram
+bigram
+Markov
+n-gram
+Maximum Likelihood Estimation
+normalize
+relative frequency
+trigram
+4-gram
+5-gram
+log probabilities
+extrinsic evaluation
+intrinsic evaluation
+training set
+test set
+held out
+development test
+perplexity
+zeros
+closed vocabulary
+OOV
+open vocabulary
+smoothing
+discounting
+Laplace smoothing
+add-one
+discounting
+discount
+add-k
+backoff
+interpolation
+held-out
+discount
+Katz backoff
+Good-Turning
+Kneser Ney
+Absolute discounting
+Interpolated Kneser-Ney
+modified Kneser-Ney
+Bloom filters
+stupid backoff
+Entropy
+entropy rate
+Stationary
+cross-entropy
+perplexity
+text categorization
+sentiment analysis
+spam detection
+language id
+authorship attribution
+supervised machine learning
+naive Bayes classifier
+bag of words
+Bayesian inference
+prior probability
+likelihood
+naive Bayes assumption
+linear classifiers
+unknown word
+stop words
+binary NB
+sentiment lexicons
+General Inquirer
+LIWC
+spam detection
+language ID
+gold labels
+confusion matrix
+precision
+recall
+F-measure
+macroaveraging
+microaveraging
+development test set
+devset
+cross-validation
+10-fold cross-validation
+effect size
+null hypothesis
+p-value
+statistically significant
+approximate randomization
+paired
+bootstrap test
+bootstrapping
+representational harms
+toxicity detection
+model card
