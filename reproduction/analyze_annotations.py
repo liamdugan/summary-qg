@@ -6,7 +6,7 @@ from sklearn.metrics import cohen_kappa_score
 sns.set_theme(style="whitegrid")
 sns.set_palette(sns.color_palette("muted"))
 
-df = pd.read_csv('data/questions/annotations.csv')
+df = pd.read_csv('../data/questions/annotations.csv')
 
 def get_majority(df):
   majority_df = df.drop(df.columns[5:], axis=1)

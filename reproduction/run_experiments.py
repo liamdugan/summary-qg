@@ -1,4 +1,7 @@
-import argparse, torch, re, pandas
+import argparse, torch, re, pandas, sys
+
+sys.path.append('..')
+
 from pipeline import pipeline
 from transformers import pipeline as pipelineHF
 from transformers import AutoTokenizer
@@ -19,11 +22,11 @@ def extract_chapters(files):
     return chapters
 
 if __name__ == "__main__":
-    original_text = extract_chapters(['./data/text/slp_ch2.txt', './data/text/slp_ch3.txt', './data/text/slp_ch4.txt'])
-    human_summaries_A1 = extract_chapters(['./data/summaries/summary_A1.txt'])
-    human_summaries_A2 = extract_chapters(['./data/summaries/summary_A2.txt'])
-    human_summaries_A3 = extract_chapters(['./data/summaries/summary_A3.txt'])        
-    auto_summaries = extract_chapters(['./data/summaries/summary_auto.txt']) if not args.use_summary else original_text
+    original_text = extract_chapters(['../data/text/slp_ch2.txt', '../data/text/slp_ch3.txt', '../data/text/slp_ch4.txt'])
+    human_summaries_A1 = extract_chapters(['../data/summaries/summary_A1.txt'])
+    human_summaries_A2 = extract_chapters(['../data/summaries/summary_A2.txt'])
+    human_summaries_A3 = extract_chapters(['../data/summaries/summary_A3.txt'])        
+    auto_summaries = extract_chapters(['../data/summaries/summary_auto.txt']) if not args.use_summary else original_text
 
     sources = {
         'Original Text': original_text,
