@@ -16,9 +16,8 @@ def extract_chapters(files):
     chapters = dict()
     for fname in files:
         text = open(fname,'r').read()
-        for x in re.finditer("\n(2\.[0-9]\.?[0-9]?)(.*?)\n(.*?)(\n|$)", text):
+        for x in re.finditer("\n([2-4]\.[0-9]\.?[0-9]?)(.*?)\n(.*?)(\n|$)", text):
             chapters[x.group(1)] = x.group(3)
-            break
     return chapters
 
 if __name__ == "__main__":
