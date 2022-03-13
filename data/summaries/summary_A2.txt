@@ -1,3 +1,7 @@
+A Summary of Chapters 2-4 of “Speech and Language Processing” by Jurafsky & Martin (12/30/2020 Draft)
+
+Written by Annotator #2
+
 2.0
 ELIZA is an early natural language processing system that mimiced a Rogerian psychotherapist to carry on conversation. Although the responses were limited, ELIZA was remarkably successful. ELIZA and other chatbots still play a crucial role in natural language processing today. Our process begins with extracting specific strings using regular expression, before converting the text into a more convenient, standard form using text normalization. Text normalization also includes lemmatization, which identifies the implicit shared roots between words. This could be done by stripping the suffixes. Finally, sentence segmentation breaks up a text into individual sentences using punctuation. We use edit distance to evaluate the degree of resemblance between two strings.
 

@@ -1,3 +1,7 @@
+A Summary of Chapters 2-4 of “Speech and Language Processing” by Jurafsky & Martin (12/30/2020 Draft)
+
+Written by Annotator #3
+
 2.0
 ELIZA is an example of an early NLP processing system that recognizes patterns and matches them with appropriate responses. Many chatbots, including ELIZA, use this technique of recognizing patterns and its essence lies on the concept of regular expressions. Regular expressions are strings that we define since we might want to extract these strings from a text. We might also want to standardize the text, which is called text normalization. Some examples of this are separating the words with tokens, figuring out which words share the same root, or splitting sentences from a text. We also determine how similar words are between each other with an algorithm called edit distance.
 

@@ -1,3 +1,7 @@
+A Summary of Chapters 2-4 of “Speech and Language Processing” by Jurafsky & Martin (12/30/2020 Draft)
+
+Written by Annotator #1
+
 2.0
 ELIZA was an early natural language processing system that used pattern matching to recognize phrases. ELIZA is an example of a chatbot. Regular expressions are the most important tool for text pattern characterization, and they can be used to specify string patterns to extract from a text. Text normalization uses regular expressions to convert text into a more standard form. For example, text normalization uses tokenizing, which breaks a sentence into a sequence of words and other tokens like punctuation marks. Lemmatization is also a part of text normalization. Lemmatization is the process of finding root words of inflected words. A simpler version of lemmatization is stemming, which removes suffixes from words. Edit distance is a measure of similarity between two strings.
 
