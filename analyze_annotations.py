@@ -104,6 +104,7 @@ def show_values(axs, orient="v", space=.01):
 
 majority = get_majority(df).replace({"Y": 100, "N": 0})
 sns.set(font_scale=1)
+sns.set_style("whitegrid")
 sns.set_context("paper")
 p = sns.barplot(x="Category", y="A", hue="Author", hue_order=['Original Text', 'Automatic Summary', 'Human Summary'], data=majority, ci=None)
 p.set_title("")

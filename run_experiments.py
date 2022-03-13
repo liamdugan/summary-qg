@@ -1,9 +1,3 @@
-#!pip install -U transformers==3.0.0 --quiet
-#!pip install unidecode
-#!pip install nltk
-#!pip install torch
-#!python -m nltk.downloader punkt
-
 import argparse, torch, re, pandas
 from pipeline import pipeline
 from transformers import pipeline as pipelineHF
@@ -53,7 +47,6 @@ if __name__ == "__main__":
     data = []
     for source, text in sources.items():
         for chapter, chtext in text.items():
-
             if source == 'Auto Summary':
                 qa_pairs = extract_qa_pairs(tokenizer, qg, summarizer, chtext)
             else:

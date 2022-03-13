@@ -1,9 +1,3 @@
-#!pip install -U transformers==3.0.0 --quiet
-#!pip install unidecode
-#!pip install nltk
-#!pip install torch
-#!python -m nltk.downloader punkt
-
 import argparse, itertools
 from pipeline import pipeline
 from nltk import sent_tokenize

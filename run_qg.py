@@ -1,9 +1,3 @@
-#!pip install -U transformers==3.0.0 --quiet
-#!pip install unidecode
-#!pip install nltk
-#!pip install torch
-#!python -m nltk.downloader punkt
-
 import argparse, torch
 from pipeline import pipeline
 from transformers import pipeline as pipelineHF
