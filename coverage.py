@@ -29,7 +29,6 @@ def percent_keywords_used_in_questions(input_df):
 
     return compute_coverage(keyword_df, input_df)
 
-
 for author in data.Author.unique():
     print(author, percent_keywords_used_in_questions(data[data['Author'] == author]))
     
