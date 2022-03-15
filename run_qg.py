@@ -33,13 +33,11 @@ if __name__ == "__main__":
 
     if args.infile:
         input_text = open(args.infile,"r").read()
-        print("Generating Questions...")
         qa_pairs = extract_qa_pairs(tokenizer, qg, summarizer, input_text)
         print_qa_pairs(qa_pairs)
 
     else:
         while True:
             input_text = input(">")
-            print("Generating Questions...")
             qa_pairs = extract_qa_pairs(tokenizer, qg, summarizer, input_text)
             print_qa_pairs(qa_pairs)
