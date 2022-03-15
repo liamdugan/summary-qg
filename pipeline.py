@@ -1,3 +1,7 @@
+'''
+Code adapted from https://github.com/patil-suraj/question_generation/blob/master/pipelines.py
+'''
+
 import itertools
 import logging
 from typing import Optional, Dict, Union
