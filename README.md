@@ -1,4 +1,6 @@
 # Joint Summarization & Question Generation
+![/data/media/demo.gif](/data/media/demo.gif)
+
 - [Project Details](#project-details)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -102,12 +104,12 @@ Below are the evaluation results for the `t5-base` and `t5-small` models on the 
 | [t5-base-qa-qg-hl](https://huggingface.co/valhalla/t5-base-qa-qg-hl)       | 21.0141 | 26.9113 | 43.2484 | 82.46  | 90.272 |
 | [t5-small-qa-qg-hl](https://huggingface.co/valhalla/t5-small-qa-qg-hl)     | 18.9872 | 25.2217 | 40.7893 | 76.121 | 84.904 |
 
-<br/>The evaluation results as well as inference timings for the full summarization model and the distilled model on the CNN/DailyMail test set are listed below.
+<br/>Below are the evaluation results for the `bart-large` and `distilbart` models on the CNN/DailyMail test set.
 
-| Name                                                                       | Inference Time  | ROUGE-2  | ROUGE-L |
-|----------------------------------------------------------------------------|---------|---------|---------|
-| [facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn)       | 381ms | 21.06 | 30.63 |
-| [sshleifer/distilbart-cnn-6-6](https://huggingface.co/sshleifer/distilbart-cnn-6-6)     | 182ms | 20.17 | 29.70 |
+| Name                                                                       | ROUGE-2  | ROUGE-L |
+|----------------------------------------------------------------------------|---------|---------|
+| [facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn)       | 21.06 | 30.63 |
+| [sshleifer/distilbart-cnn-6-6](https://huggingface.co/sshleifer/distilbart-cnn-6-6)     | 20.17 | 29.70 |
 
 ## Citation
 If you use our code or findings in your research, please cite us as:
