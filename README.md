@@ -1,16 +1,7 @@
 # Joint Summarization & Question Generation
 ![/data/media/demo.gif](/data/media/demo.gif)
 
-- [Project Details](#project-details)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Reproduction](#reproduction)
-- [Model Details](#model-details)
-- [Citation](#citation)
-
-## Project Details
-This repository contains the code for the ACL 2022 paper "A Feasibility Study of Answer-Unaware Question Generation for Education". It provides scripts to perform joint summarization and question generation as well as scripts for reproducing the results of the paper. 
-
+This repository contains the code for the ACL 2022 paper "A Feasibility Study of Answer-Unaware Question Generation for Education". In our paper we show that running QG on summarized text results in higher quality questions.
 
 ## Installation
 
@@ -64,7 +55,7 @@ These scripts will default to using GPU if it is available. It is highly recomme
 
 ## Reproduction
 
-To reproduce the data from the paper, use `reproduction/run_experiments.py`. This script will output a file named `out.csv` that contains questions from all three sources (Automatic Summary, Original Text, Human Summary) separated by chapter subsection. If using the full-size models, this should take about 5-10 minutes on GPU.
+To reproduce the results from the paper, use `reproduction/run_experiments.py`. This script will generate a file named `out.csv` that contains questions from all three sources (Automatic Summary, Original Text, Human Summary) separated by chapter subsection. If using the full-size models, this should take about 5-10 minutes on GPU.
 ```
 $ python run_experiments.py -h
   -s, --use_summary  Run automatic summarization rather than reading in
@@ -72,23 +63,23 @@ $ python run_experiments.py -h
   -f, --fast         Use the smaller and faster versions of the models
 ```
 
-For example, this command will run the full QG model on all sources and re-run automatic summarization on the original text instead of reading in the information from `../data/summaries/autosummary.txt`
+For example, this command will run the full QG model on all sources
 ```
 $ cd reproduction
 $ python run_experiments.py -s
 ```
 
-To run the coverage analysis, use `reproduction/coverage.py`. This script will print out the % of bolded key-terms from the textbook present in question-answer pairs in a given input csv file separated by textual source.
+To reproduce the coverage analysis, use `reproduction/coverage.py`. This script will print out the % of bolded key-terms from the textbook present in question-answer pairs in a given input csv file separated by textual source.
 ```
 $ python coverage.py <keyword_file> <data_file>
 ```
 
-For example, this command will run a coverage analysis on the data included in the paper. You may also choose to set ``data_file`` to the output of ``run_experiments.py`` to verify the coverage of your generated questions.
+For example, this command will run a coverage analysis on the data included in the paper. You may also choose to set `data_file` to the `out.csv` file to verify the coverage of your generated questions.
 ```
 $ python coverage.py ../data/keywords/keywords.csv ../data/questions/questions.csv
 ```
 
-Finally, to run an analysis of the annotations collected, use `reproduction/analyze_annotations.py`. This script will print out pairwise IAA and per-annotator statistics (Table 3) for each annotation questions as well as a breakdown across chapters (Table 5). It will also output the plot used in Figure 3 as `summaries.pdf`.
+Finally, to reproduce our analysis of annotations collected, use `reproduction/analyze_annotations.py`. This script will print out pairwise IAA and per-annotator statistics (Table 3) for each annotation questions as well as a breakdown across chapters (Table 5). It will also output the plot used in Figure 3 as `summaries.pdf`.
 ```
 $ python analyze_annotations.py
 ```
