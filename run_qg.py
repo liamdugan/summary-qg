@@ -20,11 +20,11 @@ if __name__ == "__main__":
     qg_model = "valhalla/t5-small-qa-qg-hl" if args.fast else "valhalla/t5-base-qa-qg-hl"
     sum_model = "sshleifer/distilbart-cnn-6-6" if args.fast else "facebook/bart-large-cnn"
 
-    print("Loading QG Model...")
+    print("Loading QG Model (This may take a while)...")
     qg = pipeline("multitask-qa-qg", model=qg_model)
     tokenizer = AutoTokenizer.from_pretrained("t5-base")
 
-    if args.use_summary: print("Loading Summarization Model...")
+    if args.use_summary: print("Loading Summarization Model (This may also take a while)...")
 
     if torch.cuda.is_available():
         summarizer = pipelineHF("summarization", model=sum_model, device=0) if args.use_summary else None
