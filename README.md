@@ -17,17 +17,19 @@ Conda:
 conda create -n sumqg_env python=3.9.7
 conda activate sumqg_env
 pip install -r requirements.txt
+python -m nltk.downloader punkt
 ```
 venv:
 ```
 python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
+python -m nltk.downloader punkt
 ```
 
 ## Usage
 
-To run QG on user input or a file, use `run_qg.py`. Add the `-s` flag to include automatic summarization in the pipeline and use the `-f` flag if you prefer speed over accuracy. The full options are listed below
+To run QG on user input or a file, use `run_qg.py`. Add the `-s` flag to include automatic summarization in the pipeline before running QG (for use on longer inputs only). Add the `-f` flag to use the smaller and faster distilled versions of the models. The full options are listed below.
 ```
 $ python run_qg.py -h
   -s, --use_summary     Include summarization pre-processing
@@ -55,6 +57,8 @@ Summary: The dialogue above is from ELIZA, an early natural language <...>
 {'answer': 'Regular expressions', 'question': 'What can be used to specify strings we might want to extract from a document?'}
 ...
 ```
+
+These scripts will default to using GPU if it is available. It is highly recommended (but not required) to have access to a CUDA-capable GPU when running these models. They are quite large and take a long time to run on CPU.
 
 ## Reproduction
 
@@ -89,16 +93,21 @@ $ python analyze_annotations.py
 
 ## Model Details
 
-The QG models used and the inference code to run them come from [Suraj Patil's amazing question_generation repository](https://github.com/patil-suraj/question_generation). Many thanks to him for sharing his great work with the academic community.
+The QG models used and the inference code to run them come from [Suraj Patil's amazing question_generation repository](https://github.com/patil-suraj/question_generation). Many thanks to him for sharing his great work with the academic community. Please see our paper for more details about the training and model inference.
 
 Below are the evaluation results for the `t5-base` and `t5-small` models on the SQuAD1.0 dev set. For decoding, beam search with num_beams 4 was used with max decoding length set to 32. The [nlg-eval](https://github.com/Maluuba/nlg-eval) package was used to calculate the metrics.
 
+| Name                                                                       | BLEU-4  | METEOR  | ROUGE-L | QA-EM  | QA-F1  |
+|----------------------------------------------------------------------------|---------|---------|---------|--------|--------|
+| [t5-base-qa-qg-hl](https://huggingface.co/valhalla/t5-base-qa-qg-hl)       | 21.0141 | 26.9113 | 43.2484 | 82.46  | 90.272 |
+| [t5-small-qa-qg-hl](https://huggingface.co/valhalla/t5-small-qa-qg-hl)     | 18.9872 | 25.2217 | 40.7893 | 76.121 | 84.904 |
 
-| Name                                                                       | BLEU-4  | METEOR  | ROUGE-L | QA-EM  | QA-F1  | QG-FORMAT |
-|----------------------------------------------------------------------------|---------|---------|---------|--------|--------|-----------|
-| [t5-base-qa-qg-hl](https://huggingface.co/valhalla/t5-base-qa-qg-hl)       | 21.0141 | 26.9113 | 43.2484 | 82.46  | 90.272 | highlight |
-| [t5-small-qa-qg-hl](https://huggingface.co/valhalla/t5-small-qa-qg-hl)     | 18.9872 | 25.2217 | 40.7893 | 76.121 | 84.904 | highlight |
+<br/>The evaluation results as well as inference timings for the full summarization model and the distilled model on the CNN/DailyMail test set are listed below.
 
+| Name                                                                       | Inference Time  | ROUGE-2  | ROUGE-L |
+|----------------------------------------------------------------------------|---------|---------|---------|
+| [facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn)       | 381ms | 21.06 | 30.63 |
+| [sshleifer/distilbart-cnn-6-6](https://huggingface.co/sshleifer/distilbart-cnn-6-6)     | 182ms | 20.17 | 29.70 |
 
 ## Citation
 If you use our code or findings in your research, please cite us as:
