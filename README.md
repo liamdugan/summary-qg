@@ -1,7 +1,7 @@
 # Joint Summarization & Question Generation
 ![/data/media/demo.gif](/data/media/demo.gif)
 
-This repository contains the code for the ACL 2022 paper "A Feasibility Study of Answer-Unaware Question Generation for Education". In our paper we show that running QG on summarized text results in higher quality questions.
+This repository contains the code for the ACL 2022 paper "A Feasibility Study of Answer-Agnostic Question Generation for Education". In our paper we show that running QG on summarized text results in higher quality questions.
 
 ## Installation
 
@@ -106,9 +106,9 @@ Below are the evaluation results for the `t5-base` and `t5-small` models on the 
 If you use our code or findings in your research, please cite us as:
 ```
 @article{dugan2022feasibility,
-  title={A Feasibility Study of Answer-Unaware Question Generation for Education},
-  author={Dugan, Liam and Miltsakaki, Eleni and Upadhyay, Shriyash and Ginsberg, Etan and Gonzalez, Hannah and Choi, Dahyeon and Yuan, Chuning and Callison-Burch, Chris},
-  booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
+  title={A Feasibility Study of Answer-Agnostic Question Generation for Education},
+  author={Dugan, Liam and Miltsakaki, Eleni and Upadhyay, Shriyash and Ginsberg, Etan and Gonzalez, Hannah and Choi, Dayheon and Yuan, Chuning and Callison-Burch, Chris},
+  journal={arXiv preprint arXiv:2203.08685},
   year={2022}
 }
 ```
