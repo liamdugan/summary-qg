@@ -30,6 +30,9 @@ def create_splits(text, tokenizer):
         splits_len = [sum(enc_sents_len[s:e]) + 1 for (s,e) in splits]
         if all(s < 512 for s in splits_len):
             break
+        elif len(sents) == 1:
+            print(f'WARNING: sentence too long ({len(enc_sents_len[0])} tokens), skipped')
+            return []
 
     return [' '.join(sents[s:e]) for (s,e) in splits]
 
