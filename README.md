@@ -105,10 +105,23 @@ Below are the evaluation results for the `t5-base` and `t5-small` models on the 
 ## Citation
 If you use our code or findings in your research, please cite us as:
 ```
-@article{dugan2022feasibility,
-  title={A Feasibility Study of Answer-Agnostic Question Generation for Education},
-  author={Dugan, Liam and Miltsakaki, Eleni and Upadhyay, Shriyash and Ginsberg, Etan and Gonzalez, Hannah and Choi, Dayheon and Yuan, Chuning and Callison-Burch, Chris},
-  journal={arXiv preprint arXiv:2203.08685},
-  year={2022}
+@inproceedings{dugan-etal-2022-feasibility,
+    title = "A Feasibility Study of Answer-Agnostic Question Generation for Education",
+    author = "Dugan, Liam  and
+      Miltsakaki, Eleni  and
+      Upadhyay, Shriyash  and
+      Ginsberg, Etan  and
+      Gonzalez, Hannah  and
+      Choi, DaHyeon  and
+      Yuan, Chuning  and
+      Callison-Burch, Chris",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2022",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-acl.151",
+    doi = "10.18653/v1/2022.findings-acl.151",
+    pages = "1919--1926",
 }
 ```
